@@ -4,9 +4,9 @@
         <img src="../../Static/Images/Recognition/Inc5000.png" alt="Inc. 5000, Fastest Growing Companies in America, 2007-2012" title="Inc. 5000, Fastest Growing Companies in America, 2007-2015" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">Inc. 5000, Fastest Growing Companies in America, 2007-2015</p>
+        <p class="SemiBold Color3f3f3f">Inc. 5000, Fastest Growing Companies in America, 7 Times</p>
         <p>
-            For the 7th time, MAQ Software made Inc. magazine’s annual list of the fastest-growing, private companies in America. Only 385 companies have appeared on the list 7+ times in the last 12 years. Thanks to all our clients and team members for helping us achieve this rare honor.</p>
+            MAQ Software is honored to be listed on the prestigious Inc. 5000 list for the 7th time, a rare achievement. Since 2007, Inc. magazine has recognized 20,263 unique companies on its Inc. 5000 list based on the sales growth of the companies. Only 585 companies have appeared on the Inc. 5000 list seven or more times.</p>
         <p class="DataSubContent">
             For more than 30 years, Inc.’s list has served as evidence of the significant accomplishments of enterprises such as Intuit, 
             Zappos, Under Armour, Microsoft, Jamba Juice, Timberland, Visa, Clif Bar, Patagonia and Oracle.
