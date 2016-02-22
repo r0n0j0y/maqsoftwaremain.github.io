@@ -69,11 +69,9 @@
         <p class="SemiBold Color3f3f3f">Puget Sound Business Journal's 100 Fastest-Growing Private Companies in Washington State</p>
         <p>
             MAQ Software is recognized as one of the fastest growing private companies in Washington State for five consecutive years.
-            (To make the Puget Sound Business Journal’s list of 100 Fastest-Growing Private Companies, a company must have achieved rapid growth for three years).
         </p>
         <p class="DataSubContent">
-            MAQ Software is also featured in the Hall of Fame. (For companies that have made to the list four or more years, the Business Journal 
-            acknowledges by adding them to the Hall of Fame).
+            MAQ Software is also featured in the Hall of Fame (companies that have made to the list four or more years, the Business Journal acknowledges by adding them to the Hall of Fame).
         </p>
     </aside>
 </section>
