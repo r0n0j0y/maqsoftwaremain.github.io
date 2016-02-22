@@ -42,7 +42,7 @@
     </section>
     <section class="Clear m30 OverflowHide">
         <p class="Datatagline SemiBold m30 Color58585a">Windows App Development</p>
-        <p class="Pad10">We have expertise in building both retail and LOB apps for Windows. We have integrated Federated Authentication, SharePoint Online and used Windows RT encryption in our apps. We have expertise in using both JavaScript and C# in our apps.</p>
+        <p class="Pad10">We have expertise in building both retail and enterprise apps for Windows. We have integrated Federated Authentication, SharePoint Online and used Windows RT encryption in our apps. We have expertise in using both JavaScript and C# in our apps.</p>
         <div class="SliderHolder m30">
             <p class="AppDevSliderLabel FloatLeft">Windows Apps Delivered</p>
             <div class="AppDevSlider FloatRight">
@@ -108,6 +108,8 @@
 </article>
 <article class="RightArticle">
     <div class="AppDevTechLogo">
+		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/AppStore8_2x.png" alt="App Store" title="App Store" />
+		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Google_Play_logo.png" alt="Google Play" title="Google Play" />
 		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Office.png" alt="Microsoft Office" title="Microsoft Office" />
 		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Windows-Phone.png" alt="Windows Phone" title="Windows Phone" />
 		<img id="WinAzureImg" class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Windows-8.png" alt="Windows" title="Windows" />
