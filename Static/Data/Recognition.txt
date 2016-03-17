@@ -57,7 +57,7 @@
     <aside class="RecognitionContent FloatLeft">
         <p class="SemiBold Color3f3f3f">Microsoft Preferred Supplier</p>
         <p>
-            MAQ Software is a preferred supplier for Microsoft since 2005. This confirms Microsoft’s trust in our quality and delivery model.
+            MAQ Software is a preferred supplier for Microsoft since 2000. Our supplier status confirms the confidence Microsoft Corporation has in our quality and delivery model.
         </p>
     </aside>
 </section>
