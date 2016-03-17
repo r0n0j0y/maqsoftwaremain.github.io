@@ -35,7 +35,7 @@
     <aside class="RecognitionContent FloatLeft">
         <p class="SemiBold Color3f3f3f">Microsoft Gold Partner</p>
         <p>
-            Microsoft recognizes MAQ Software as a Partner with Gold competencies in Data Analytics, Data Platform and Application Development which acknowledges our competency and expertise in Microsoft solutions.
+            Microsoft recognizes MAQ Software as a Partner with Gold competencies in Data Analytics, Data Platform and Application Development which certifies our expertise in delivering solutions based on the latest Microsoft products.
 			</p>
     </aside>
 </section>
