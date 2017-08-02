@@ -14,10 +14,6 @@
                 }
             }, {
                 title: {
-                    "#text": "Localization Program Manager"
-                }
-            }, {
-                title: {
                     "#text": "Program Manager"
                 }
             }, {
@@ -27,14 +23,6 @@
             }, {
                 title: {
                     "#text": "Web Application Developer"
-                }
-            }, {
-                title: {
-                    "#text": "Software Development Engineer in Test"
-                }
-            }, {
-                title: {
-                    "#text": "Software Test Engineer"
                 }
             }, {
                 title: {
