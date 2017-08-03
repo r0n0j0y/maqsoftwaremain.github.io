@@ -81,7 +81,7 @@ function careersInHyd() {
         queryParam = getParameterByName("q");
         if (queryParam) {
             $.ajax({
-                url: 'http://www.blogger.com/feeds/2523158019509365490/posts/default/-/Openings - Hyderabad',
+                url: 'https://www.blogger.com/feeds/2523158019509365490/posts/default/-/Openings - Hyderabad',
                 type: 'GET',
                 dataType: "jsonp",
                 success: function (msg) {
@@ -114,7 +114,7 @@ function careersInMumbai() {
         queryParam = getParameterByName("q");
         if (queryParam) {
             $.ajax({
-                url: 'http://www.blogger.com/feeds/2523158019509365490/posts/default/-/Openings - Mumbai',
+                url: 'https://www.blogger.com/feeds/2523158019509365490/posts/default/-/Openings - Mumbai',
                 type: 'GET',
                 dataType: "jsonp",
                 success: function (msg) {
@@ -179,21 +179,21 @@ function redirect() {
 }
 function loadNewsMainPage() {
     $.ajax({
-        url: 'http://www.blogger.com/feeds/2523158019509365490/posts/default/-/News',
+        url: 'https://www.blogger.com/feeds/2523158019509365490/posts/default/-/News',
         type: 'GET',
         dataType: 'jsonp',
         success: function (sResponse) {
             loadNewsMain(sResponse);
-        }
+        }        
     });
 }
 function loadNewsMain(sNewsData) {
     try {
-        var parser = new DOMParser();
+             var parser = new DOMParser();
         oNewsData = parser.parseFromString(sNewsData, "text/xml");
         iTotalNews = oNewsData.getElementsByTagName('entry').length;
-        renderNewsMain();
-    } catch (ignore) {
+               renderNewsMain();
+          } catch (ignore) {
     }
 }
 function renderNewsMain() {
