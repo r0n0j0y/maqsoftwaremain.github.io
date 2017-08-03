@@ -1377,3 +1377,8 @@ a img {
 	border: 1px solid lightgrey;
 	Float:left;	
 }
+.customVisual:hover{
+	
+	box-shadow: -2px -2px 1px lightgrey;
+	
+}
