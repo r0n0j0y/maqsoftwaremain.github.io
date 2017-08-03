@@ -19,7 +19,7 @@
 				: Horizontal Funnel allows you to visualize a customizable primary measure as colored bars. Use this component to display a number of metric types, such as sales stages, time or geographic locations. A second customizable value is displayed beneath the colored bars. This feature provides you the ability to track an additional metric against your primary measure. The component includes the option to create a tool tip, which you may tailor to your specific needs.</li>
    			</span>
 	
-		<li style = "height: 400px;"> 
+		<li style = "height: 500px;"> 
 			<span style="Float:left;">And Many More:</span>
 			<img style = "Height: 200px; Float:left; clear:left;" src="../../Static/Images/Thermometer_GIF.gif">
 			<img style = "Height: 200px; Float:left;" src="../../Static/Images/Cylindrical_Guage_GIF.gif">
