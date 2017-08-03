@@ -69,10 +69,10 @@
 </article>
 <article class="RightArticle">
     <div class="AppDevTechLogo">
-		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/AppStore8_2x.png" alt="App Store" title="App Store" />
-		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Google_Play_logo.png" alt="Google Play" title="Google Play" />
-		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Office.png" alt="Microsoft Office" title="Microsoft Office" />
-		<img id="WinAzureImg" class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Windows-8.png" alt="Windows" title="Windows" />
+		<a href="https://www.apple.com/ios/ios-10/" target="_blank"><img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/AppStore8_2x.png" alt="App Store" title="App Store" /></a>
+		<a href="https://play.google.com/store" target="_blank"><img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Google_Play_logo.png" alt="Google Play" title="Google Play" /></a>
+		<a href="https://products.office.com/" target="_blank"><img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Office.png" alt="Microsoft Office" title="Microsoft Office" /></a>
+		<a href="https://www.microsoft.com/en-us/store/" target="_blank"><img id="WinAzureImg" class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Windows-8.png" alt="Windows" title="Windows" /></a>
 	</div>
 </article>
 <script type="text/javascript">
