@@ -29,7 +29,7 @@
     </ul>
 </article>
 <article class="RightArticle">
-	<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Sharepoint.png" alt="SharePoint" title="SharePoint" />
-	<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Office365logo.png" alt="Office 365" title="Office 365" />
-	<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/SharePointOnline.png" alt="SharePoint Online" title="SharePoint Online" />
+	<a href="https://products.office.com/en-us/sharepoint/" target="_blank"><img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Sharepoint.png" alt="SharePoint" title="SharePoint" /></a>
+	<a href="https://products.office.com/en-us/business/explore-office-365-for-business" target="_blank"><img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Office365logo.png" alt="Office 365" title="Office 365" /></a>
+	<a href="https://products.office.com/en-us/sharepoint/sharepoint-online-collaboration-software" target="_blank"><img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/SharePointOnline.png" alt="SharePoint Online" title="SharePoint Online" /></a>
 </article>

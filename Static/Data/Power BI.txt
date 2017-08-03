@@ -38,7 +38,7 @@
     </ul>	           
 </article>
 <article class="RightArticle">
-	<img class="ProfileImage BlockTag MarginTop35 PadLeft4" src="../Static/Images/Expertise/PowerBI.png" alt="Power BI" title="Power BI" />
-	<img class="ProfileImage BlockTag MarginTop35 PadLeft4" src="../Static/Images/Expertise/Quicksight.png" alt="Amazon Quicksight" title="Amazon Quicksight" />
+	<a href="https://powerbi.microsoft.com/en-us/" target="_blank"><img class="ProfileImage BlockTag MarginTop35 PadLeft4" src="../Static/Images/Expertise/PowerBI.png" alt="Power BI" title="Power BI" /></a>
+	<a href="https://quicksight.aws/" target="_blank"><img class="ProfileImage BlockTag MarginTop35 PadLeft4" src="../Static/Images/Expertise/Quicksight.png" alt="Amazon Quicksight" title="Amazon Quicksight" /></a>
 	<img class="ProfileImage BlockTag MarginTop35 PadLeft4" src="../Static/Images/Expertise/html5-css-javascript.png" alt="HTML5-CSS-JavaScript" title="HTML5-CSS-JavaScript" />
 </article>
