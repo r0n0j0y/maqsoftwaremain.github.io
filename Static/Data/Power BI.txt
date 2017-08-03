@@ -13,15 +13,16 @@
 			<img style = "Height: 200px; Float:left;margin-left: 20%;" src="../../Static/Images/Linear_Gauge_GIF.gif">
 			<span style= "Float:left;">
 				<a class="SliderArrow BackLink viLinks" href="https://app.powerbi.com/visuals/show/LinearGauge1450736844786" target="_blank">Linear gauge</a>
-				: Create at-a-glance visualization to compare your progress against identified goals and warning zones. By allowing you to include multiple data points, the component provides the ability to illustrate trend details, such as monthly or year-to-date completion rates. The pointer notes targets and the colored bar shows the current progress toward those goals.</li>
+				: Create at-a-glance visualization to compare your progress against identified goals and warning zones. By allowing you to include multiple data points, the component provides the ability to illustrate trend details, such as monthly or year-to-date completion rates. The pointer notes targets and the colored bar shows the current progress toward those goals.
        			</span>
+		</li>
 		<li style = "height: 400px;">
 			<img style = "Height: 200px; Float:left;margin-left: 20%;" src="../../Static/Images/Horizontal_Funnel_GIF.gif">
 			<span style= "Float:left;">
 				<a class="SliderArrow BackLink viLinks" href="https://app.powerbi.com/visuals/show/HorizontalFunnel1449177164235" target="_blank">Horizontal Funnel</a>
-				: Horizontal Funnel allows you to visualize a customizable primary measure as colored bars. Use this component to display a number of metric types, such as sales stages, time or geographic locations. A second customizable value is displayed beneath the colored bars. This feature provides you the ability to track an additional metric against your primary measure. The component includes the option to create a tool tip, which you may tailor to your specific needs.</li>
+				: Horizontal Funnel allows you to visualize a customizable primary measure as colored bars. Use this component to display a number of metric types, such as sales stages, time or geographic locations. A second customizable value is displayed beneath the colored bars. This feature provides you the ability to track an additional metric against your primary measure. The component includes the option to create a tool tip, which you may tailor to your specific needs.
    			</span>
-	
+		</li>
 		<li style = "height: 500px;"> 
 			<span style="Float:left;">And Many More:</span>
 			<img style = "Height: 200px; Float:left; clear:left;" src="../../Static/Images/Thermometer_GIF.gif">
