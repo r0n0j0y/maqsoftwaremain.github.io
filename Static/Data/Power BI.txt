@@ -21,7 +21,7 @@
 	
 		<li style = "height: 400px;"> 
 			<span style="Float:left;">And Many More:</span>
-			<img style = "Height: 200px; Float:left clear:left;" src="../../Static/Images/Thermometer_GIF.gif">
+			<img style = "Height: 200px; Float:left; clear:left;" src="../../Static/Images/Thermometer_GIF.gif">
 			<img style = "Height: 200px; Float:left;" src="../../Static/Images/Cylindrical_Guage_GIF.gif">
 			<img style = "Height: 200px; Float:left;" src="../../Static/Images/Quadrant_Chart_GIF.gif">
 		</li>
