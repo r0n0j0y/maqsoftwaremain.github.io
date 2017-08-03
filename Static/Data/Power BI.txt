@@ -9,7 +9,7 @@
 
 	<p class="DataSubContent">We use Power BI in solutions that provide insights into large datasets. We reduced customer report development time by using Power BI instead of traditional custom techniques. We partner with the Power BI development team to test and validate the technology with large and complex datasets. As one of the preferred partners for Power BI, we have released multiple <a class="SliderArrow BackLink viLinks" href="https://app.powerbi.com/visuals" target="_blank">Power BI components</a>, including:</p>
 	<ul class="MarginTop5 CircleBullets">
-        	<li>
+        	<li style = "height: 200px;">
 			<img style = "Height: 200px; Float:left;margin-left: 20%;" src="../../Static/Images/Linear_Gauge_GIF.gif">
 			<span style= "Float:left;">
 				<a class="SliderArrow BackLink viLinks" href="https://app.powerbi.com/visuals/show/LinearGauge1450736844786" target="_blank">Linear gauge</a>
