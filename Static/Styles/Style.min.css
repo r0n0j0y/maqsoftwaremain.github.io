@@ -1373,7 +1373,7 @@ a img {
 	
 .customVisual{
 	Height:200px;
-	box-shadow: 5px 5px 3px grey;
-	border: 1px solid grey;
+	box-shadow: 2px 2px 1px lightgrey;
+	border: 1px solid lightgrey;
 	Float:left;	
 }
