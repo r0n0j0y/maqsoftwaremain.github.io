@@ -1387,7 +1387,7 @@ a img {
 }
 
 .bowtieChart{
-	background-image: url("../../Static/Images/PowerBI/Bowie_Chart_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Bowtie_Chart_PNG.png")
 }
 .bowtieChart:hover{
 	background-image: url("../../Static/Images/PowerBI/Bowtie_Chart_GIF.gif")
@@ -1408,10 +1408,10 @@ a img {
 }
 
 .cylindricalGuage{
-	background-image: url("../../Static/Images/PowerBI/Cylindrical_Guage_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Cylindrical_Gauge_PNG.png")
 }
 .cylindricalGuage:hover{
-	background-image: url("../../Static/Images/PowerBI/Cylindrical_Guage_GIF.gif")
+	background-image: url("../../Static/Images/PowerBI/Cylindrical_Gauge_GIF.gif")
 }
 
 .dotPlot{
@@ -1439,7 +1439,7 @@ a img {
 	background-image: url("../../Static/Images/PowerBI/Histogram_With_Points_PNG.png")
 }
 .histogramPoints:hover{
-	background-image: url("../../Static/Images/PowerBI/Histogram_With_Points.gif")
+	background-image: url("../../Static/Images/PowerBI/Histogram_With_Points_GIF.gif")
 }
 
 .horizontalFunnel{

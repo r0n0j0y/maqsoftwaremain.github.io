@@ -132,14 +132,14 @@
 			</span>
 		</li>
 		<li>
-			<div class = linearGuage customVisual"></div>
+			<div class = "linearGuage customVisual"></div>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380821&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Linear Gauge</a>
 				: <p>Create at-a-glance visualization to compare your progress against identified goals and warning zones. This visual allows you to include multiple data points. The component provides the ability to illustrate trend details such as monthly or year-to-date completion rates. The pointer notes targets, and the colored bar shows the current progress toward those goals. Best suited for showing progress as compared to a target.</p>
 			</span>
 		</li>
 		<li>
-			<div class = quadrantChart customVisual"></div>
+			<div class = "quadrantChart customVisual"></div>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104381011&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Quadrant Chart</a>
 				: <p>Represent data in separate quadrants to show distribution of data and items that share common traits. This visual is useful for plotting data that contains three measures using an X-axis, a Y-axis, and a bubble size that represents the value of the third measure.</p>
@@ -154,7 +154,7 @@
 			</span>
 		</li>
 		<li>
-			<div class = ringChart customVisual"></div>
+			<div class = "ringChart customVisual"></div>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380824&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Ring Chart</a>
 				: <p>Represents data as slices, where sizes are relative to data. The size of each slice is determined by the slice value relative to the sum of the values of all slices. Each data series that you plot in the chart adds a ring to the chart. The rings have different colors for easy representation of the data slices in the chart.</p>
@@ -168,7 +168,7 @@
 			</span>
 		</li>
 		<li>
-			<div class = rotatingChart customVisual"></div>
+			<div class = "rotatingChart customVisual"></div>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104381007&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Rotating Chart</a>
 				: <p>Automatically flipping chart with a set frequency to display different KPIs with each flip. This horizontal bar chart rotates on the horizontal axis to showcase multiple KPIs with each flip or rotation. Rotating Chart is useful when multiple KPIs or metrics sliced by categories are to be displayed. It uses minimal space, thus saving room on the report or dashboard.</p>
@@ -176,7 +176,7 @@
 			</span>
 		</li>
 		<li>
-			<div class = rotatingTile customVisual"></div>
+			<div class = "rotatingTile customVisual"></div>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380877&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Rotating Tile</a>
 				: <p>Automatically flipping tile with a set frequency that can be used to display different KPIs. Useful when multiple KPIs or metrics need to be displayed using minimal space on report.</p>
@@ -185,21 +185,21 @@
 			</span>
 		</li>
 		<li>
-			<div class = textWrapper customVisual"></div>
+			<div class = "textWrapper customVisual"></div>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380826&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Text Wrapper</a>
 				: <p>Wraps a static text string (statement) along with a dynamic text field value. The dynamic field value updates according to the selected filter/slicer, keeping the static text intact. The user needs to provide the static string, which will be appended as ": <>" after the dynamic field value in the visual, resulting in the final value in the visual as: "<> : <>"</p>
 			</span>
 		</li>
 		<li>
-			<div class = thermometer customVisual"></div>
+			<div class = "thermometer customVisual"></div>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380847&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Thermometer</a>
 				: <p>Shows a graphical representation of a value against a threshold. Allows you to configure threshold values and render data per the threshold. Thermometer is a good way to represent data when you have the actual value and the target value (maximum threshold).</p>
 			</span>
 		</li>
 		<li>
-			<div class = tradingChart customVisual"></div>
+			<div class = "tradingChart customVisual"></div>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380823&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Trading Chart</a>
 				: <p>Displays significant stock price points as colored vertical bars. Low and high price values are represented by grey bars. Open and close price values are shown as either red or green bars, which are superimposed over the low and high values. If a stock's price drops, the bar is red; if the price rises the bar is green. Prices are listed on the vertical axis and time increments are listed on the horizontal axis. The ranges for prices and time increments are customizable.</p>
