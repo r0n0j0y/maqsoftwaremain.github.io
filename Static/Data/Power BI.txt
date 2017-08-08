@@ -195,7 +195,7 @@
 			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380847&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "thermometer customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380847&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Thermometer</a>
-				: <p>Shows a graphical representation of a value against a threshold. Allows you to configure threshold values and render data per the threshold. Thermometer is a good way to represent data when you have the actual value and the target value (maximum threshold).</p>
+				: <p>Shows a graphical representation of a value compared to a given threshold. Allows you to configure threshold values and render data in comparison to the specified threshold. Thermometer is a good way to represent data when you have the actual value and the target value (maximum threshold). The visual similarities to an actual Thermometer help convey important data, as the viewer can relate better to the representation</p>
 			</span>
 		</li>
 		<li>
