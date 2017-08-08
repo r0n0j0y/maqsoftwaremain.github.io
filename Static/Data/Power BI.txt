@@ -8,7 +8,7 @@
 	<p class="Datatagline SemiBold m30 Color58585a">Preferred Partner for Power BI</p>
 
 	<p class="DataSubContent">We use Power BI in solutions that provide insights into large datasets. We reduced customer report development time by using Power BI instead of traditional custom techniques. We partner with the Power BI development team to test and validate the technology with large and complex datasets. As one of the preferred partners for Power BI, we have released multiple <a class="SliderArrow BackLink viLinks" href="https://app.powerbi.com/visuals" target="_blank">Power BI components</a>, including:</p>
-	<ul class="MarginTop5 CircleBullets">
+	<ul class="MarginTop5 CircleBullets customVisualSection">
 		<li>
 			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380838&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "bowtieChart customVisual"></div></a>
 			<span>
