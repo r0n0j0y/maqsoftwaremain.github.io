@@ -1527,8 +1527,8 @@ a img {
 }
 
 .tradingChart{
-	background-image: url("../../Static/Images/PowerBI/Trading_Chart_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Stock_Chart_PNG.png")
 }
 .tradingChart:hover{
-	background-image: url("../../Static/Images/PowerBI/Trading_Chart_GIF.gif")
+	background-image: url("../../Static/Images/PowerBI/Stock_Chart_GIF.gif")
 }
