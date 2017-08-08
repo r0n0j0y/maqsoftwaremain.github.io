@@ -1383,3 +1383,9 @@ a img {
 .customVisual:hover{
 	box-shadow: -2px -2px 1px lightgrey;
 }
+.linearGuage{
+	background-image: url("../../Static/Images/PowerBI/Linear_Gauge_PNG.png")
+}
+.linearGuage:hover{
+	background-image: url("../../Static/Images/PowerBI/Linear_Gauge_GIF.gif")
+}
