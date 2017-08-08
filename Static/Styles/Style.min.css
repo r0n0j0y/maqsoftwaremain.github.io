@@ -1385,15 +1385,150 @@ a img {
 .customVisual:hover{
 	box-shadow: -2px -2px 1px lightgrey;
 }
-.linearGuage{
-	background-image: url("../../Static/Images/PowerBI/Linear_Gauge_PNG.png")
+
+.bowtieChart{
+	background-image: url("../../Static/Images/PowerBI/Bowie_Chart_PNG.png")
 }
-.linearGuage:hover{
-	background-image: url("../../Static/Images/PowerBI/Linear_Gauge_GIF.gif")
+.bowtieChart:hover{
+	background-image: url("../../Static/Images/PowerBI/Bowtie_Chart_GIF.gif")
 }
+
+.brickChart{
+	background-image: url("../../Static/Images/PowerBI/Brick_Chart_PNG.png")
+}
+.brickChart:hover{
+	background-image: url("../../Static/Images/PowerBI/Brick_Chart_GIF.gif")
+}
+
+.circularGuage{
+	background-image: url("../../Static/Images/PowerBI/Circular_Guage_PNG.png")
+}
+.circularGuage:hover{
+	background-image: url("../../Static/Images/PowerBI/Circular_Guage_GIF.gif")
+}
+
+.cylindricalGuage{
+	background-image: url("../../Static/Images/PowerBI/Cylindrical_Guage_PNG.png")
+}
+.cylindricalGuage:hover{
+	background-image: url("../../Static/Images/PowerBI/Cylindrical_Guage_GIF.gif")
+}
+
+.dotPlot{
+	background-image: url("../../Static/Images/PowerBI/Dot_Plot_PNG.png")
+}
+.dotPlot:hover{
+	background-image: url("../../Static/Images/PowerBI/Dot_Plot_GIF.gif")
+}
+
+.dynamicTooltip{
+	background-image: url("../../Static/Images/PowerBI/Dynamic_Tooltip_PNG.png")
+}
+.dynamicTooltip:hover{
+	background-image: url("../../Static/Images/PowerBI/Dynamic_Tooltip_GIF.gif")
+}
+
+.gridVisual{
+	background-image: url("../../Static/Images/PowerBI/Grid_PNG.png")
+}
+.gridVisual:hover{
+	background-image: url("../../Static/Images/PowerBI/Grid_GIF.gif")
+}
+
+.histogramPoints{
+	background-image: url("../../Static/Images/PowerBI/Histogram_With_Points_PNG.png")
+}
+.histogramPoints:hover{
+	background-image: url("../../Static/Images/PowerBI/Histogram_With_Points.gif")
+}
+
 .horizontalFunnel{
 	background-image: url("../../Static/Images/PowerBI/Horizontal_Funnel_PNG.png")
 }
 .horizontalFunnel:hover{
-	background-image: url("../../Static/Images/PowerBI/Horizontal_Funnel.gif")
+	background-image: url("../../Static/Images/PowerBI/Horizontal_Funnel_GIF.gif")
+}
+
+.journeyChart{
+	background-image: url("../../Static/Images/PowerBI/Journey_Chart_PNG.png")
+}
+.journeyChart:hover{
+	background-image: url("../../Static/Images/PowerBI/Journey_Chart_GIF.gif")
+}
+
+.kpiColumn{
+	background-image: url("../../Static/Images/PowerBI/KPI_Column_PNG.png")
+}
+.kpiColumn:hover{
+	background-image: url("../../Static/Images/PowerBI/KPI_Column_GIF.gif")
+}
+
+.kpiGrid{
+	background-image: url("../../Static/Images/PowerBI/KPI_Grid_PNG.png")
+}
+.kpiGrid:hover{
+	background-image: url("../../Static/Images/PowerBI/KPI_Grid_GIF.gif")
+}
+
+.kpiTicker{
+	background-image: url("../../Static/Images/PowerBI/KPI_Ticker_PNG.png")
+}
+.kpiTicker:hover{
+	background-image: url("../../Static/Images/PowerBI/KPI_Ticker_GIF.gif")
+}
+
+.linearGauge{
+	background-image: url("../../Static/Images/PowerBI/Linear_Gauge_PNG.png")
+}
+.linearGauge:hover{
+	background-image: url("../../Static/Images/PowerBI/Linear_Gauge_GIF.gif")
+}
+
+.quadrantChart{
+	background-image: url("../../Static/Images/PowerBI/Quadrant_Chart_PNG.png")
+}
+.quadrantChart:hover{
+	background-image: url("../../Static/Images/PowerBI/Quadrant_Chart_GIF.gif")
+}
+
+.ringChart{
+	background-image: url("../../Static/Images/PowerBI/Ring_Chart_PNG.png")
+}
+.ringChart:hover{
+	background-image: url("../../Static/Images/PowerBI/Ring_Chart_GIF.gif")
+}
+
+.rotatingChart{
+	background-image: url("../../Static/Images/PowerBI/Rotating_Chart_PNG.png")
+}
+.rotatingChart:hover{
+	background-image: url("../../Static/Images/PowerBI/Rotating_Chart_GIF.gif")
+}
+
+.rotatingTile{
+	background-image: url("../../Static/Images/PowerBI/Rotating_Tile_PNG.png")
+}
+.rotatingTile:hover{
+	background-image: url("../../Static/Images/PowerBI/Rotating_Tile_GIF.gif")
+}
+
+.textWrapper{
+	background-image: url("../../Static/Images/PowerBI/Text_Wrapper_PNG.png")
+}
+.textWrapper:hover{
+	background-image: url("../../Static/Images/PowerBI/Text_Wrapper_GIF.gif")
+}
+
+.thermometer{
+	background-image: url("../../Static/Images/PowerBI/Thermometer_PNG.png")
+}
+.thermometer:hover{
+	background-image: url("../../Static/Images/PowerBI/Thermometer_GIF.gif")
+}
+
+.tradingChart{
+	background-image: url("../../Static/Images/PowerBI/Trading_Chart_PNG.png")
+}
+.tradingChart:hover{
+	background-image: url("../../Static/Images/PowerBI/Trading_Chart_GIF.gif")
 }
