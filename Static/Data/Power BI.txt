@@ -10,28 +10,28 @@
 	<p class="DataSubContent">We use Power BI in solutions that provide insights into large datasets. We reduced customer report development time by using Power BI instead of traditional custom techniques. We partner with the Power BI development team to test and validate the technology with large and complex datasets. As one of the preferred partners for Power BI, we have released multiple <a class="SliderArrow BackLink viLinks" href="https://app.powerbi.com/visuals" target="_blank">Power BI components</a>, including:</p>
 	<ul class="MarginTop5 CircleBullets">
 		<li>
-			<div class = "bowtieChart customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380838&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "bowtieChart customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380838&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Bowtie Chart</a>
 				: <p>Displays the categorization of an aggregated value by branching out smooth interpolated nodes. The thickness of the branch indicates the weight of the category. You can display a half bowtie or full bowtie by providing the source category or the source and destination categories, respectively.</p>
 			</span>
 		</li>
 		<li>
-			<div class = "brickChart customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380836&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "brickChart customVisual"></div></a>
 			<span>        
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380836&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Brick Chart</a> 
 				: <p>Consists of 100 squares that are colored according to the percentage breakdown of datasets. Hovering your mouse over a square brings up a tooltip. The tooltip indicates which dataset the color represents and the percentage value of the category. An optional legend above the chart identifies which datasets correspond with which colors. You may tailor the legend's title, size, and color. They may also customize the chart's width and height.</p>
    			</span>
 		</li>
 		<li>
-			<div class = "circularGauge customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380837&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "circularGauge customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380837&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Circular Gauge</a>
 				: <p>Illustrates progress toward goals in either a pie or donut chart format. One color illustrates current progress, the other displays the target. The percentage displayed on the report tracks progress against the target. Text size and ring size are customizable.</p>
    			</span>
 		</li>
 		<li>
-			<div class = "cylindricalGauge customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380874&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "cylindricalGauge customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380874&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Cylindrical Gauge</a>
 				: <p>Tracks current values against a target with an intuitive 3D cylinder visual. The cylindrical gauge's fill line gives users an easy way to understand how actual values weigh against a target capacity. The tool is useful for evaluating inventory, fuel, or other repository levels.</p>
@@ -45,7 +45,7 @@
 			</span>
 		</li>
         	<li>
-			<div class = "dotPlot customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104381101&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "dotPlot customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104381101&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Dot Plot</a>
 				: <p>Displays distribution using dots across multiple categories. This statistical chart consists of data points (bubbles) plotted on an XY axis, distributed over a desired set of values. The size of the bubble represents magnitude; color represents the type of category. Dot Plot enables users to view data through multiple parent categories and child sub-categories.</p>
@@ -53,7 +53,7 @@
 			</span>
 		</li>
 		<li>
-			<div class = "dynamicTooltip customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380983&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "dynamicTooltip customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380983&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Dynamic Tooltip</a>
 				: <p>Increase your audience's understanding of your data by adding tooltips to your visuals. Most tooltips display static information or images. With this visual, you can display data fetched from a separate source. This allows you to create a tooltip that does not require constant adjustment. When your data changes, the tooltip changes too.</p>
@@ -62,7 +62,7 @@
        			</span>
 		</li>
 		<li>
-			<div class = "gridVisual customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380825&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "gridVisual customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380825&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Grid</a>
 				: <p>Easy to use control with pagination, sorting, and GET Rest API call functionality. Grid allows you to add a paginated grid to a report and specify the default sort column and sort order for the grid. It also allows you to call an API on any additional column if further processing needs to be done.</p>
@@ -71,7 +71,7 @@
        			</span>
 		</li>
 		<li>
-			<div class = "histogramPoints customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104381032&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "histogramPoints customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104381032&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Histogram with Points</a>
 				: <p>Combines benefits of showing point distribution along with actual values. The following formatting options are provided in this visual:</p>
@@ -86,14 +86,14 @@
        			</span>
 		</li>
 		<li>
-			<div class = "horizontalFunnel customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380846&ui=en-US&rs=en-001&ad=US&appredirect=false target="_blank"><div class = "horizontalFunnel customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380846&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Horizontal Funnel</a>
 				: Horizontal Funnel allows you to visualize a customizable primary measure as colored bars. Use this component to display a number of metric types, such as sales stages, time or geographic locations. A second customizable value is displayed beneath the colored bars. This feature provides you the ability to track an additional metric against your primary measure. The component includes the option to create a tool tip, which you may tailor to your specific needs.
    			</span>
 		</li>
 		<li>
-			<div class = "journeyChart customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380989&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "journeyChart customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380989&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Journey Chart</a>
 				: <p>Transforms dense statistical data into clear networks of categories and relationships. Reveal connections in your data with a storytelling visual. In this intuitive graph, nodes represent categories and vertices represent relationships between categories. The bigger the node or vertex, the larger the value.</p>
@@ -108,14 +108,14 @@
    			</span>
 		</li>
 		<li>
-			<div class = "kpiColumn customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380996&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "kpiColumn customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380996&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">KPI Column</a>
 				: <p>Column chart where each column behaves as an indicator when compared with a line. Column color updates dynamically based on the difference in column height and respective target line value. Adding common threshold value exists for all columns. For upcoming values, the same target line can be used for forecasting and the column is displayed in a translucent color to indicate forecasted values.</p>
    			</span>
 		</li>
 		<li>
-			<div class = "kpiGrid customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380947&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "kpiGrid customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380947&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">KPI Grid</a>
 				: <p>Display data in hierarchical order, with options to separate categories and illustrate trends. Effortlessly track productivity and performance. The grid displays key data in hierarchical order.</p>
@@ -125,21 +125,21 @@
 			</span>
 		</li>
 		<li>
-			<div class = "kpiTicker customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380946&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "kpiTicker customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380946&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">KPI Ticker</a>
 				: <p>Automatically flipping visual that allows you to view various metrics along with trend indicators. KPI Ticker allows you to configure a set of metrics that will be shown in rotation. It also allows you to specify trend indicators that show the percentage or value drop or increase. Suitable for applications that focus on key metrics and the metric value increase or decrease. Visually attractive with ability to change colors of tiles and trend indicators.</p>
 			</span>
 		</li>
 		<li>
-			<div class = "linearGauge customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380821&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "linearGauge customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380821&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Linear Gauge</a>
 				: <p>Create at-a-glance visualization to compare your progress against identified goals and warning zones. This visual allows you to include multiple data points. The component provides the ability to illustrate trend details such as monthly or year-to-date completion rates. The pointer notes targets, and the colored bar shows the current progress toward those goals. Best suited for showing progress as compared to a target.</p>
 			</span>
 		</li>
 		<li>
-			<div class = "quadrantChart customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104381011&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "quadrantChart customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104381011&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Quadrant Chart</a>
 				: <p>Represent data in separate quadrants to show distribution of data and items that share common traits. This visual is useful for plotting data that contains three measures using an X-axis, a Y-axis, and a bubble size that represents the value of the third measure.</p>
@@ -154,7 +154,7 @@
 			</span>
 		</li>
 		<li>
-			<div class = "ringChart customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380824&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "ringChart customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380824&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Ring Chart</a>
 				: <p>Represents data as slices, where sizes are relative to data. The size of each slice is determined by the slice value relative to the sum of the values of all slices. Each data series that you plot in the chart adds a ring to the chart. The rings have different colors for easy representation of the data slices in the chart.</p>
@@ -168,7 +168,7 @@
 			</span>
 		</li>
 		<li>
-			<div class = "rotatingChart customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104381007&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "rotatingChart customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104381007&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Rotating Chart</a>
 				: <p>Automatically flipping chart with a set frequency to display different KPIs with each flip. This horizontal bar chart rotates on the horizontal axis to showcase multiple KPIs with each flip or rotation. Rotating Chart is useful when multiple KPIs or metrics sliced by categories are to be displayed. It uses minimal space, thus saving room on the report or dashboard.</p>
@@ -176,7 +176,7 @@
 			</span>
 		</li>
 		<li>
-			<div class = "rotatingTile customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380877&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "rotatingTile customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380877&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Rotating Tile</a>
 				: <p>Automatically flipping tile with a set frequency that can be used to display different KPIs. Useful when multiple KPIs or metrics need to be displayed using minimal space on report.</p>
@@ -185,21 +185,21 @@
 			</span>
 		</li>
 		<li>
-			<div class = "textWrapper customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380826&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "textWrapper customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380826&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Text Wrapper</a>
 				: <p>Wraps a static text string (statement) along with a dynamic text field value. The dynamic field value updates according to the selected filter/slicer, keeping the static text intact. The user needs to provide the static string, which will be appended as ": <>" after the dynamic field value in the visual, resulting in the final value in the visual as: "<> : <>"</p>
 			</span>
 		</li>
 		<li>
-			<div class = "thermometer customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380847&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "thermometer customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380847&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Thermometer</a>
 				: <p>Shows a graphical representation of a value against a threshold. Allows you to configure threshold values and render data per the threshold. Thermometer is a good way to represent data when you have the actual value and the target value (maximum threshold).</p>
 			</span>
 		</li>
 		<li>
-			<div class = "tradingChart customVisual"></div>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380823&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "tradingChart customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380823&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Trading Chart</a>
 				: <p>Displays significant stock price points as colored vertical bars. Low and high price values are represented by grey bars. Open and close price values are shown as either red or green bars, which are superimposed over the low and high values. If a stock's price drops, the bar is red; if the price rises the bar is green. Prices are listed on the vertical axis and time increments are listed on the horizontal axis. The ranges for prices and time increments are customizable.</p>
