@@ -12,7 +12,7 @@
         	<li style = "height: 380px;">
 			<img class="customVisual" style ="margin-left: 25%;" src="../../Static/Images/Linear_Gauge_GIF.gif">
 			<span style= "Float:left;">
-				<a class="SliderArrow BackLink viLinks" href="https://app.powerbi.com/visuals/show/LinearGauge1450736844786" target="_blank">Linear gauge</a>
+				<a class="SliderArrow BackLink viLinks" href="https://app.powerbi.com/visuals/show/LinearGauge1450736844786" target="_blank">Linear Gauge</a>
 				: Create at-a-glance visualization to compare your progress against identified goals and warning zones. By allowing you to include multiple data points, the component provides the ability to illustrate trend details, such as monthly or year-to-date completion rates. The pointer notes targets and the colored bar shows the current progress toward those goals.
        			</span>
 		</li>
