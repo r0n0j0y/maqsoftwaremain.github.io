@@ -24,14 +24,14 @@
    			</span>
 		</li>
 		<li>
-			<div class = "circularGuage customVisual"></div>
+			<div class = "circularGauge customVisual"></div>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380837&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Circular Gauge</a>
 				: <p>Illustrates progress toward goals in either a pie or donut chart format. One color illustrates current progress, the other displays the target. The percentage displayed on the report tracks progress against the target. Text size and ring size are customizable.</p>
    			</span>
 		</li>
 		<li>
-			<div class = "cylindricalGuage customVisual"></div>
+			<div class = "cylindricalGauge customVisual"></div>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380874&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Cylindrical Gauge</a>
 				: <p>Tracks current values against a target with an intuitive 3D cylinder visual. The cylindrical gauge's fill line gives users an easy way to understand how actual values weigh against a target capacity. The tool is useful for evaluating inventory, fuel, or other repository levels.</p>
@@ -132,7 +132,7 @@
 			</span>
 		</li>
 		<li>
-			<div class = "linearGuage customVisual"></div>
+			<div class = "linearGauge customVisual"></div>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380821&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Linear Gauge</a>
 				: <p>Create at-a-glance visualization to compare your progress against identified goals and warning zones. This visual allows you to include multiple data points. The component provides the ability to illustrate trend details such as monthly or year-to-date completion rates. The pointer notes targets, and the colored bar shows the current progress toward those goals. Best suited for showing progress as compared to a target.</p>

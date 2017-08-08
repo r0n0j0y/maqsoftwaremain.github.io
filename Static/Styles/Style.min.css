@@ -1400,17 +1400,17 @@ a img {
 	background-image: url("../../Static/Images/PowerBI/Brick_Chart_GIF.gif")
 }
 
-.circularGuage{
+.circularGauge{
 	background-image: url("../../Static/Images/PowerBI/Circular_Guage_PNG.png")
 }
-.circularGuage:hover{
+.circularGauge:hover{
 	background-image: url("../../Static/Images/PowerBI/Circular_Guage_GIF.gif")
 }
 
-.cylindricalGuage{
+.cylindricalGauge{
 	background-image: url("../../Static/Images/PowerBI/Cylindrical_Gauge_PNG.png")
 }
-.cylindricalGuage:hover{
+.cylindricalGauge:hover{
 	background-image: url("../../Static/Images/PowerBI/Cylindrical_Gauge_GIF.gif")
 }
 
