@@ -1373,12 +1373,14 @@ a img {
 	
 .customVisual{
 	Height:200px;
+	Width:200px;
 	padding:0px;
 	box-shadow: 2px 2px 1px lightgrey;
 	border: 1px solid lightgrey;
 	Float:right;
 	margin-left:10px;
-	margin-bottom: 10px;	
+	margin-bottom: 10px;
+	background-size: 200px 200px;	
 }
 .customVisual:hover{
 	box-shadow: -2px -2px 1px lightgrey;
@@ -1388,4 +1390,10 @@ a img {
 }
 .linearGuage:hover{
 	background-image: url("../../Static/Images/PowerBI/Linear_Gauge_GIF.gif")
+}
+.horizontalFunnel{
+	background-image: url("../../Static/Images/PowerBI/Horizontal_Funnel_PNG.png")
+}
+.horizontalFunnel:hover{
+	background-image: url("../../Static/Images/PowerBI/Horizontal_Funnel.gif")
 }

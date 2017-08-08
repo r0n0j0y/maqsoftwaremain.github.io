@@ -25,6 +25,7 @@
        			</span>
 		</li>
 		<li>
+			<div class = "horizontalFunnel customVisual"></div>
 			<img class="customVisual" src="../../Static/Images/PowerBI/Horizontal_Funnel_GIF.gif">
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://app.powerbi.com/visuals/show/HorizontalFunnel1449177164235" target="_blank">Horizontal Funnel</a>
