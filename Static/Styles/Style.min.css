@@ -1533,7 +1533,6 @@ a img {
 .tradingChart:hover{
 	background-image: url("../../Static/Images/PowerBI/Stock_Chart_GIF.gif")
 }
-.customVisualSection ul > li {
+.customVisualSection > li {
 	min-height:500px; 
-}
 }
