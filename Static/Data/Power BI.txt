@@ -86,7 +86,7 @@
        			</span>
 		</li>
 		<li>
-			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380846&ui=en-US&rs=en-001&ad=US&appredirect=false target="_blank"><div class = "horizontalFunnel customVisual"></div></a>
+			<a href="https://store.office.com/en-001/app.aspx?assetid=WA104380846&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank"><div class = "horizontalFunnel customVisual"></div></a>
 			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://store.office.com/en-001/app.aspx?assetid=WA104380846&ui=en-US&rs=en-001&ad=US&appredirect=false" target="_blank">Horizontal Funnel</a>
 				: Horizontal Funnel allows you to visualize a customizable primary measure as colored bars. Use this component to display a number of metric types, such as sales stages, time or geographic locations. A second customizable value is displayed beneath the colored bars. This feature provides you the ability to track an additional metric against your primary measure. The component includes the option to create a tool tip, which you may tailor to your specific needs.
