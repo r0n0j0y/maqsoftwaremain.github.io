@@ -10,25 +10,25 @@
 	<p class="DataSubContent">We use Power BI in solutions that provide insights into large datasets. We reduced customer report development time by using Power BI instead of traditional custom techniques. We partner with the Power BI development team to test and validate the technology with large and complex datasets. As one of the preferred partners for Power BI, we have released multiple <a class="SliderArrow BackLink viLinks" href="https://app.powerbi.com/visuals" target="_blank">Power BI components</a>, including:</p>
 	<ul class="MarginTop5 CircleBullets">
         	<li style = "height: 380px;">
-			<img class="customVisual" style ="margin-left: 25%;" src="../../Static/Images/Linear_Gauge_GIF.gif">
-			<span style= "Float:left;">
+			<img class="customVisual" src="../../Static/Images/PowerBI/Linear_Gauge_GIF.gif">
+			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://app.powerbi.com/visuals/show/LinearGauge1450736844786" target="_blank">Linear Gauge</a>
 				: Create at-a-glance visualization to compare your progress against identified goals and warning zones. By allowing you to include multiple data points, the component provides the ability to illustrate trend details, such as monthly or year-to-date completion rates. The pointer notes targets and the colored bar shows the current progress toward those goals.
        			</span>
 		</li>
 		<li style = "height: 420px;">
-			<img class="customVisual" style ="margin-left: 25%;" src="../../Static/Images/Horizontal_Funnel_GIF.gif">
-			<span style= "Float:left;">
+			<img class="customVisual" src="../../Static/Images/PowerBI/Horizontal_Funnel_GIF.gif">
+			<span>
 				<a class="SliderArrow BackLink viLinks" href="https://app.powerbi.com/visuals/show/HorizontalFunnel1449177164235" target="_blank">Horizontal Funnel</a>
 				: Horizontal Funnel allows you to visualize a customizable primary measure as colored bars. Use this component to display a number of metric types, such as sales stages, time or geographic locations. A second customizable value is displayed beneath the colored bars. This feature provides you the ability to track an additional metric against your primary measure. The component includes the option to create a tool tip, which you may tailor to your specific needs.
    			</span>
 		</li>
 		<li style = "height: 450px;"> 
-			<span style="Float:left;">And Many More:</span>
-			<img class="customVisual" style = clear:left;" src="../../Static/Images/Thermometer_GIF.gif">
-			<img class="customVisual" src="../../Static/Images/Cylindrical_Gauge_GIF.gif">
-			<img class="customVisual" src="../../Static/Images/Quadrant_Chart_GIF.gif">
-			<img class="customVisual" src="../../Static/Images/Sankey_GIF.gif">
+			<span >And Many More:</span>
+			<img class="customVisual" style = clear:left;" src="../../Static/Images/PowerBI/Thermometer_GIF.gif">
+			<img class="customVisual" src="../../Static/Images/PowerBI/Cylindrical_Gauge_GIF.gif">
+			<img class="customVisual" src="../../Static/Images/PowerBI/Quadrant_Chart_GIF.gif">
+			<img class="customVisual" src="../../Static/Images/PowerBI/Sankey_GIF.gif">
 		</li>
 	</ul>
 	<p class="DataSubContent">Due to this experience, as well as our 10+ years as a Microsoft Preferred Supplier, we hold a comprehensive understanding of Power BI's functions and capabilities. With this in-depth knowledge of the underlying systems, our team is uniquely positioned to maximize your Power BI experience.</p>

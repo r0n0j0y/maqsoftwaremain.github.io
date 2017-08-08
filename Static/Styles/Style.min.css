@@ -1373,12 +1373,13 @@ a img {
 	
 .customVisual{
 	Height:200px;
+	padding:0px;
 	box-shadow: 2px 2px 1px lightgrey;
 	border: 1px solid lightgrey;
-	Float:left;	
+	Float:right;
+	margin-left:10px;
+	margin-bottom: 10px;	
 }
 .customVisual:hover{
-	
 	box-shadow: -2px -2px 1px lightgrey;
-	
 }
