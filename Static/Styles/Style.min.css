@@ -1381,154 +1381,154 @@ a img {
 	margin-left:10px;
 	margin-bottom: 10px;
 	margin-top:30px;
-	background-size: 200px 200px;	
+	background-size: 100%;	
 }
 .customVisual:hover{
 	box-shadow: -2px -2px 1px lightgrey;
 }
 
 .bowtieChart{
-	background-image: url("../../Static/Images/PowerBI/Bowtie_Chart_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Bowtie_Chart.png")
 }
 .bowtieChart:hover{
 	background-image: url("../../Static/Images/PowerBI/Bowtie_Chart_GIF.gif")
 }
 
 .brickChart{
-	background-image: url("../../Static/Images/PowerBI/Brick_Chart_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Brick_Chart.png")
 }
 .brickChart:hover{
 	background-image: url("../../Static/Images/PowerBI/Brick_Chart_GIF.gif")
 }
 
 .circularGauge{
-	background-image: url("../../Static/Images/PowerBI/Circular_Guage_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Circular_Guage.png")
 }
 .circularGauge:hover{
 	background-image: url("../../Static/Images/PowerBI/Circular_Guage_GIF.gif")
 }
 
 .cylindricalGauge{
-	background-image: url("../../Static/Images/PowerBI/Cylindrical_Gauge_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Cylindrical_Gauge.png")
 }
 .cylindricalGauge:hover{
 	background-image: url("../../Static/Images/PowerBI/Cylindrical_Gauge_GIF.gif")
 }
 
 .dotPlot{
-	background-image: url("../../Static/Images/PowerBI/Dot_Plot_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Dot_Plot.jpg")
 }
 .dotPlot:hover{
 	background-image: url("../../Static/Images/PowerBI/Dot_Plot_GIF.gif")
 }
 
 .dynamicTooltip{
-	background-image: url("../../Static/Images/PowerBI/Dynamic_Tooltip_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Dynamic_Tooltip.png")
 }
 .dynamicTooltip:hover{
 	background-image: url("../../Static/Images/PowerBI/Dynamic_Tooltip_GIF.gif")
 }
 
 .gridVisual{
-	background-image: url("../../Static/Images/PowerBI/Grid_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Grid.png")
 }
 .gridVisual:hover{
 	background-image: url("../../Static/Images/PowerBI/Grid_GIF.gif")
 }
 
 .histogramPoints{
-	background-image: url("../../Static/Images/PowerBI/Histogram_With_Points_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Histogram.png")
 }
 .histogramPoints:hover{
 	background-image: url("../../Static/Images/PowerBI/Histogram_With_Points_GIF.gif")
 }
 
 .horizontalFunnel{
-	background-image: url("../../Static/Images/PowerBI/Horizontal_Funnel_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Horizontal_Funnel.png")
 }
 .horizontalFunnel:hover{
 	background-image: url("../../Static/Images/PowerBI/Horizontal_Funnel_GIF.gif")
 }
 
 .journeyChart{
-	background-image: url("../../Static/Images/PowerBI/Journey_Chart_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Journey_Chart.png")
 }
 .journeyChart:hover{
 	background-image: url("../../Static/Images/PowerBI/Journey_Chart_GIF.gif")
 }
 
 .kpiColumn{
-	background-image: url("../../Static/Images/PowerBI/KPI_Column_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/KPI_Column.png")
 }
 .kpiColumn:hover{
 	background-image: url("../../Static/Images/PowerBI/KPI_Column_GIF.gif")
 }
 
 .kpiGrid{
-	background-image: url("../../Static/Images/PowerBI/KPI_Grid_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/KPI_Grid.png")
 }
 .kpiGrid:hover{
 	background-image: url("../../Static/Images/PowerBI/KPI_Grid_GIF.gif")
 }
 
 .kpiTicker{
-	background-image: url("../../Static/Images/PowerBI/KPI_Ticker_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/KPI_Ticker.png")
 }
 .kpiTicker:hover{
 	background-image: url("../../Static/Images/PowerBI/KPI_Ticker_GIF.gif")
 }
 
 .linearGauge{
-	background-image: url("../../Static/Images/PowerBI/Linear_Gauge_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Linear_Gauge.png")
 }
 .linearGauge:hover{
 	background-image: url("../../Static/Images/PowerBI/Linear_Gauge_GIF.gif")
 }
 
 .quadrantChart{
-	background-image: url("../../Static/Images/PowerBI/Quadrant_Chart_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Quadrant_Chart.png")
 }
 .quadrantChart:hover{
 	background-image: url("../../Static/Images/PowerBI/Quadrant_Chart_GIF.gif")
 }
 
 .ringChart{
-	background-image: url("../../Static/Images/PowerBI/Ring_Chart_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Ring_Chart.png")
 }
 .ringChart:hover{
 	background-image: url("../../Static/Images/PowerBI/Ring_Chart_GIF.gif")
 }
 
 .rotatingChart{
-	background-image: url("../../Static/Images/PowerBI/Rotating_Chart_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Rotating_ChartG.png")
 }
 .rotatingChart:hover{
 	background-image: url("../../Static/Images/PowerBI/Rotating_Chart_GIF.gif")
 }
 
 .rotatingTile{
-	background-image: url("../../Static/Images/PowerBI/Rotating_Tile_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Rotating_Tile.png")
 }
 .rotatingTile:hover{
 	background-image: url("../../Static/Images/PowerBI/Rotating_Tile_GIF.gif")
 }
 
 .textWrapper{
-	background-image: url("../../Static/Images/PowerBI/Text_Wrapper_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Text_Wrapper.png")
 }
 .textWrapper:hover{
 	background-image: url("../../Static/Images/PowerBI/Text_Wrapper_GIF.gif")
 }
 
 .thermometer{
-	background-image: url("../../Static/Images/PowerBI/Thermometer_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Thermometer.png")
 }
 .thermometer:hover{
 	background-image: url("../../Static/Images/PowerBI/Thermometer_GIF.gif")
 }
 
 .tradingChart{
-	background-image: url("../../Static/Images/PowerBI/Stock_Chart_PNG.png")
+	background-image: url("../../Static/Images/PowerBI/Stock_Chart.png")
 }
 .tradingChart:hover{
 	background-image: url("../../Static/Images/PowerBI/Stock_Chart_GIF.gif")
