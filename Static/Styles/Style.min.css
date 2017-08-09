@@ -1500,7 +1500,7 @@ a img {
 }
 
 .rotatingChart{
-	background-image: url("../../Static/Images/PowerBI/Rotating_ChartG.png")
+	background-image: url("../../Static/Images/PowerBI/Rotating_Chart.png")
 }
 .rotatingChart:hover{
 	background-image: url("../../Static/Images/PowerBI/Rotating_Chart_GIF.gif")
