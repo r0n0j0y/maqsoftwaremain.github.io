@@ -1,4 +1,4 @@
-﻿// ---------------------------------------------------------------------------------------------------------------------------->
+// ---------------------------------------------------------------------------------------------------------------------------->
 // MAP ELEMENT  ||-----------
 // ---------------------------------------------------------------------------------------------------------------------------->
 
@@ -10,19 +10,12 @@ function init() {
     // Basic options for a simple Google Map
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-<<<<<<< HEAD
+
         zoom: 15,
         scrollwheel: false, //set to true to enable mouse scrolling while inside the map area
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(21.170240, 72.831061), // Surat
-=======
-        zoom: 3,
-        scrollwheel: false, //set to true to enable mouse scrolling while inside the map area
-
-        // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(39.3999, 8.2444), 
->>>>>>> 6e8df2587d03dc635ac727e5e7eec3efd312cafd
+        center: new google.maps.LatLng(47.633038, -122.133198), 
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
@@ -222,12 +215,8 @@ function init() {
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-<<<<<<< HEAD
-        position: new google.maps.LatLng(21.170240, 72.831061),
-        map: map,
-        title: 'Nileforest',
-=======
-        position: new google.maps.LatLng(47.673988, -122.121513),
+
+        position: new google.maps.LatLng(47.633038, -122.133198),
         map: map,
         title: 'Redmond',
         icon: 'img/map-marker.png'
@@ -244,7 +233,6 @@ function init() {
         position: new google.maps.LatLng(19.0760, 72.877),
         map: map,
         title: 'Mumbai',
->>>>>>> 6e8df2587d03dc635ac727e5e7eec3efd312cafd
         icon: 'img/map-marker.png'
 
     });
