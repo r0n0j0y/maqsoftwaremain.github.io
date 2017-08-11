@@ -4483,3 +4483,28 @@ ul.project-detail-block, .project-detail-block ul {
         visibility: hidden;
     }
 }
+
+/*Recognition Controls*/
+.RecognitionImage {
+    width: 130px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.RecognitionContent {
+    width: 73%;
+    margin-left: 5%;
+}
+.FloatLeft {
+    float: left;
+}
+.FloatRight, .NextPrevious #next {
+    float: right;
+}
+.SemiBold {
+    font-family: "Segoe UI Semibold",Tahoma,Verdana,Arial,sans-serif;
+}
+.topBorder {
+    border-top: 1px solid #dddddd;
+    padding-top: 13px;
+}
