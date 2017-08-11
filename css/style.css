@@ -2457,7 +2457,9 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 }
 
     .client-logo img {
+		height:auto;
         max-height: 100%;
+		
         width: auto;
 		
     }
