@@ -1,15 +1,15 @@
-﻿/*jslint plusplus: true */
+/*jslint plusplus: true */
 /// <reference path="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js" />
 /*globals clearInterval,setInterval*/
 (function () {
     "use strict";
     var oExpertiseSlider = {
-        imageSrc: ["../../Static/Images/Slider/Business-Intelligence.jpg",
-                    "../../Static/Images/Slider/website_banner_powerbi.jpg",
-                   "../../Static/Images/Slider/AppDev.jpg",
-                   "../../Static/Images/Slider/UX-Design.jpg",
-                   "../../Static/Images/Slider/Cloud.jpg",
-                   "../../Static/Images/Slider/Sharepoint.jpg"],
+        imageSrc: ["../Static/Images/Slider/Business-Intelligence.jpg",
+                    "../Static/Images/Slider/website_banner_powerbi.jpg",
+                   "../Static/Images/Slider/AppDev.jpg",
+                   "../Static/Images/Slider/UX-Design.jpg",
+                   "../Static/Images/Slider/Cloud.jpg",
+                   "../Static/Images/Slider/Sharepoint.jpg"],
         imageTitle: ["Data Management & Analytics",
                      "Data Encoding & Visualization",
                      "App Development",
