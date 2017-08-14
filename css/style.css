@@ -738,9 +738,21 @@ form label.error {
     padding-bottom: 30px;
 }
 
+
 .ptb-30 {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+.pb-40 {
+    padding-bottom:40px;
+}
+.ptb-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .pt-60 {
@@ -2471,6 +2483,8 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         max-height: 100%;
 		
         width: auto;
+        margin-right:15px;
+		margin-left:15px;
 		
     }
 
