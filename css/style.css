@@ -771,8 +771,8 @@ form label.error {
     padding-top: 65px;
     padding-bottom: 65px;
 }
-.ptb-65 {
-    padding-top: 65px;
+.pb-65 {
+   
     padding-bottom: 65px;
 }
 
@@ -780,7 +780,8 @@ form label.error {
     padding-top: 65px;
 }
 
-.pb-80 {
+.ptb-80 {
+    padding-top: 80px;
     padding-bottom: 80px;
 }
 
