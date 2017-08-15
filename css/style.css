@@ -767,8 +767,20 @@ form label.error {
     padding-bottom: 60px;
 }
 
-.ptb-80 {
-    padding-top: 80px;
+.ptb-65 {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.ptb-65 {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.pt-65 {
+    padding-top: 65px;
+}
+
+.pb-80 {
     padding-bottom: 80px;
 }
 
@@ -778,6 +790,18 @@ form label.error {
 
 .pb-80 {
     padding-bottom: 80px;
+}
+.ptb-110 {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.pt-110 {
+    padding-top: 110px;
+}
+
+.pb-110 {
+    padding-bottom: 110px;
 }
 
 .mtb-0 {
