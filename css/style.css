@@ -1986,6 +1986,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 .inner-intro {
     position: relative;
     padding: 200px 0;
+    background-position: left 0px;
 }
 
     .inner-intro h1 {
