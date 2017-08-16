@@ -3808,14 +3808,14 @@ ul.project-detail-block, .project-detail-block ul {
     }
 
         .blog-post blockquote:after {
-            content: "";
+            content: ;
             font-family: FontAwesome;
             padding-left: 7px;
             font-size: 12px;
         }
 
         .blog-post blockquote:before {
-            content: "";
+            content: ;
             font-family: FontAwesome;
             padding-right: 7px;
             font-size: 12px;
