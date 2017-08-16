@@ -106,7 +106,7 @@ a {
 }
 
     a:hover {
-        color: #e6ae49;
+        color: #e6ae49 !important;
         text-decoration: none;
         transition: all 0.25s ease 0s;
         -moz-transition: all 0.25s ease 0s;
@@ -3941,6 +3941,7 @@ ul.project-detail-block, .project-detail-block ul {
 
         .shop-item .item-mask .item-mask-detail .item-mask-detail-ele {
             margin: auto auto;
+            padding:15px;
         }
 
 .item-img {
