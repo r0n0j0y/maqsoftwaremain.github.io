@@ -4717,3 +4717,8 @@ ul.project-detail-block, .project-detail-block ul {
     margin: 0 auto;
     pointer-events: all;
 }
+
+.size-15{
+    font-weight:15px;
+
+}
