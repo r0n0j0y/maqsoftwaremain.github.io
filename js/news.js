@@ -75,8 +75,9 @@ function renderNews() {
                 }
                 var newsTag= "newsItem";
                 newsTag=newsTag+(iIterator+1);
-                var newsID = document.createElement("SPAN");
+                var newsID = document.createElement("DIV");
                 newsID.id = newsTag;
+                
 
 
                 sContent = $("#bloggerContent").html();
