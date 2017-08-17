@@ -74,7 +74,7 @@ function renderNews() {
                     img.parentNode.removeChild(img);
                 }
                 var newsTag= "newsItem";
-                newsTag=newsTag+iIterator;
+                newsTag=newsTag+(iIterator+1);
                 var newsID = document.createElement("SPAN");
                 newsID.id = newsTag;
 
