@@ -80,7 +80,7 @@ function renderNews() {
 
 
                 sContent = $("#bloggerContent").html();
-                oNewsContainer.append(newsTag);
+                oNewsContainer.appendChild(newsTag);
                 oNewsContainer.append(oNewsPager.template.replace("@title", sTitle).replace("@date", oDate).replace("@content", sContent).replace("@newsimagesrc", src));
             }
         }
