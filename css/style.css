@@ -1995,7 +1995,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 .inner-intro {
     position: relative;
     padding: 200px 0;
-    background-position: left 0px;
+    
 }
 
     .inner-intro h1 {
@@ -2007,7 +2007,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     background-attachment: fixed;
 }*/
 .bg-image {
-    background-position: center center;
+    background-position: left 0px;
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
@@ -2022,7 +2022,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 }
 
 .slide-bg-image {
-    background-position: center center;
+    background-position: left 0px;
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
