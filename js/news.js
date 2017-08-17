@@ -79,7 +79,7 @@ function renderNews() {
                 newsID.id = newsTag;
 
 
-                sContent = $("#bloggerContent").html();
+                sContent = newsTag+$("#bloggerContent").html();
                 oNewsContainer.append(oNewsPager.template.replace("@title", sTitle).replace("@date", oDate).replace("@content", sContent).replace("@newsimagesrc", src));
             }
         }
