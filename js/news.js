@@ -73,6 +73,12 @@ function renderNews() {
                     src = img.src;
                     img.parentNode.removeChild(img);
                 }
+                var newsTag= "newsItem";
+                newsTag=newsTag+iIterator;
+                var newsID = document.createElement("SPAN");
+                newsID.id = newsTag;
+
+
                 sContent = $("#bloggerContent").html();
                 oNewsContainer.append(oNewsPager.template.replace("@title", sTitle).replace("@date", oDate).replace("@content", sContent).replace("@newsimagesrc", src));
             }
