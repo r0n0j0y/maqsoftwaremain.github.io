@@ -106,7 +106,7 @@ a {
 }
 
     a:hover {
-        color: #e6ae49 !important;
+        color: #e6ae49;
         text-decoration: none;
         transition: all 0.25s ease 0s;
         -moz-transition: all 0.25s ease 0s;
@@ -345,7 +345,7 @@ h1.large {
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
-    text-align:center;
+    text-align: center;
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -355,7 +355,7 @@ h1.large {
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     -o-border-radius: 2px;
-    margin-top:15px;
+    margin-top: 15px;
 }
 
     .btn i, button i, i.left {
@@ -587,10 +587,11 @@ label {
     margin-top: 6px;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
-    display:block;
+    display: block;
 }
+
     label.inline {
-        display:inline-block !important;
+        display: inline-block !important;
     }
 
 .form-full {
@@ -625,10 +626,11 @@ form label.error {
 }
 
 .pull-left {
-    float:left;
+    float: left;
 }
+
 .pull-right {
-    float:right;
+    float: right;
 }
 
 /* Spacer Style   ||-----------*/
@@ -647,6 +649,7 @@ form label.error {
     width: 100%;
     height: 45px;
 }
+
 .spacer-55 {
     width: 100%;
     height: 55px;
@@ -735,6 +738,7 @@ form label.error {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .pt-30 {
     padding-top: 30px;
 }
@@ -752,9 +756,11 @@ form label.error {
 .pt-40 {
     padding-top: 40px;
 }
+
 .pb-40 {
-    padding-bottom:40px;
+    padding-bottom: 40px;
 }
+
 .ptb-40 {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -772,6 +778,7 @@ form label.error {
     padding-top: 65px;
     padding-bottom: 65px;
 }
+
 .pb-65 {
     padding-bottom: 65px;
 }
@@ -792,6 +799,7 @@ form label.error {
 .pb-80 {
     padding-bottom: 80px;
 }
+
 .ptb-110 {
     padding-top: 110px;
     padding-bottom: 110px;
@@ -1777,7 +1785,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 
             .cart-dropdown .cart-list .media .pull-left {
                 width: 70px;
-                padding-right:10px;
+                padding-right: 10px;
             }
 
                 .cart-dropdown .cart-list .media .pull-left img {
@@ -2509,13 +2517,11 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 }
 
     .client-logo img {
-		height:auto;
+        height: auto;
         max-height: 100%;
-		
         width: auto;
-        margin-right:15px;
-		margin-left:15px;
-		
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -3126,13 +3132,15 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 /* Contants (Portfolio, Blog, Shop, etc) -------------------  */
 /* ===================================================================================================== */
 .col.container-grid {
-    padding-left:0;
-    padding-right:0;
+    padding-left: 0;
+    padding-right: 0;
 }
+
 .col.container-masonry {
-    padding-left:0;
-    padding-right:0;
+    padding-left: 0;
+    padding-right: 0;
 }
+
 .container.nf-container1 {
     padding-left: 15px;
     padding-right: 15px;
@@ -3802,7 +3810,7 @@ ul.project-detail-block, .project-detail-block ul {
         border-left: none;
         background: #f7f7f7;
         font-size: 17px;
-        font-weight: 400 !important;
+        font-weight: 400;
         padding: 25px 25px;
         margin: 0px;
         color: #888;
@@ -3810,14 +3818,14 @@ ul.project-detail-block, .project-detail-block ul {
     }
 
         .blog-post blockquote:after {
-            content: ;
+            content:;
             font-family: FontAwesome;
             padding-left: 7px;
             font-size: 12px;
         }
 
         .blog-post blockquote:before {
-            content: ;
+            content:;
             font-family: FontAwesome;
             padding-right: 7px;
             font-size: 12px;
@@ -3942,7 +3950,7 @@ ul.project-detail-block, .project-detail-block ul {
 
         .shop-item .item-mask .item-mask-detail .item-mask-detail-ele {
             margin: auto auto;
-            padding:15px;
+            padding: 15px;
         }
 
 .item-img {
@@ -4552,15 +4560,19 @@ ul.project-detail-block, .project-detail-block ul {
     width: 73%;
     margin-left: 5%;
 }
+
 .FloatLeft {
     float: left;
 }
+
 .FloatRight, .NextPrevious #next {
     float: right;
 }
+
 .SemiBold {
     font-family: "Segoe UI Semibold",Tahoma,Verdana,Arial,sans-serif;
 }
+
 .topBorder {
     border-top: 1px solid #dddddd;
     padding-top: 13px;
@@ -4568,6 +4580,140 @@ ul.project-detail-block, .project-detail-block ul {
 
 
 
-.h-120{
-    height:120px;
+.h-120 {
+    height: 120px;
+}
+
+#PrivacyStatement {
+    padding-top: 95px;
+}
+
+.hidden {
+    display: none;
+}
+
+.news-image {
+    height: 197px;
+    width: 350px;
+    object-fit: cover;
+    background-color: gainsboro;
+    /*transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);*/
+}
+
+#LoadPageNews .separator {
+    height: auto;
+    width: auto;
+    background: none;
+}
+
+.DisabledColor {
+    color: #ccc !important;
+    cursor: default !important;
+}
+
+#LoadPageNews img {
+    margin: auto;
+}
+
+.Loading {
+    background: url(../img/loading.GIF) no-repeat center center;
+}
+
+#LoadPageNews {
+    min-height: 500px;
+    height: auto !important;
+    height: 500px;
+}
+
+.LoadingHeight {
+    min-height: 300px;
+    height: auto !important;
+    height: 300px;
+    overflow: visible;
+    padding-top: 5px;
+}
+
+#LoadPageNews .post-header h1, #LoadPageNews .post-header h2, #LoadPageNews .post-header h3, #LoadPageNews .post-header h4, #LoadPageNews .post-header h5, #LoadPageNews .post-header h6 {
+    text-transform: none;
+}
+
+#Addresses h6 {
+    margin-bottom: 3px;
+}
+
+#tabs .nav-link {
+    border-radius: 0;
+}
+
+#tabs .nav-tabs {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.modal .modal-header {
+    -webkit-box-pack: normal;
+    -webkit-justify-content: normal;
+    -ms-flex-pack: normal;
+    justify-content: normal;
+    display: inline;
+}
+
+.product_view .modal-dialog {
+    max-width: 800px;
+    width: 100%;
+}
+
+.pre-cost {
+    text-decoration: line-through;
+    color: #a5a5a5;
+}
+
+.space-ten {
+    padding: 10px 0;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-remove:before {
+    content: "\e014";
+}
+
+.vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    pointer-events: none; /* This makes sure that we can still click outside of the modal to close it */
+}
+
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events: none;
+}
+
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width: inherit;
+    height: inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
 }
