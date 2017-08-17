@@ -74,11 +74,9 @@ function renderNews() {
                     img.parentNode.removeChild(img);
                 }
                 sContent = $("#bloggerContent").html();
-                var newsTag= "newsItem";
 
-                newsTag=newsTag+iIterator;
-                var newsID = document.createElement("SPAN");
-                newsID.id =newsTag;
+
+                
 
                 oNewsContainer.append(newsID)
                 oNewsContainer.append(oNewsPager.template.replace("@title", sTitle).replace("@date", oDate).replace("@content", sContent).replace("@newsimagesrc", src));
