@@ -4801,5 +4801,11 @@ ul.project-detail-block, .project-detail-block ul {
     padding-left:0px;
     padding-right:0px;
     padding-bottom:3px;
+    height:16px;
+    width:16px;
 
+}
+.dotBox{
+    padding-left:0px;
+    padding-right:0px;
 }
