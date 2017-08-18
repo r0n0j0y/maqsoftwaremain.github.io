@@ -24,15 +24,15 @@ app.config(function ($routeProvider, $locationProvider) {
     })
     .when('/expertise/selfservicebiviewall', {
         templateUrl: '/views/selfservicebiviewall.html',
-        controller: "HomeController"
+        controller: "SelfServiceBIController"
     })
     .when('/expertise/appdevelopment', {
         templateUrl: '/views/appdevelopment.html',
-        controller: "HomeController"
+        controller: "AppDevelopmentController"
     })
     .when('/expertise/cloudtransformation', {
         templateUrl: '/views/cloudtransformation.html',
-        controller: "HomeController"
+        controller: "CloudTransformationController"
     })
     .when('/expertise/collaborationcontent', {
         templateUrl: '/views/collaborationcontent.html',
@@ -83,6 +83,16 @@ app.config(function ($routeProvider, $locationProvider) {
         setTabNavLinkBehavior();
     });
 }).controller('SelfServiceBIController', function ($scope) {
+    $scope.$on('$viewContentLoaded', function () {
+        loadPlugins();
+        setTabNavLinkBehavior();
+    });
+}).controller('AppDevelopmentController', function ($scope) {
+    $scope.$on('$viewContentLoaded', function () {
+        loadPlugins();
+        setTabNavLinkBehavior();
+    });
+}).controller('CloudTransformationController', function ($scope) {
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
         setTabNavLinkBehavior();
