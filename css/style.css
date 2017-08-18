@@ -4800,7 +4800,7 @@ ul.project-detail-block, .project-detail-block ul {
 .dot{
     padding-left:0px;
     padding-right:0px;
-    padding-bottom:3px;
+    margin-bottom:3px;
     height:16px !important;
     width:16px !important;
 
