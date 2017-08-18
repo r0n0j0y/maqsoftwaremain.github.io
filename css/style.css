@@ -4808,4 +4808,5 @@ ul.project-detail-block, .project-detail-block ul {
 .dotBox{
     padding-left:0px !important;
     padding-right:0px !important;
+    min-width:17px;
 }
