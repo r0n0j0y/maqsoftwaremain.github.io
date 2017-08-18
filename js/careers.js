@@ -2,7 +2,7 @@
     oNewsData = null,
 sTemplate = '<div class="accordion-section"><h6 class="accordion-title">@title</h6><div class="accordion-content">@content</div></div>'
     , sNoJobMessage = '<p class="DataSubContent Color595959">No job openings available at this location.<br />Please come back and check again soon.</p>'
-    ,sJobServiceIssue = '<p class="DataSubContent Color595959">Issue in connecting to job-post service.<br />Try loading the section again.</p>';
+    , sJobServiceIssue = '<p class="DataSubContent Color595959">Issue in connecting to job-post service.<br />Try loading the section again.</p>';
 
 function careersConstructor() {
     oJobPostSection = $("#tabs-2 .accordion");
@@ -50,3 +50,62 @@ function renderTitle(oData) {
     }
     $("#tabs-2 .accordion *").removeAttr('style');
 }
+
+//play when video is visible
+var video = $("#video-player"), fraction = 0.8;
+
+function checkScroll() {
+    var elementPosTop = video.offset().top;
+    var viewportHeight = $(window).height();
+    var scrollPos = $(window).scrollTop();
+    var elementFromTop = elementPosTop - scrollPos;
+    if (elementFromTop > 0 && elementFromTop < elementPosTop + viewportHeight) {
+        playVideo(); //the player is visible.
+    } else {
+        pauseVideo();  //player is invisible
+    }
+};
+
+
+// call Career Constructor
+careersConstructor();
+
+var player;
+onYouTubeIframeAPIReady = function onYouTubeIframeAPIReady() {
+    player = new YT.Player('video-player', {
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+}
+
+
+// 4. The API will call this function when the video player is ready.
+function onPlayerReady(event) {
+    window.addEventListener('scroll', checkScroll, false);
+    window.addEventListener('resize', checkScroll, false);
+    //check at least once so you don't have to wait for scrolling for the    video to start
+    window.addEventListener('load', checkScroll, false);
+};
+
+
+function onPlayerStateChange(event) {
+    if (event.data == YT.PlayerState.PLAYING) {
+        //console.log("event played");
+    } else {
+        //console.log("event paused");
+    }
+};
+
+function stopVideo() {
+    player.stopVideo();
+};
+
+function playVideo() {
+    player.playVideo();
+};
+
+function pauseVideo() {
+    player.pauseVideo();
+};

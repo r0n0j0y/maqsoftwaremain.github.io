@@ -787,6 +787,19 @@ form label.error {
     padding-top: 65px;
 }
 
+.ptb-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
 .ptb-80 {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -799,6 +812,20 @@ form label.error {
 .pb-80 {
     padding-bottom: 80px;
 }
+
+.ptb-85 {
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.pt-85 {
+    padding-top: 85px;
+}
+
+.pb-85 {
+    padding-bottom: 85px;
+}
+
 
 .ptb-110 {
     padding-top: 110px;
@@ -1995,7 +2022,6 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 .inner-intro {
     position: relative;
     padding: 200px 0;
-    
 }
 
     .inner-intro h1 {
@@ -4585,7 +4611,7 @@ ul.project-detail-block, .project-detail-block ul {
 }
 
 #PrivacyStatement {
-    padding-top: 95px;
+    padding-top: 60px;
 }
 
 .hidden {
@@ -4679,7 +4705,33 @@ ul.project-detail-block, .project-detail-block ul {
     padding: 10px 0;
 }
 
-.glyphicon {
+.modal {
+    text-align: center;
+    padding: 0 !important;
+}
+
+    .modal:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -4px;
+    }
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+/*Youtube video*/
+#video-player {
+    width: 912px;
+    height: 513px;
+}
+
+/*.glyphicon {
     position: relative;
     top: 1px;
     display: inline-block;
@@ -4693,32 +4745,43 @@ ul.project-detail-block, .project-detail-block ul {
 
 .glyphicon-remove:before {
     content: "\e014";
+}*/
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
-.vertical-alignment-helper {
-    display: table;
-    height: 100%;
-    width: 100%;
-    pointer-events: none; /* This makes sure that we can still click outside of the modal to close it */
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-.vertical-align-center {
-    /* To center vertically */
-    display: table-cell;
-    vertical-align: middle;
-    pointer-events: none;
+.glyphicon-remove:before {
+    content: "\e014";
 }
 
-.modal-content {
-    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
-    width: inherit;
-    height: inherit;
-    /* To center horizontally */
-    margin: 0 auto;
-    pointer-events: all;
+.nav-menu .sub-dropdown > li > a:hover {
+    color: #e6ae49 !important;
 }
 
+.CircleBullets {
+    list-style-type: disc;
+    padding-left: 35px;
+    color: #595959;
+}
+.contact{
+
+    margin:0px;
+}
 .size-15{
-    font-weight:15px;
 
+    font-size: 15px;
 }

@@ -2,10 +2,10 @@
 
 "use strict";
 var oNewsPager = {
-    template: '<div><div class="post-meta"><span>@date</span></div><div class="post-header"><h2>@title</h2></div><div class="post-media"><img alt="" src="@newsimagesrc"></div><div class="post-entry">@content</div></div>',
+    template: '<div><div class="post-meta"><span>@date</span></div><div class="post-header"><h2>@title</h2></div><div class="post-media"><img alt="News" src="@newsimagesrc"></div><div class="post-entry">@content</div></div>',
     pageIndex: 0,
     pagesize: 3
-},
+}, id,
     iTotalNews = 0,
     iIterator = 0,
     iMaxPageIndex,
@@ -73,15 +73,7 @@ function renderNews() {
                     src = img.src;
                     img.parentNode.removeChild(img);
                 }
-                var newsTag= "newsItem";
-                newsTag=newsTag+(iIterator+1);
-                var newsID = document.createElement("DIV");
-                newsID.id = newsTag;
-                
-
-
                 sContent = $("#bloggerContent").html();
-                oNewsContainer.append(newsID);
                 oNewsContainer.append(oNewsPager.template.replace("@title", sTitle).replace("@date", oDate).replace("@content", sContent).replace("@newsimagesrc", src));
             }
         }
@@ -105,15 +97,24 @@ function loadNews(sNewsData) {
     }
 }
 function newsConstructor() {
-    var iTop = 0;
     oNewsContainer = $("#LoadPageNews");
-
+    var iTop = 0;
+    id = getParameterByName("id")
+    if (typeof id !== "undefined" && id !== "") {
+        $(sScrollElement).animate({ scrollTop: iTop }, 500);
+        oNewsPager.pageIndex = id > oNewsPager.pagesize ? 1 : 0;
+    }
     $.ajax({
         url: 'https://www.blogger.com/feeds/2523158019509365490/posts/default/-/News',
         type: 'GET',
         dataType: 'jsonp',
         success: function (sResponse) {
             loadNews(sResponse);
+            if (typeof id !== "undefined" && id !== "") {
+                id = id > oNewsPager.pagesize ? id - oNewsPager.pagesize : id;
+                iTop = $("#LoadPageNews").children('div').eq(id - 1).offset().top - 65;
+                $(sScrollElement).animate({ scrollTop: iTop }, 500);
+            }
         },
         complete: function () {
             oNewsContainer.removeClass(sLoadingClass);

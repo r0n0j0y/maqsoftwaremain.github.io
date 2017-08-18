@@ -70,7 +70,3 @@ function renderNewsMain() {
     //$('.subData *').removeAttr('style');
     //$('.subData').dotdotdot();
 }
-
-function setHeader() {
-    $("#header").addClass("header-prepare");
-}
