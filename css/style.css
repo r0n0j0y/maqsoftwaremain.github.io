@@ -4797,3 +4797,9 @@ ul.project-detail-block, .project-detail-block ul {
 
     font-size: 15px;
 }
+.dot{
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:0px;
+
+}
