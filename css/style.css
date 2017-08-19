@@ -4817,5 +4817,5 @@ ul.project-detail-block, .project-detail-block ul {
 }
 .blurb{
     font-weight:600;
-    color: black;
+    color: black !important;
 }
