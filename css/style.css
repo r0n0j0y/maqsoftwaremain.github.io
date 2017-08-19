@@ -4790,8 +4790,7 @@ ul.project-detail-block, .project-detail-block ul {
     color: #595959;
 }
 .contact{
-
-    margin:0px;
+    margin:0px !important;
 }
 .size-15{
 
@@ -4816,4 +4815,7 @@ ul.project-detail-block, .project-detail-block ul {
     padding-left:5px !important;
     padding-right:5px !important;
 }
-
+.blurb{
+    font-weight:600;
+    color: black;
+}
