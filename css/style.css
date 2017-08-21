@@ -4825,6 +4825,9 @@ ul.project-detail-block, .project-detail-block ul {
     padding-left: 5px !important;
     padding-right: 5px !important;
 }
+.dotRow{
+    margin:0px !important;
+}
 
 .blurb {
     font-weight: 600;
