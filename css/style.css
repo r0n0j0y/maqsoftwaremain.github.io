@@ -1330,7 +1330,7 @@ form label.error {
     .logo a {
         width: 132px;
         display: block;
-        margin-top: 23x;
+        margin-top: 23px;
         /*margin-bottom: 28px;*/
         transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
         -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
