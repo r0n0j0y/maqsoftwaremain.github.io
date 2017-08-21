@@ -65,7 +65,15 @@ function loadPlugins() {
     containerGridMasonry();
     scrollCallbackEle();
     shortcodeElements();
-    $(".ytp-player").YTPlayer();
+    //$(".ytp-player").YTPlayer();
+    // Parallax Function element
+    $('.parallax').each(function () {
+        var $el = $(this);
+        $(window).scroll(function () {
+            parallax($el);
+        });
+        parallax($el);
+    });
 }
 
 $(window).resize(function () {

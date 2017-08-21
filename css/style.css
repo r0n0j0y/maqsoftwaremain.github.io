@@ -4741,23 +4741,29 @@ ul.project-detail-block, .project-detail-block ul {
 #video-player {
     width: 912px;
     height: 513px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-/*.glyphicon {
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+@media (max-width: 1091px) {
+    #video-player {
+        height: 388px;
+    }
 }
 
-.glyphicon-remove:before {
-    content: "\e014";
-}*/
+@media (max-width: 545px) {
+    #video-player {
+        height: 253px;
+    }
+}
+
+@media (max-width: 388px) {
+    #video-player {
+        height: 100%;
+    }
+}
+
+
 @font-face {
     font-family: 'Glyphicons Halflings';
     src: url('../fonts/glyphicons-halflings-regular.eot');
@@ -4789,33 +4795,45 @@ ul.project-detail-block, .project-detail-block ul {
     padding-left: 35px;
     color: #595959;
 }
-.contact{
-    margin:0px !important;
-}
-.size-15{
 
+.contact {
+    margin: 0px !important;
+}
+
+.size-15 {
     font-size: 15px;
 }
-.dot{
-    padding-left:0px;
-    padding-right:0px;
-    margin-bottom:3px;
-    height:16px !important;
-    width:16px !important;
 
+.dot {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 3px;
+    height: 16px !important;
+    width: 16px !important;
 }
-.dotBox{
-    padding-left:0px !important;
-    padding-right:0px !important;
-    width:16px !important;
-    min-width:16px !important;
-    max-width:16px !important;
+
+.dotBox {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    width: 16px !important;
+    min-width: 16px !important;
+    max-width: 16px !important;
 }
-.dotNextBox{
-    padding-left:5px !important;
-    padding-right:5px !important;
+
+.dotNextBox {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
 }
-.blurb{
-    font-weight:600;
+
+.blurb {
+    font-weight: 600;
     color: black !important;
 }
+
+ul.nav-tabs {
+    display: inline-block;
+}
+
+    ul.nav-tabs > li.nav {
+        float: left;
+    }

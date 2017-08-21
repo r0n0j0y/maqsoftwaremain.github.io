@@ -97,6 +97,7 @@ function loadNews(sNewsData) {
     }
 }
 function newsConstructor() {
+    oNewsPager.pageIndex = 0;
     oNewsContainer = $("#LoadPageNews");
     var iTop = 0;
     id = getParameterByName("id")

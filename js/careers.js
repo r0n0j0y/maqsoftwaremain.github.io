@@ -22,6 +22,7 @@ function careersConstructor() {
             oJobPostSection.html(sJobServiceIssue).removeClass("Loading").removeClass("LoadingHeight");
         }
     });
+    
 }
 
 function loadIndiaCareers(sNewsData) {
@@ -51,35 +52,63 @@ function renderTitle(oData) {
     $("#tabs-2 .accordion *").removeAttr('style');
 }
 
-//play when video is visible
-var video = $("#video-player"), fraction = 0.8;
-
 function checkScroll() {
-    var elementPosTop = video.offset().top;
-    var viewportHeight = $(window).height();
-    var scrollPos = $(window).scrollTop();
-    var elementFromTop = elementPosTop - scrollPos;
-    if (elementFromTop > 0 && elementFromTop < elementPosTop + viewportHeight) {
-        playVideo(); //the player is visible.
-    } else {
-        pauseVideo();  //player is invisible
+    //play when video is visible
+
+    if (!isCareersPage()) {
+        return;
+    }
+    var videoID = "video-player";
+    var videos = $("#video-player"), fraction = 0.8;
+    for (var i = 0; i < videos.length; i++) {
+        var video = videos[i];
+
+        var x = 0,
+            y = 0,
+            w = document.getElementById(videoID).clientWidth,
+            h = document.getElementById(videoID).clientHeight,
+            r, //right
+            b, //bottom 
+            visibleX, visibleY, visible,
+            parent;
+
+
+        parent = video;
+        while (parent && parent !== document.body) {
+            x += parent.offsetLeft;
+            y += parent.offsetTop;
+            parent = parent.offsetParent;
+        }
+
+        r = x + parseInt(w);
+        b = y + parseInt(h);
+
+        visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
+        visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
+
+        visible = visibleX * visibleY / (w * h);
+
+        if (visible > fraction) {
+            playVideo();
+        } else {
+            pauseVideo();
+        }
     }
 };
 
 
-// call Career Constructor
-careersConstructor();
-
 var player;
-onYouTubeIframeAPIReady = function onYouTubeIframeAPIReady() {
+function onYouTubeIframeAPIReady() {
+    if (!isCareersPage())
+        return;
     player = new YT.Player('video-player', {
         events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
         }
     });
-}
 
+};
 
 // 4. The API will call this function when the video player is ready.
 function onPlayerReady(event) {

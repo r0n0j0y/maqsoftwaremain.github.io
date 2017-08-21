@@ -4,17 +4,17 @@
 , sLocation,
 oMapData = [
             {
-                address: "15446 Bel-Red Road,<br/> Suite 201 Redmond, <br/>WA 98052",
+                address: "15446 Bel-Red Road,<br/> Suite 201, Redmond, <br/>WA 98052",
                 lat: 47.633087,
                 long: -122.133202
             },
             {
-                address: "201, Meadows Building,<br/> Sahar Plaza on Andheri Kurla Road,<br/> Andheri East,<br/> Mumbai 400 059,<br/> Maharashtra",
+                address: "201, Meadows Building,<br/> Sahar Plaza on Andheri Kurla Road,<br/> Andheri East,<br/> Mumbai 400 059",
                 lat: 19.1128987,
                 long: 72.8685805
             },
             {
-                address: "Level 7, Astro, aVance Business Hub,<br/> Behind Dell Campus,<br/> HITEC City 2, Madhapur,<br/> Hyderabad 500 081,<br/> Andhra Pradesh",
+                address: "Level 7, Astro, aVance Business Hub,<br/> Behind Dell Campus,<br/> HITEC City 2, Madhapur,<br/> Hyderabad 500 081",
                 lat: 17.446235,
                 long: 78.368914
             }
