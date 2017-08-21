@@ -2078,6 +2078,12 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     .dot{
         display:none;
     }
+    .RecognitionImage{
+        width:auto;
+    }
+    .RecognitionContent{
+        text-align: center !important;
+    }
 }
 
 @media (max-width: 767px) {
