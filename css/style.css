@@ -1252,7 +1252,7 @@ form label.error {
 /*header Logo style*/
 .header.header-prepare .logo a img.logo-light,
 .header .logo a img.logo-dark {
-    opacity: 0;
+    opacity: 1;
 }
 
 .header .logo a img.logo-light,
@@ -1307,7 +1307,7 @@ form label.error {
     }
 
     .header .logo a {
-        margin-top: 16px;
+        margin-top: 23px;
         margin-bottom: 16px;
         width: 96px;
         transition: all 0.3s ease 0s;
@@ -1505,7 +1505,7 @@ header.header-dark .nav-bar-icon > span::after,
 header.header-dark.header-prepare .nav-bar-icon > span,
 header.header-dark.header-prepare .nav-bar-icon > span:before,
 header.header-dark.header-prepare .nav-bar-icon > span::after {
-    background-color: #fff;
+    ;
 }
 
 header.header-light .nav-bar-icon > span,
@@ -2074,6 +2074,9 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     .intro-title {
         letter-spacing: 0;
         font-size: 46px;
+    }
+    .dot{
+        display:none;
     }
 }
 
