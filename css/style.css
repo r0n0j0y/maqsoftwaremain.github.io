@@ -765,7 +765,18 @@ form label.error {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+.pt-50 {
+    padding-top: 50px;
+}
 
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.ptb-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .pt-60 {
     padding-top: 60px;
 }
@@ -773,7 +784,10 @@ form label.error {
 .pb-60 {
     padding-bottom: 60px;
 }
-
+.ptb-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .ptb-65 {
     padding-top: 65px;
     padding-bottom: 65px;
