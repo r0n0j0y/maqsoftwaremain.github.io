@@ -74,6 +74,8 @@ function loadPlugins() {
         });
         parallax($el);
     });
+    initStellar();
+    $(window).data('plugin_stellar').refresh();
 }
 
 $(window).resize(function () {
@@ -640,20 +642,22 @@ function parallax($el) {
     }
 };
 
-var parallaxPositionProperty;
-if ($(window).width() >= 1024) {
-    parallaxPositionProperty = "position";
-} else {
-    parallaxPositionProperty = "transform"
+function initStellar() {
+    var parallaxPositionProperty;
+    if ($(window).width() >= 1024) {
+        parallaxPositionProperty = "position";
+    } else {
+        parallaxPositionProperty = "transform"
+    }
+
+    // Parallax Stellar Plugin element
+    $(window).stellar({
+        responsive: true,
+        positionProperty: parallaxPositionProperty,
+        horizontalScrolling: false
+
+    });
 }
-
-// Parallax Stellar Plugin element
-$(window).stellar({
-    responsive: true,
-    positionProperty: parallaxPositionProperty,
-    horizontalScrolling: false
-
-});
 
 
 // ---------------------------------------------------------------------------------------------------------------------------->

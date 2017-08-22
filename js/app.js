@@ -1,6 +1,5 @@
 ﻿var app = angular.module('MAQSoftwareApp', ['ngRoute', 'ngResource']);
-app.config(function ($routeProvider, $locationProvider) {
-    
+app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $locationProvider) {
     $routeProvider
     .when("/", {
         templateUrl: "/views/home.html",
@@ -16,15 +15,15 @@ app.config(function ($routeProvider, $locationProvider) {
     })
     .when('/expertise/artificialintelligence', {
         templateUrl: '/views/artificialintelligence.html',
-        controller: "HomeController"
+        controller: "ArtificialIntelligenceController"
     })
-    .when('/expertise/selfservicebi', {
-        templateUrl: '/views/selfservicebi.html',
-        controller: "SelfServiceBIController"
+    .when('/expertise/powerbi', {
+        templateUrl: '/views/powerbi.html',
+        controller: "PowerBIController"
     })
-    .when('/expertise/selfservicebiviewall', {
-        templateUrl: '/views/selfservicebiviewall.html',
-        controller: "SelfServiceBIController"
+    .when('/expertise/powerbiviewall', {
+        templateUrl: '/views/powerbiviewall.html',
+        controller: "PowerBIController"
     })
     .when('/expertise/appdevelopment', {
         templateUrl: '/views/appdevelopment.html',
@@ -40,15 +39,15 @@ app.config(function ($routeProvider, $locationProvider) {
     })
     .when('/engagement', {
         templateUrl: '/views/about.html',
-        controller: "HomeController"
+        controller: "AboutController"
     })
     .when('/engagement/about', {
         templateUrl: '/views/about.html',
-        controller: "HomeController"
+        controller: "AboutController"
     })
     .when('/engagement/recognitions', {
         templateUrl: '/views/recognitions.html',
-        controller: "HomeController"
+        controller: "RecognitionsController"
     })
     .when('/news', {
         templateUrl: '/views/news.html',
@@ -71,25 +70,27 @@ app.config(function ($routeProvider, $locationProvider) {
         controller: "PrivacyStatementController"
     }).otherwise({ redirectTo: "/" });
     $locationProvider.html5Mode(true);
-})
-.controller('HomeController', function ($scope, $location, $window) {
+}])
+.controller('HomeController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
         loadNewsMainPage();
+        updateTitle();
     });
     $scope.$on('$routeChangeSuccess', function () {
-        console.log('Route Change: ' + $location.url());        
-        $window.ga('set', 'page', $location.url());        
+        console.log('Route Change: ' + $location.url());
+        $window.ga('set', 'page', $location.url());
         $window.ga('send', 'pageview', {
             'hitCallback': function () {
                 console.log('GA hitCallback sent!');
             }
         });
     });
-}).controller('DataManagementController', function ($scope, $location, $window) {
+}]).controller('DataManagementController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
         setTabNavLinkBehavior();
+        updateTitle("expertise");
     });
     $scope.$on('$routeChangeSuccess', function () {
         console.log('Route Change: ' + $location.url());
@@ -108,10 +109,25 @@ app.config(function ($routeProvider, $locationProvider) {
         //    }
         //});
     });
-}).controller('SelfServiceBIController', function ($scope, $location, $window) {
+}]).controller('ArtificialIntelligenceController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
+    $scope.$on('$viewContentLoaded', function () {
+        loadPlugins();
+        updateTitle("expertise");
+    });
+    $scope.$on('$routeChangeSuccess', function () {
+        console.log('Route Change: ' + $location.url());
+        $window.ga('set', 'page', $location.url());
+        $window.ga('send', 'pageview', {
+            'hitCallback': function () {
+                console.log('GA hitCallback sent!');
+            }
+        });
+    });
+}]).controller('PowerBIController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
         setTabNavLinkBehavior();
+        updateTitle("expertise");
     });
     $scope.$on('$routeChangeSuccess', function () {
         console.log('Route Change: ' + $location.url());
@@ -122,10 +138,11 @@ app.config(function ($routeProvider, $locationProvider) {
             }
         });
     });
-}).controller('AppDevelopmentController', function ($scope, $location, $window) {
+}]).controller('AppDevelopmentController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
         setTabNavLinkBehavior();
+        updateTitle("expertise");
     });
     $scope.$on('$routeChangeSuccess', function () {
         console.log('Route Change: ' + $location.url());
@@ -136,10 +153,11 @@ app.config(function ($routeProvider, $locationProvider) {
             }
         });
     });
-}).controller('CloudTransformationController', function ($scope, $location, $window) {
+}]).controller('CloudTransformationController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
         setTabNavLinkBehavior();
+        updateTitle("expertise");
     });
     $scope.$on('$routeChangeSuccess', function () {
         console.log('Route Change: ' + $location.url());
@@ -150,10 +168,11 @@ app.config(function ($routeProvider, $locationProvider) {
             }
         });
     });
-}).controller('CollaborationContentController', function ($scope, $location, $window) {
+}]).controller('CollaborationContentController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
         setTabNavLinkBehavior();
+        updateTitle("expertise");
     });
     $scope.$on('$routeChangeSuccess', function () {
         console.log('Route Change: ' + $location.url());
@@ -164,16 +183,13 @@ app.config(function ($routeProvider, $locationProvider) {
             }
         });
     });
-}).controller('ContactController', function ($scope, $location, $window) {
+}]).controller('AboutController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
-        contactConstructor();
+        loadNewsMainPage();
+        updateTitle("engagement");
     });
     $scope.$on('$routeChangeSuccess', function () {
-        // load script dynamically using any method
-        var googlemaps = document.createElement('script');
-        googlemaps.setAttribute('src', 'https://maps.googleapis.com/maps/api/js?v=3&sensor=true&key=AIzaSyBHkJlVTrAkgcD9jJxo_CyHx0YZZtX65iY&callback=initMap');
-        document.head.appendChild(googlemaps);
         console.log('Route Change: ' + $location.url());
         $window.ga('set', 'page', $location.url());
         $window.ga('send', 'pageview', {
@@ -182,10 +198,26 @@ app.config(function ($routeProvider, $locationProvider) {
             }
         });
     });
-}).controller('NewsController', function ($scope, $location, $window) {
+}]).controller('RecognitionsController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
+    $scope.$on('$viewContentLoaded', function () {
+        loadPlugins();
+        loadNewsMainPage();
+        updateTitle("engagement");
+    });
+    $scope.$on('$routeChangeSuccess', function () {
+        console.log('Route Change: ' + $location.url());
+        $window.ga('set', 'page', $location.url());
+        $window.ga('send', 'pageview', {
+            'hitCallback': function () {
+                console.log('GA hitCallback sent!');
+            }
+        });
+    });
+}]).controller('NewsController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
         newsConstructor();
+        updateTitle("news");
     });
     $scope.$on('$routeChangeSuccess', function () {
         console.log('Route Change: ' + $location.url());
@@ -196,18 +228,19 @@ app.config(function ($routeProvider, $locationProvider) {
             }
         });
     });
-}).controller('CareersController', function ($scope, $location, $window) {
+}]).controller('CareersController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
         setTabNavLinkBehavior();
         onYouTubeIframeAPIReady();
         // call Career Constructor
         careersConstructor();
+        updateTitle("careers");
         //var tag = document.createElement('script');
         //tag.src = "https://www.youtube.com/iframe_api";
         //var firstScriptTag = document.getElementsByTagName('script')[0];
         //firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-        
+
     });
     $scope.$on('$routeChangeSuccess', function () {
         // load script dynamically using any method
@@ -222,12 +255,17 @@ app.config(function ($routeProvider, $locationProvider) {
             }
         });
     });
-}).controller('PowerBISupportController', function ($scope, $location, $window) {
+}]).controller('ContactController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
-        redirectPowerBI();
+        contactConstructor();
+        updateTitle("contact");
     });
     $scope.$on('$routeChangeSuccess', function () {
+        // load script dynamically using any method
+        var googlemaps = document.createElement('script');
+        googlemaps.setAttribute('src', 'https://maps.googleapis.com/maps/api/js?v=3&sensor=true&key=AIzaSyBHkJlVTrAkgcD9jJxo_CyHx0YZZtX65iY&callback=initMap');
+        document.head.appendChild(googlemaps);
         console.log('Route Change: ' + $location.url());
         $window.ga('set', 'page', $location.url());
         $window.ga('send', 'pageview', {
@@ -236,9 +274,11 @@ app.config(function ($routeProvider, $locationProvider) {
             }
         });
     });
-}).controller('PrivacyStatementController', function ($scope, $location, $window) {
+}]).controller('PowerBISupportController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
-        loadPlugins();        
+        loadPlugins();
+        updateTitle();
+        redirectPowerBI(); 
     });
     $scope.$on('$routeChangeSuccess', function () {
         console.log('Route Change: ' + $location.url());
@@ -249,6 +289,18 @@ app.config(function ($routeProvider, $locationProvider) {
             }
         });
     });
-});
-
-
+}]).controller('PrivacyStatementController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
+    $scope.$on('$viewContentLoaded', function () {
+        loadPlugins();
+        updateTitle("privacystatement");
+    });
+    $scope.$on('$routeChangeSuccess', function () {
+        console.log('Route Change: ' + $location.url());
+        $window.ga('set', 'page', $location.url());
+        $window.ga('send', 'pageview', {
+            'hitCallback': function () {
+                console.log('GA hitCallback sent!');
+            }
+        });
+    });
+}]);

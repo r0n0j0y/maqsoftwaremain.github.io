@@ -14,7 +14,7 @@ function getParameterByName(name) {
 }
 
 function redirectPowerBI() {
-    window.location.href = "/#expertise/selfservicebi"; // Redirecting to Power BI Expertise
+    window.location.href = "/#expertise/powerbi"; // Redirecting to Power BI Expertise
 }
 
 function setTabNavLinkBehavior() {
@@ -22,8 +22,9 @@ function setTabNavLinkBehavior() {
         $("#tabs .nav-link").removeClass('active');
     });
 }
+
 function closeMenuIfOpen() {
-    $(".nav-menu .nav-menu-inner a").click(function () {
+    $("a, a *, #body, #body *").click(function () {
         if ($(this).hasClass("menu-has-sub")) {
             return; // return in case of sub menu header click
         }
@@ -36,12 +37,16 @@ function closeMenuIfOpen() {
                 $(".nav-menu .nav-menu-inner .menu-opened").removeClass("menu-opened");
             }
             if ($(".nav-menu .nav-menu-inner .fa-angle-up").length) {
-                $(".nav-menu .nav-menu-inner .fa-angle-up").removeClass("fa-angle-up").addClass("fa-angle-down");
+                $(".nav-menu .nav-menu-inner .fa-angle-up").each(function () {
+                    $(this).removeClass("fa-angle-up").addClass("fa-angle-down");
+                })
             }
             if ($(".nav-menu .nav-menu-inner .sub-dropdown").length) {
-                if ($('.nav-menu .nav-menu-inner .sub-dropdown').css('display') == 'block') {
-                    $('.nav-menu .nav-menu-inner .sub-dropdown').css('display', 'none');
-                }
+                $(".nav-menu .nav-menu-inner .sub-dropdown").each(function () {
+                    if ($(this).css('display') == 'block') {
+                        $(this).css('display', 'none');
+                    }
+                })
             }
         }
     });
@@ -54,3 +59,30 @@ function isCareersPage() {
 }
 // Close menu if open
 closeMenuIfOpen();
+
+function updateTitle(viewName) {
+    var sTitle = "Data Management, Power BI, Artificial Intelligence | MAQ Software";
+    if (typeof viewName !== "undefined") {
+        switch (viewName.toLowerCase()) {
+            case "expertise":
+                sTitle = "Expertise | MAQ Software";
+                break;
+            case "engagement":
+                sTitle = "Engagement | MAQ Software";
+                break;
+            case "news":
+                sTitle = "News | MAQ Software";
+                break;
+            case "careers":
+                sTitle = "Careers | MAQ Software";
+                break;
+            case "contact":
+                sTitle = "Contact | MAQ Software";
+                break;
+            case "privacystatement":
+                sTitle = "Privacy Statement | MAQ Software";
+                break;
+        }
+    }
+    $("title").text(sTitle);
+}
