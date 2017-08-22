@@ -4396,16 +4396,16 @@ ul.project-detail-block, .project-detail-block ul {
 .image-slider .owl-controls .owl-buttons .owl-prev,
 .fullwidth-slider .owl-controls .owl-buttons .owl-prev {
     left: 0;
-    margin-left: -51px;
-    opacity: 0;
+    margin-left: 0px;
+    opacity: 1;
 }
 
 .content-carousel .owl-controls .owl-buttons .owl-next,
 .image-slider .owl-controls .owl-buttons .owl-next,
 .fullwidth-slider .owl-controls .owl-buttons .owl-next {
     right: 0;
-    margin-right: -51px;
-    opacity: 0;
+    margin-right: 0px;
+    opacity: 1;
 }
 
 /*===========================================================================================*/
