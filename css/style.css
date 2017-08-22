@@ -4339,14 +4339,14 @@ ul.project-detail-block, .project-detail-block ul {
 
     .nf-carousel-theme .owl-controls .owl-buttons .owl-prev {
         left: 0;
-        margin-left: -51px;
-        opacity: 0;
+        margin-left: 0;
+        opacity: 1;
     }
 
     .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
         right: 0;
-        margin-right: -51px;
-        opacity: 0;
+        margin-right: 0;
+        opacity: 1;
     }
 
     .content-carousel:hover .owl-controls .owl-buttons .owl-prev,
