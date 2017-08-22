@@ -826,6 +826,19 @@ form label.error {
     padding-bottom: 85px;
 }
 
+.ptb-90 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.pb-90 {
+    padding-bottom: 90px;
+}
+
 .ptb-95 {
     padding-top: 95px;
     padding-bottom: 95px;
