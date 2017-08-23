@@ -4759,7 +4759,7 @@ ul.project-detail-block, .project-detail-block ul {
 }
 
 .news-image {
-    height: 197px;
+    max-height: 197px;
     max-width: 350px;
     object-fit: cover;
     background-color: gainsboro;
