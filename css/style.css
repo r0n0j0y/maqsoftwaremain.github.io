@@ -4966,6 +4966,7 @@ ul.project-detail-block, .project-detail-block ul {
 }
 .blurbH{
     font-weight:700;
+    line-height:normal !important;
 }
 ul.nav-tabs {
     display: inline-block;
