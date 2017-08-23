@@ -4679,7 +4679,7 @@ ul.project-detail-block, .project-detail-block ul {
 }
 
 .SemiBold {
-    font-weight: 500px;
+    font-weight: 500px !important;
 }
 
 .topBorder {
