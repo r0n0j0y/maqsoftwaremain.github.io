@@ -968,6 +968,33 @@ form label.error {
     margin-right: 10px !important;
 }
 
+.mtb-13 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.mlr-13 {
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.mt-13 {
+    margin-top: 13px !important;
+}
+
+.mb-13 {
+    margin-bottom: 13px !important;
+}
+
+.ml-13 {
+    margin-left: 13px !important;
+}
+
+.mr-13 {
+    margin-right: 13px !important;
+}
+
+
 .mtb-80 {
     margin-top: 80px;
     margin-bottom: 80px;
