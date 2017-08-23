@@ -644,6 +644,10 @@ form label.error {
     width: 100%;
     height: 30px;
 }
+.spacer-40 {
+    width: 100%;
+    height: 40px;
+}
 
 .spacer-45 {
     width: 100%;
