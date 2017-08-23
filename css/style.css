@@ -4760,7 +4760,7 @@ ul.project-detail-block, .project-detail-block ul {
 
 .news-image {
     height: 197px;
-    width: 350px;
+    max-width: 350px;
     object-fit: cover;
     background-color: gainsboro;
     /*transform: scale(0.5, 0.5);
