@@ -4961,10 +4961,12 @@ ul.project-detail-block, .project-detail-block ul {
 }
 
 .blurb {
-    font-weight: 600;
+    font-size:13px;
     color: black !important;
 }
-
+.blurbH{
+    font-weight:700;
+}
 ul.nav-tabs {
     display: inline-block;
 }
