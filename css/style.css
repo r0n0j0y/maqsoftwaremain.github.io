@@ -938,6 +938,32 @@ form label.error {
     margin-right: 0px !important;
 }
 
+.mtb-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mlr-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.ml-10 {
+    margin-left: 10px !important;
+}
+
+.mr-10 {
+    margin-right: 10px !important;
+}
+
 .mtb-80 {
     margin-top: 80px;
     margin-bottom: 80px;
