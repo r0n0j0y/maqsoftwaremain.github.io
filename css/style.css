@@ -2451,12 +2451,12 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 }
 
 .features-box-left {
-    padding-left: 75px;
+    padding-left: 40px;
     text-align: left;
 }
 
 .features-box-right {
-    padding-right: 75px;
+    padding-right: 40px;
     text-align: right;
 }
 
@@ -4897,6 +4897,7 @@ ul.project-detail-block, .project-detail-block ul {
 }
 .dotRow{
     margin:0px !important;
+    height:200px;
 }
 
 .blurb {
