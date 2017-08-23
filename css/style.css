@@ -4893,7 +4893,7 @@ ul.project-detail-block, .project-detail-block ul {
     color: Black;
 }
     .circlebullets a{
-        text-decoration:underline;
+        text-decoration:underline !important;
     }
 
 .contact {
