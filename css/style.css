@@ -141,7 +141,7 @@ hr {
     }
 
 b, strong {
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 small, small a {
@@ -283,7 +283,7 @@ h1 {
 }
 
     h1.h1, h2.h2 {
-        letter-spacing: 15px;
+        letter-spacing: 10px;
     }
 
 @media (max-width: 767px) {
@@ -1408,12 +1408,9 @@ form label.error {
             color: #323232;
         }
 
-.header-light .nav-menu ul.nav-menu-inner > li > a {
+.header-light .nav-menu ul.nav-menu-inner > li > a, .header .nav-menu ul.nav-menu-inner > li > a {
     color: #323232;
 }
-
-
-
 
 .nav-menu ul.nav-menu-inner li a {
     font-family: inherit;
@@ -3849,7 +3846,11 @@ ul.project-detail-block, .project-detail-block ul {
         }
 
         .blog-post .post-entry ul {
-            color: #888;
+            color: black;
+        }
+
+        .blog-post .post-entry a {
+            text-decoration: underline;
         }
 
     .blog-post .post-tag {
@@ -3888,7 +3889,7 @@ ul.project-detail-block, .project-detail-block ul {
         font-weight: 400;
         padding: 25px 25px;
         margin: 0px;
-        color: #888;
+        color: black;
         font-weight: 300;
     }
 
@@ -4882,4 +4883,7 @@ ul.nav-tabs {
 }
 .newsPic{
     margin-bottom:5px;
+}
+.news-highlight{
+    cursor: pointer;
 }

@@ -67,13 +67,7 @@ function loadPlugins() {
     shortcodeElements();
     //$(".ytp-player").YTPlayer();
     // Parallax Function element
-    $('.parallax').each(function () {
-        var $el = $(this);
-        $(window).scroll(function () {
-            parallax($el);
-        });
-        parallax($el);
-    });
+    initParallax();
     initStellar();
     $(window).data('plugin_stellar').refresh();
 }
@@ -108,8 +102,10 @@ function scroll() {
 
 
     });
-    $('.scroll-top').click(function () {
-        $('html, body').animate({ scrollTop: 0 }, 800);
+    $('.scroll-top').click(function (e) {
+        e.preventDefault();
+        $('html, body').stop().animate({ scrollTop: 0 }, 800);
+        initParallax();        
         return false;
     });
 
@@ -267,7 +263,8 @@ function sliderAll() {
         navigation: true,  // Show next and prev buttons
         pagination: true,  // Show pagination buttons
         navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-
+        autoPlay: true,
+        slideSpeed: 2500
     });
 
     // Image Slider
@@ -604,14 +601,15 @@ function scrollCallbackEle() {
 // ----------------------------------------------------------------
 
 // Parallax Function element
-$('.parallax').each(function () {
-    var $el = $(this);
-    $(window).scroll(function () {
+function initParallax() {
+    $('.parallax').each(function () {
+        var $el = $(this);
+        $(window).scroll(function () {
+            parallax($el);
+        });
         parallax($el);
     });
-    parallax($el);
-});
-
+}
 
 function parallax($el) {
     var diff_s = $(window).scrollTop();

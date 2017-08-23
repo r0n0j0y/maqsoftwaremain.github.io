@@ -60,6 +60,9 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
     .when('/contact', {
         templateUrl: '/views/contact.html',
         controller: "ContactController"
+    }).when('/selfservicebi', {
+        templateUrl: '/views/powerbisupport.html',
+        controller: "PowerBISupportController"
     })
     .when('/powerbisupport', {
         templateUrl: '/views/powerbisupport.html',
@@ -278,7 +281,7 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
         updateTitle();
-        redirectPowerBI(); 
+        redirectPowerBI();
     });
     $scope.$on('$routeChangeSuccess', function () {
         console.log('Route Change: ' + $location.url());
