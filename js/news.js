@@ -17,7 +17,7 @@ sLoadingClass = "Loading",
                     "What I Did Not Learn in B-School: Insights for New Managers"
                     , "What I Did Not Learn at IIT: Transition from Campus to Workplace"
                     , "What I Did Not Learn at IIT - Transitioning from Campus to Workplace"
-    ], iCount, iTotal = oItalicBookName.length, iTotalHighlight = 4, oNewsHighlightTitle = [iTotalHighlight], oHighlightNewsID = [iTotalHighlight];
+    ], iCount, iTotal = oItalicBookName.length, iTotalHighlight = 6, oNewsHighlightTitle = [iTotalHighlight], oHighlightNewsID = [iTotalHighlight];
 
 function renderNews() {
     var iStart, iEnd, entry1, sDate, oDatePart, oDate, sTitle, sContent;
