@@ -57,13 +57,18 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
         templateUrl: '/views/careers.html',
         controller: "CareersController"
     })
-    .when('/contact', {
-        templateUrl: '/views/contact.html',
-        controller: "ContactController"
-    }).when('/selfservicebi', {
-        templateUrl: '/views/powerbisupport.html',
-        controller: "PowerBISupportController"
-    })
+        .when('/contact', {
+            templateUrl: '/views/contact.html',
+            controller: "ContactController"
+        })
+        .when('/selfservicebi', {
+            templateUrl: '/views/powerbisupport.html',
+            controller: "PowerBISupportController"
+        })
+        .when('/expertise/selfservicebi', {
+            templateUrl: '/views/powerbisupport.html',
+            controller: "PowerBISupportController"
+        })
     .when('/powerbisupport', {
         templateUrl: '/views/powerbisupport.html',
         controller: "PowerBISupportController"

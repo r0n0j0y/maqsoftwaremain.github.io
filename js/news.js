@@ -171,11 +171,11 @@ function loadNewsGrid() {
         dataType: 'jsonp',
         success: function (sResponse) {
             loadNews(sResponse);
-             if (typeof highlightid !== "undefined" && highlightid !== "") {
+            if (typeof highlightid !== "undefined" && highlightid !== "") {
                 highlightid = parseInt(iClickedHighlightID % oNewsPager.pagesize);
                 iTop = $("#LoadPageNews").children('div').eq(highlightid).offset().top - 65;
                 $(sScrollElement).animate({ scrollTop: iTop }, 500);
-            }else if (typeof id !== "undefined" && id !== "") {
+            } else if (typeof id !== "undefined" && id !== "") {
                 id = id > oNewsPager.pagesize ? id - oNewsPager.pagesize : id;
                 iTop = $("#LoadPageNews").children('div').eq(id - 1).offset().top - 65;
                 $(sScrollElement).animate({ scrollTop: iTop }, 500);
@@ -200,11 +200,11 @@ function newsConstructor() {
     oNewsContainer = $("#LoadPageNews");
     var iTop = 0;
     id = getParameterByName("id");
-    
+
     if (typeof id !== "undefined" && id !== "") {
         $(sScrollElement).animate({ scrollTop: iTop }, 500);
         oNewsPager.pageIndex = id > oNewsPager.pagesize ? 1 : 0;
-        
+
     }
 
     loadNewsGrid();
@@ -245,6 +245,16 @@ function newsConstructor() {
             iClickedHighlightID = oHighlightNewsID[highlightid - 1];
             oNewsPager.pageIndex = parseInt((iClickedHighlightID + 1) / oNewsPager.pagesize);
             loadNewsGrid();
+            if (oNewsPager.pageIndex <= 0) {
+                oNewsPager.pageIndex = 0;
+                $("#Previous").addClass("hidden");
+            }
+            if (oNewsPager.pageIndex >= iMaxPageIndex) {
+                oNewsPager.pageIndex = iMaxPageIndex;
+                $("#Next").addClass("hidden");
+            } else {
+                $("#Previous").removeClass("hidden");
+            }
         }
     });
 };
