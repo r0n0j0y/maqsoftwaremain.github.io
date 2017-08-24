@@ -5046,10 +5046,10 @@ ul.nav-tabs {
     color:black !important;
 }
 .tabHeader-1{
-    height:30px;
+    height:30px !important;
 }
 .tabHeader-2{
-    height:56px;
+    height:50px !important;
 }
 .tabcontent-216{
     height:216px;
@@ -5083,13 +5083,13 @@ ul.nav-tabs {
         height:auto !important;
     }
     .tabHeader-1{
-        height:auto;
+        height:auto !important;
     }
     .tabheader-2{
-        height:auto;
+        height:auto !important;
     }
     .tabcontent-216{
-        height:auto;
+        height:auto !important;
     }
 }
 @media (max-width: 545px) {
