@@ -4971,6 +4971,7 @@ ul.project-detail-block, .project-detail-block ul {
     list-style-type: disc;
     padding-left: 35px;
     color: Black;
+    margin:0px;
 }
 
     .CircleBullets a {
@@ -5044,6 +5045,14 @@ ul.nav-tabs {
 .black{
     color:black !important;
 }
+.tabHeader-1{
+    height:30px;
+}
+.tabheader-2{
+    height:56px;
+}
+
+
 @media (max-width: 1199px) {
     .contact-box-left { 
         height:144px !important;
@@ -5069,6 +5078,12 @@ ul.nav-tabs {
 @media (max-width: 767px){
     .contact-box-left { 
         height:auto !important;
+    }
+    .tabHeader-1{
+        height:auto;
+    }
+    .tabheader-2{
+        height:auto;
     }
 }
 @media (max-width: 545px) {
