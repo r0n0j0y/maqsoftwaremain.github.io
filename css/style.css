@@ -5047,7 +5047,7 @@ ul.nav-tabs {
 }
 @media (max-width: 1091px) {
     .contact-box-left { 
-        height:144px;
+        height:144px !important;
     }
 }
 @media (max-width:1024px){
@@ -5061,12 +5061,12 @@ ul.nav-tabs {
 }
 @media (max-width: 991px) {
     .contact-box-left { 
-        height:204px;;
+        height:204px !important;
     }
 }
 @media (max-width: 767){
     .contact-box-left { 
-        height:auto;
+        height:auto !important;
     }
 }
 @media (max-width: 545px) {
