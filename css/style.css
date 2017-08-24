@@ -5048,8 +5048,11 @@ ul.nav-tabs {
 .tabHeader-1{
     height:30px;
 }
-.tabheader-2{
+.tabHeader-2{
     height:56px;
+}
+.tabcontent-216{
+    height:216px;
 }
 
 
@@ -5083,6 +5086,9 @@ ul.nav-tabs {
         height:auto;
     }
     .tabheader-2{
+        height:auto;
+    }
+    .tabcontent-216{
         height:auto;
     }
 }
