@@ -2200,23 +2200,18 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         font-size: 46px;
     }
 
-    .dot {
-        display: none;
-    }
-
-    .RecognitionImage {
-        width: auto;
-    }
-
-    .RecognitionContent {
-        text-align: center !important;
-    }
+    
+    
+    
 }
 
 @media (max-width: 767px) {
     .intro-title {
         letter-spacing: 0;
         font-size: 30px;
+    }
+    .RecognitionContent {
+        text-align: center !important;
     }
 }
 
@@ -2555,6 +2550,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 .contact-box-left {
     padding-left: 45px;
     text-align: left;
+    
 }
 
 .contact-icon-left, .contact-icon-top {
@@ -2597,6 +2593,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         padding-left: 0px;
         right: auto;
     }
+    
 }
 /*-------------------------------------------------------------------------------------------*/
 /*  Pricing       ||---------------------------- */
@@ -4965,6 +4962,8 @@ ul.project-detail-block, .project-detail-block ul {
     content: "\e014";
 }
 
+/*Custom Changes*/
+
 .nav-menu .sub-dropdown > li > a:hover {
     color: #e6ae49 !important;
 }
@@ -5045,4 +5044,37 @@ ul.nav-tabs {
 
 .black{
     color:black !important;
+}
+@media (max-width: 1091px) {
+    .contact-box-left { 
+        height:144px;
+    }
+}
+@media (max-width:1024px){
+    .dot {
+        display: none;
+    }
+
+    .RecognitionImage {
+        width: auto;
+    }
+}
+@media (max-width: 991px) {
+    .contact-box-left { 
+        height:204px;;
+    }
+}
+@media (max-width: 767){
+    .contact-box-left { 
+        height:auto;
+    }
+}
+@media (max-width: 545px) {
+    
+}
+@media (max-width: 480px) {
+    
+}
+@media (max-width: 388px) {
+    
 }
