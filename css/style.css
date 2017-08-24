@@ -1212,6 +1212,7 @@ form label.error {
     .float-right-sm {
         float: right !important;
     }
+
 }
 
 @media (max-width: 767px) {
@@ -4774,8 +4775,7 @@ ul.project-detail-block, .project-detail-block ul {
 }
 
 .RecognitionContent {
-    width: 73%;
-    margin-left: 5%;
+    
 }
 
 .FloatLeft {
