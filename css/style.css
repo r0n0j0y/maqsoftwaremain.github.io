@@ -2213,7 +2213,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     .RecognitionContent {
         text-align: center !important;
     }
-    .RecognitionImage img{
+    .RecognitionImage{
         text-align: center !important;
     }
 }
@@ -4779,7 +4779,7 @@ ul.project-detail-block, .project-detail-block ul {
 }
 
 /*Recognition Controls*/
-.RecognitionImage {
+.RecognitionImage img {
     width:100%;
     max-width: 250px;
 }
@@ -5087,7 +5087,7 @@ ul.nav-tabs {
 @media (max-width:1024px){
     
 
-    .RecognitionImage {
+    .RecognitionImage img{
         width: auto;
     }
 }
