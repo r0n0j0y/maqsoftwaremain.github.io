@@ -4501,7 +4501,7 @@ ul.project-detail-block, .project-detail-block ul {
         position: absolute;
         text-align: center;
     }
-    @media(max-width:1199px;){
+    @media(max-width:1199px){
 
 
         .content-carousel .owl-controls .owl-buttons .owl-prev,
@@ -4515,7 +4515,7 @@ ul.project-detail-block, .project-detail-block ul {
             top: 21%;
         }
     }   
-    @media(max-width:1170px;){
+    @media(max-width:1170px){
         
         
         .content-carousel .owl-controls .owl-buttons .owl-prev,
@@ -4529,7 +4529,7 @@ ul.project-detail-block, .project-detail-block ul {
             top: 28%;
         }
     } 
-    @media(max-width:991px;){
+    @media(max-width:991px){
         
         
         .content-carousel .owl-controls .owl-buttons .owl-prev,
@@ -4543,7 +4543,7 @@ ul.project-detail-block, .project-detail-block ul {
             top: 33%;
         }
     }   
-    @media(max-width:768px;){
+    @media(max-width:768px){
         
         
         .content-carousel .owl-controls .owl-buttons .owl-prev,
