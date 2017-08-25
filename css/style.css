@@ -1542,14 +1542,14 @@ form label.error {
 .header.header-dark .nav-menu ul.nav-menu-inner > li > a:hover,
 .header.header-dark.header-prepare .nav-menu ul.nav-menu-inner li a.current,
 .header.header-dark.header-prepare .nav-menu ul.nav-menu-inner li.current a {
-    color: #D83B01;
+    color: #FF8C00;
 }
 
 .header.header-light .nav-menu ul.nav-menu-inner > li:hover > a,
 .header.header-light .nav-menu ul.nav-menu-inner > li > a:hover,
 .header.header-prepare .nav-menu ul.nav-menu-inner li a.current,
 .header.header-prepare .nav-menu ul.nav-menu-inner li.current a {
-    color: #D83B01;
+    color: #FF8C00;
 }
 
 /* Mobile bar icon */
