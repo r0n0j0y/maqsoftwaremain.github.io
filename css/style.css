@@ -5086,6 +5086,7 @@ ul.nav-tabs {
         height:204px !important;
     }
 }
+/* sm Breakpoint*/
 @media (max-width: 767px){
     .contact-box-left { 
         height:auto !important;
@@ -5101,6 +5102,9 @@ ul.nav-tabs {
     }
     .tabContent-216{
         height:auto !important;
+    }
+    .dotRow {
+        height: auto;
     }
 }
 @media (max-width: 545px) {
