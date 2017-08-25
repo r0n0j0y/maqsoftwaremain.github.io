@@ -2210,7 +2210,10 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         letter-spacing: 0;
         font-size: 30px;
     }
-    .RecognitionContent,RecognitionImage {
+    .RecognitionContent {
+        text-align: center !important;
+    }
+    .RecognitionImage img{
         text-align: center !important;
     }
 }
