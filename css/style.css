@@ -4876,10 +4876,10 @@ ul.project-detail-block, .project-detail-block ul {
 
 #tabs .nav-link {
     border-radius: 0;
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1 !important;
 }
 .nav-link.active{
-    border-bottom: none;
+    border-bottom: none !important;
 }
 
 #tabs .nav-tabs {
@@ -4888,12 +4888,11 @@ ul.project-detail-block, .project-detail-block ul {
 }
 @media(max-width:767px){
     #tabs .nav-tabs{
-
-        border-bottom: 1px solid #f1f1f1;
+        border-bottom: 1px solid #f1f1f1 !important;
     }
     #tabs .nav-link {
         border-radius: 0;
-        border-bottom: none;
+        border-bottom: none !important;
     }
 
 }
@@ -4996,9 +4995,9 @@ ul.project-detail-block, .project-detail-block ul {
 
 /*Custom Changes*/
 
-.nav-menu .sub-dropdown > li > a:hover {
-    color: #323232 !important;
-}
+/*.nav-menu .sub-dropdown > li > a:hover {
+    color:#E6AE49 !important;
+}*/
 
 .CircleBullets {
     list-style-type: disc;
