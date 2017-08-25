@@ -4995,9 +4995,9 @@ ul.project-detail-block, .project-detail-block ul {
 
 /*Custom Changes*/
 
-/*.nav-menu .sub-dropdown > li > a:hover {
+.nav-menu .sub-dropdown > li > a:hover {
     color:#E6AE49 !important;
-}*/
+}
 
 .CircleBullets {
     list-style-type: disc;
