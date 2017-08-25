@@ -93,6 +93,7 @@ img {
 
 a, a:focus, a:active, a:link, img {
     outline: none;
+    
 }
 
 a {
@@ -4782,7 +4783,7 @@ ul.project-detail-block, .project-detail-block ul {
 
 /*Recognition Controls*/
 .RecognitionImage img {
-    width:100%;
+    
     max-width: 250px;
     max-height: 140px;
 }
@@ -4875,6 +4876,10 @@ ul.project-detail-block, .project-detail-block ul {
 
 #tabs .nav-link {
     border-radius: 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+.nav-link.active{
+    border-bottom: none;
 }
 
 #tabs .nav-tabs {
