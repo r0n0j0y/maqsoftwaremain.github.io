@@ -5112,6 +5112,9 @@ ul.nav-tabs {
     .dotRow {
         height: auto;
     }
+    .sidebar-widget{
+        text-align: center !important;
+    }
 }
 @media (max-width: 545px) {
     
