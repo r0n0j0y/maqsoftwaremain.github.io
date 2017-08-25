@@ -4,7 +4,7 @@
 , sLocation,
 oMapData = [
             {
-                address: "15446 Bel-Red Road,<br/> Suite 201, Redmond, <br/>WA 98052",
+                address: "15446 Bel-Red Road<br/> Second Floor, Redmond, <br/>WA 98052",
                 lat: 47.633087,
                 long: -122.133202
             },
