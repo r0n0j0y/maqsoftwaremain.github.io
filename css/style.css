@@ -106,8 +106,7 @@ a {
 }
 
     a:hover {
-        color: #FE6127;
-        text-decoration: none;
+        color: #505050;
         transition: all 0.25s ease 0s;
         -moz-transition: all 0.25s ease 0s;
         -webkit-transition: all 0.25s ease 0s;
@@ -1528,6 +1527,9 @@ form label.error {
     font-family: "Raleway",sans-serif;
 }
 
+.nav-menu ul.nav-menu-inner li a :hover{
+    color:#FFB900 !important;
+}
 .nav-menu ul.nav-menu-inner > li > a {
     padding: 26px 15px;
 }
@@ -5074,9 +5076,9 @@ ul.nav-tabs {
 
 
 @media (max-width: 1199px) {
-    .contact-box-left { 
+    /*.contact-box-left { 
         height:144px !important;
-    }
+    }*/
     .dot {
         display: none;
     }
@@ -5092,9 +5094,9 @@ ul.nav-tabs {
     }
 }
 @media (max-width: 991px) {
-    .contact-box-left { 
+    /*.contact-box-left { 
         height:204px !important;
-    }
+    }*/
 }
 /* sm Breakpoint*/
 @media (max-width: 767px){
