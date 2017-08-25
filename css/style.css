@@ -5067,14 +5067,15 @@ ul.nav-tabs {
     .contact-box-left { 
         height:144px !important;
     }
+    .dot {
+        display: none;
+    }
 }
 @media (max-width: 1091px) {
     
 }
 @media (max-width:1024px){
-    .dot {
-        display: none;
-    }
+    
 
     .RecognitionImage {
         width: auto;
