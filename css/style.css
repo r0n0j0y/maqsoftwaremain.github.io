@@ -4492,7 +4492,7 @@ ul.project-detail-block, .project-detail-block ul {
         background: rgba(245,245,245,0.8);
         color: #252525;
         display: block;
-        top: 27%;
+        top: 25%;
         transition: all 0.25s ease 0s;
         -o-transition: all 0.25s ease 0s;
         -moz-transition: all 0.25s ease 0s;
@@ -5147,6 +5147,12 @@ ul.nav-tabs {
 .tabContent-216{
     height:216px !important;
 }
+.serviceTitle{
+    color:inherit;
+}
+    .serviceTitle:hover{
+            text-decoration: underline;
+    }
 
 
 @media (max-width: 1199px) {
