@@ -4881,7 +4881,7 @@ ul.project-detail-block, .project-detail-block ul {
     border-bottom: 1px solid #f1f1f1;
 }
 .nav-link.active{
-    border-bottom: none !important;
+    border-bottom: 1px solid white !important;
 }
 
 #tabs .nav-tabs {
@@ -4894,7 +4894,7 @@ ul.project-detail-block, .project-detail-block ul {
     }
     #tabs .nav-link {
         border-radius: 0;
-        border-bottom: none !important;
+        border-bottom: 1px solid white !important;
     }
 
 }
