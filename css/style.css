@@ -2596,13 +2596,14 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         right: auto;
     }
 
-@media (max-width:767px){
-    .features-box-left {
-        text-align: center;
-    }
+    @media (max-width:767px){
+        .features-box-left {
+            text-align: center;
+        }
 
-    .features-box-right {
-        text-align: center;
+        .features-box-right {
+            text-align: center;
+        }
     }
 }
 /*-------------------------------------------------------------------------------------------*/
