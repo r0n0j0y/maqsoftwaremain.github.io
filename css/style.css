@@ -2252,7 +2252,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 
 .footer {
     background-color: #f7f7f7;
-    color: #323232;
+    color: Black;
     position: relative;
     width: 100%;
     display: block;
@@ -2263,7 +2263,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     }
 
     .footer .footer-info p {
-        color: #323232;
+        color: Black;
     }
 
 .footer-logo {
@@ -2290,8 +2290,11 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 .footer .link a {
     font-size: 12px;
     font-weight: 600;
-    text-decoration: underline;
+    
     letter-spacing: 2px;
+}
+.privacy{
+    text-decoration: underline;
 }
 
 .footer .link-small a {
