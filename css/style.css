@@ -4884,6 +4884,18 @@ ul.project-detail-block, .project-detail-block ul {
 
 #tabs .nav-tabs {
     margin-bottom: 10px;
+    
+}
+@media(max-width:767px){
+    #tabs .nav-tabs{
+
+        border-bottom: 1px solid #f1f1f1;
+    }
+    #tabs .nav-link {
+        border-radius: 0;
+        border-bottom: none;
+    }
+
 }
 
 #map {
