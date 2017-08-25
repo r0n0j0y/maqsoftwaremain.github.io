@@ -4784,6 +4784,7 @@ ul.project-detail-block, .project-detail-block ul {
 .RecognitionImage img {
     width:100%;
     max-width: 250px;
+    max-height: 140px;
 }
 
 .RecognitionContent {
