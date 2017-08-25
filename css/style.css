@@ -4492,7 +4492,7 @@ ul.project-detail-block, .project-detail-block ul {
         background: rgba(245,245,245,0.8);
         color: #252525;
         display: block;
-        top: 50%;
+        top: 27%;
         transition: all 0.25s ease 0s;
         -o-transition: all 0.25s ease 0s;
         -moz-transition: all 0.25s ease 0s;
@@ -4501,6 +4501,62 @@ ul.project-detail-block, .project-detail-block ul {
         position: absolute;
         text-align: center;
     }
+    @media(max-width:1199px;){
+
+
+        .content-carousel .owl-controls .owl-buttons .owl-prev,
+        .content-carousel .owl-controls .owl-buttons .owl-next,
+        .image-slider .owl-controls .owl-buttons .owl-prev,
+        .image-slider .owl-controls .owl-buttons .owl-next,
+        .fullwidth-slider .owl-controls .owl-buttons .owl-prev,
+        .fullwidth-slider .owl-controls .owl-buttons .owl-next,
+        .nf-carousel-theme .owl-controls .owl-buttons .owl-prev,
+        .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+            top: 21%;
+        }
+    }   
+    @media(max-width:1170px;){
+        
+        
+        .content-carousel .owl-controls .owl-buttons .owl-prev,
+        .content-carousel .owl-controls .owl-buttons .owl-next,
+        .image-slider .owl-controls .owl-buttons .owl-prev,
+        .image-slider .owl-controls .owl-buttons .owl-next,
+        .fullwidth-slider .owl-controls .owl-buttons .owl-prev,
+        .fullwidth-slider .owl-controls .owl-buttons .owl-next,
+        .nf-carousel-theme .owl-controls .owl-buttons .owl-prev,
+        .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+            top: 28%;
+        }
+    } 
+    @media(max-width:991px;){
+        
+        
+        .content-carousel .owl-controls .owl-buttons .owl-prev,
+        .content-carousel .owl-controls .owl-buttons .owl-next,
+        .image-slider .owl-controls .owl-buttons .owl-prev,
+        .image-slider .owl-controls .owl-buttons .owl-next,
+        .fullwidth-slider .owl-controls .owl-buttons .owl-prev,
+        .fullwidth-slider .owl-controls .owl-buttons .owl-next,
+        .nf-carousel-theme .owl-controls .owl-buttons .owl-prev,
+        .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+            top: 33%;
+        }
+    }   
+    @media(max-width:768px;){
+        
+        
+        .content-carousel .owl-controls .owl-buttons .owl-prev,
+        .content-carousel .owl-controls .owl-buttons .owl-next,
+        .image-slider .owl-controls .owl-buttons .owl-prev,
+        .image-slider .owl-controls .owl-buttons .owl-next,
+        .fullwidth-slider .owl-controls .owl-buttons .owl-prev,
+        .fullwidth-slider .owl-controls .owl-buttons .owl-next,
+        .nf-carousel-theme .owl-controls .owl-buttons .owl-prev,
+        .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+            top: 40%;
+        }
+    }   
 
         .content-carousel .owl-controls .owl-buttons .owl-prev:hover,
         .content-carousel .owl-controls .owl-buttons .owl-next:hover,
