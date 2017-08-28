@@ -461,7 +461,7 @@ button {
 }
 
     .btn-black-line:hover {
-        color: #fff;
+        color: #fff !important;
         background: #323232;
     }
 
@@ -485,7 +485,7 @@ button {
 }
 
     .btn-white-line:hover {
-        color: #323232;
+        color: #323232 !important;
         background: #fff;
     }
 
