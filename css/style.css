@@ -1717,7 +1717,7 @@ header.header-prepare .nav-bar-icon > span::after {
         font-size: 12px !important;
         font-weight: 500 !important;
         letter-spacing: 1px !important;
-        line-height: 120% !important;
+        line-height: 150% !important;
     }
 
     .sub-dropdown > li:hover > a {
@@ -4945,6 +4945,7 @@ ul.project-detail-block, .project-detail-block ul {
 }
 .nav-link.active{
     border-bottom: 1px solid white !important;
+    font-weight:700;
 }
 
 #tabs .nav-tabs {
