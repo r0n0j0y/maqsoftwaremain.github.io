@@ -1359,7 +1359,7 @@ form label.error {
 
 .header-fixed .logo a {
     width: 115px;
-    margin-top: 23px;
+    margin-top: 18px;
     /*margin-bottom: 15px;*/
     transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
