@@ -1717,7 +1717,7 @@ header.header-prepare .nav-bar-icon > span::after {
         font-size: 12px !important;
         font-weight: 500 !important;
         letter-spacing: 1px !important;
-        line-height: 120%;
+        line-height: 120% !important;
     }
 
     .sub-dropdown > li:hover > a {
