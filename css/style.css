@@ -5141,6 +5141,9 @@ ul.nav-tabs {
 .newsItem {
     text-transform: none !important;
 }
+    .newsItem:hover{
+        color: #bb141a;p
+    }
 
 .newsPic {
     margin-bottom: 5px;
