@@ -243,16 +243,16 @@ function showMap(Latitude, Longitude, address) {
     oMarker = new google.maps.Marker({
         position: oLatLng,
         map: map,
-        title: 'MAQ Software\n' + address,
+        title: 'MAQ Software',
         animation: google.maps.Animation.DROP,
-        icon: "/img/map-marker.png"        
+        //icon: "/img/map-marker.png"        
     });    
-    //var infowindow = new google.maps.InfoWindow({
-    //    content: '<h5 Style="text-transform: none;">MAQ Software</h5>' + address
-    //});
-    //google.maps.event.addListener(oMarker, 'click', function () {
-    //    infowindow.open(map, oMarker);
-    //});
-    //infowindow.open(map, oMarker);
+    var infowindow = new google.maps.InfoWindow({
+        content: '<h5 Style="text-transform: none;">MAQ Software</h5>' + address
+    });
+    google.maps.event.addListener(oMarker, 'click', function () {
+        infowindow.open(map, oMarker);
+    });
+    infowindow.open(map, oMarker);
     
 }
