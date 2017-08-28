@@ -257,14 +257,14 @@ function sliderAll() {
 
     // fullwidth Slider
     $('.fullwidth-slider').owlCarousel({
-        slideSpeed: 400,
         singleItem: true,
         autoHeight: true,
         navigation: true,  // Show next and prev buttons
         pagination: true,  // Show pagination buttons
         navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
         autoPlay: true,
-        slideSpeed: 2500
+        paginationSpeed: 800,
+        slideSpeed: 800
     });
 
     // Image Slider
@@ -313,7 +313,7 @@ function sliderAll() {
         stopOnHover: true,
         items: 5,
         loop: true,
-        rewindSpeed: 10,
+        rewindSpeed: 2500,
         itemsDesktop: [1170, 4],
         itemsDesktopSmall: [1024, 3],
         itemsTabletSmall: [768, 2],

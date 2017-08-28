@@ -83,6 +83,7 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
         loadNewsMainPage();
+        setSliderNavigationButton();
         updateTitle();
     });
     $scope.$on('$routeChangeSuccess', function () {

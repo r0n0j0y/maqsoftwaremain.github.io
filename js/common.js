@@ -61,26 +61,26 @@ function isCareersPage() {
 closeMenuIfOpen();
 
 function updateTitle(viewName) {
-    var sTitle = "Data Management, Power BI, Artificial Intelligence | MAQ Software";
+    var sTitle = "MAQ Software | Data Management, Power BI, Artificial Intelligence";
     if (typeof viewName !== "undefined") {
         switch (viewName.toLowerCase()) {
             case "expertise":
-                sTitle = "Expertise | MAQ Software";
+                sTitle = "MAQ Software | Expertise";
                 break;
             case "engagement":
-                sTitle = "Engagement | MAQ Software";
+                sTitle = "MAQ Software | Engagement";
                 break;
             case "news":
-                sTitle = "News | MAQ Software";
+                sTitle = "MAQ Software | News";
                 break;
             case "careers":
-                sTitle = "Careers | MAQ Software";
+                sTitle = "MAQ Software | Careers";
                 break;
             case "contact":
-                sTitle = "Contact | MAQ Software";
+                sTitle = "MAQ Software | Contact";
                 break;
             case "privacystatement":
-                sTitle = "Privacy Statement | MAQ Software";
+                sTitle = "MAQ Software | Privacy Statement";
                 break;
         }
     }

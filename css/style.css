@@ -3519,7 +3519,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         height: 325px !important;
     }
 
-    .owl-buttons {
+    .fullwidth-slider .owl-buttons {
         display: none;
     }
 }
@@ -4492,7 +4492,7 @@ ul.project-detail-block, .project-detail-block ul {
         background: rgba(245,245,245,0.8);
         color: #252525;
         display: block;
-        top: 25%;
+        top: 45%;
         transition: all 0.25s ease 0s;
         -o-transition: all 0.25s ease 0s;
         -moz-transition: all 0.25s ease 0s;
@@ -4501,6 +4501,11 @@ ul.project-detail-block, .project-detail-block ul {
         position: absolute;
         text-align: center;
     }
+
+    #highlights.owl-next,#highlights.owl-prev{
+        top: 25%;
+    }
+
     @media(max-width:1199px){
 
 
