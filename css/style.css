@@ -1358,8 +1358,8 @@ form label.error {
 }
 
 .header-fixed .logo a {
-    width: 115px;
-    margin-top: 13px;
+    width: 145px;
+    margin-top: 9px;
     /*margin-bottom: 15px;*/
     transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
@@ -1451,9 +1451,8 @@ form label.error {
 }
 
     .logo a {
-        width: 115px;
+        
         display: block;
-        margin-top: 13px;
         /*margin-bottom: 28px;*/
         transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
         -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
