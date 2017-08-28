@@ -1766,6 +1766,7 @@ header.header-prepare .nav-bar-icon > span::after {
         position: relative;
         left: 0;
         width: 100%;
+        line-height: 120%;
     }
 
         .sub-dropdown a {
