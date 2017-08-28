@@ -25,7 +25,7 @@ function setTabNavLinkBehavior() {
 
 function closeMenuIfOpen() {
     $("a, a *, #body, #body *").click(function () {
-        if ($(this).hasClass("menu-has-sub")) {
+        if ($(this).hasClass("menu-has-sub") || $(this).hasClass("fa-angle-down") || $(this).hasClass("fa-angle-up")) {
             return; // return in case of sub menu header click
         }
         if ($(".nav-bar-icon").length && $(".nav-bar-icon").hasClass("active")) {

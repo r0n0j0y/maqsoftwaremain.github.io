@@ -4,17 +4,17 @@
 , sLocation,
 oMapData = [
             {
-                address: "15446 Bel-Red Road<br/> Second Floor, Redmond, <br/>WA 98052",
+                address: "15446 Bel-Red Road\nSecond Floor, Redmond,\nWA 98052",
                 lat: 47.633087,
                 long: -122.133202
             },
             {
-                address: "201, Meadows Building,<br/> Sahar Plaza on Andheri Kurla Road,<br/> Andheri East,<br/> Mumbai 400 059",
+                address: "201, Meadows Building,\nSahar Plaza on Andheri Kurla Road,\nAndheri East,\nMumbai 400 059",
                 lat: 19.1128987,
                 long: 72.8685805
             },
             {
-                address: "Level 7, Astro, aVance Business Hub,<br/> Behind Dell Campus,<br/> HITEC City 2, Madhapur,<br/> Hyderabad 500 081",
+                address: "Level 7, Astro, aVance Business Hub,\nBehind Dell Campus,\nHITEC City 2, Madhapur,\nHyderabad 500 081",
                 lat: 17.446235,
                 long: 78.368914
             }
@@ -243,15 +243,16 @@ function showMap(Latitude, Longitude, address) {
     oMarker = new google.maps.Marker({
         position: oLatLng,
         map: map,
-        title: 'MAQ Software',        
+        title: 'MAQ Software\n' + address,
         animation: google.maps.Animation.DROP,
-        icon: "/img/map-marker.png"
-    });
-    var infowindow = new google.maps.InfoWindow({
-        content: '<h5 Style="text-transform: none;">MAQ Software</h5>' + address
-    });
-    google.maps.event.addListener(oMarker, 'click', function () {
-        infowindow.open(map, oMarker);
-    });
-    infowindow.open(map, oMarker);
+        icon: "/img/map-marker.png"        
+    });    
+    //var infowindow = new google.maps.InfoWindow({
+    //    content: '<h5 Style="text-transform: none;">MAQ Software</h5>' + address
+    //});
+    //google.maps.event.addListener(oMarker, 'click', function () {
+    //    infowindow.open(map, oMarker);
+    //});
+    //infowindow.open(map, oMarker);
+    
 }

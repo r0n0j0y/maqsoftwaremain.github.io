@@ -2485,7 +2485,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     }
 
     .accordion-title:before {
-        content: "\f105";
+        content: "\f107";
         display: block;
         font-family: "FontAwesome",sans-serif;
         position: absolute;
@@ -2494,7 +2494,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     }
 
     .accordion-title.active:before {
-        content: "\f107";
+        content: "\f106";
     }
 
 .accordion-content.defualt-hidden {
@@ -5221,4 +5221,26 @@ ul.nav-tabs {
 }
 @media (max-width: 388px) {
     
+}
+
+
+.fa-facebook {
+color:#3b5998;
+}
+.fa-linkedin {
+color: #0077B5;
+}
+.ion-social-youtube {
+color: #bb0000;
+}
+
+.fa-twitter {
+color: #0084b4;
+}
+.fa-google-plus {
+color: #dd4b39;
+}
+
+.ion-social-instagram, .ion-social-github {
+color: black;
 }
