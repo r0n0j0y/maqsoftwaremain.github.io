@@ -107,7 +107,7 @@ a {
 }
 
     a:hover {
-        color: #737373;
+        color: #bb141a;
         transition: all 0.25s ease 0s;
         -moz-transition: all 0.25s ease 0s;
         -webkit-transition: all 0.25s ease 0s;
@@ -201,7 +201,7 @@ p {
     }
 
     p.color, .color, a.color, h1.color, h2.color, h3.color, h4.color, h5.color, h6.color, li.link:hover, li.link a:hover, .color {
-        color: #323232 !important;
+        color: #bb141a !important;
     }
 
 .gray {
@@ -226,7 +226,7 @@ p {
     }
 
         .dark-bg .link:hover, .link:hover {
-            color: #323232;
+            color: #bb141a;
         }
 
 .gray-bg {
@@ -420,20 +420,20 @@ button {
 
 .btn-color-a, .btn-color-b {
     color: #fff;
-    background: #737373;
+    background: #bb141a;
     border: none;
 }
 
     .btn-color-a:hover {
         color: #fff;
-        background: #737373;
+        background: #bb141a;
     }
 
     .btn-color-b:hover {
         color: #fff;
         /*color: #323232;
         background: #fff;*/
-        background: #737373;
+        background: #bb141a;
     }
 
 .btn-white {
@@ -466,14 +466,14 @@ button {
     }
 
 .btn-color-line {
-    color: #737373;
-    border-color: #737373;
+    color: #bb141a;
+    border-color: #bb141a;
     padding: 9px 20px;
 }
 
     .btn-color-line:hover {
         color: #fff;
-        background: #737373;
+        background: #bb141a;
     }
 
 
@@ -504,7 +504,7 @@ button {
 }
 
     .btn-link-a:hover {
-        color: #737373;
+        color: #bb141a;
     }
 
     .btn-link-b:hover {
@@ -1403,7 +1403,7 @@ form label.error {
 
         .header.header-prepare .nav-menu ul.nav-menu-inner > li:hover > a,
         .header.header-prepare .nav-menu ul.nav-menu-inner > li > a:hover {
-            color: #323232;
+            color: #bb141a;
         }
 
     .header.header-dark.header-prepare .nav-menu ul.nav-menu-inner > li > a {
@@ -1412,7 +1412,7 @@ form label.error {
 
         .header.header-dark.header-prepare .nav-menu ul.nav-menu-inner > li:hover > a,
         .header.header-dark.header-prepare .nav-menu ul.nav-menu-inner > li > a:hover {
-            color: #323232;
+            color: #bb141a;
         }
 }
 
@@ -1529,7 +1529,7 @@ form label.error {
 }
 
 .nav-menu ul.nav-menu-inner li a :hover{
-    color:#E6AE49 !important;
+    color:#bb141a !important;
 }
 .nav-menu ul.nav-menu-inner > li > a {
     padding: 26px 15px;
@@ -1545,14 +1545,14 @@ form label.error {
 .header.header-dark .nav-menu ul.nav-menu-inner > li > a:hover,
 .header.header-dark.header-prepare .nav-menu ul.nav-menu-inner li a.current,
 .header.header-dark.header-prepare .nav-menu ul.nav-menu-inner li.current a {
-    color: #E6AE49;
+    color: #bb141a;
 }
 
 .header.header-light .nav-menu ul.nav-menu-inner > li:hover > a,
 .header.header-light .nav-menu ul.nav-menu-inner > li > a:hover,
 .header.header-prepare .nav-menu ul.nav-menu-inner li a.current,
 .header.header-prepare .nav-menu ul.nav-menu-inner li.current a {
-    color: #E6AE49;
+    color: #bb141a;
 }
 
 /* Mobile bar icon */
@@ -1632,7 +1632,7 @@ header.header-dark .nav-bar-icon > span::after,
 header.header-dark.header-prepare .nav-bar-icon > span,
 header.header-dark.header-prepare .nav-bar-icon > span:before,
 header.header-dark.header-prepare .nav-bar-icon > span::after {
-    ;
+
 }
 
 header.header-light .nav-bar-icon > span,
@@ -1830,13 +1830,13 @@ header.header-prepare .nav-bar-icon > span::after {
 
             .side-menu-btn ul > li > a:hover,
             .header.header-prepare .side-menu-btn ul > li > a:hover {
-                color: #323232;
+                color: bb141a;
             }
 
                 .side-menu-btn ul > li > a:hover span,
                 .side-menu-btn ul > li > a:hover span:before,
                 .side-menu-btn ul > li > a:hover span:after {
-                    background-color: #323232;
+                    background-color: #bb141a;
                 }
 
         .side-menu-btn ul li a.header-icon {
