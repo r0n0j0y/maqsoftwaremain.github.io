@@ -4507,7 +4507,7 @@ ul.project-detail-block, .project-detail-block ul {
         text-align: center;
     }
 
-    #highlights.owl-next,#highlights.owl-prev{
+    #highlights .owl-next,#highlights .owl-prev{
         top: 25%;
     }
 
