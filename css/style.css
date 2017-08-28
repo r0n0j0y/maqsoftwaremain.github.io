@@ -1511,6 +1511,9 @@ form label.error {
 .mobile-device .nav-menu ul.nav-menu-inner > li > a {
     color: rgba(255, 255, 255, 0.75);
 }
+.mobile-device .nav-menu ul.nav-menu-inner > li > a:hover {
+    color: White;
+}
 
 .nav-menu ul.nav-menu-inner li a {
     font-family: inherit;
