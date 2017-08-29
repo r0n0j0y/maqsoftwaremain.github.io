@@ -417,7 +417,7 @@ button {
 }
 
     .btn-black:hover {
-        color: #fff;
+        color: #fff !important;
         /*background: #323232;*/
         background: rgba(50,50,50,0.85);
     }
@@ -2639,7 +2639,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     border: 1px solid #f1f1f1;
     text-align: center;
     padding:20px;
-    height:686px;
+    height:955px;
 }
 
     .Pricing-box.highlight {
@@ -2655,10 +2655,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.price-title{
 
-    /*height:124px;*/
-}
 .Pricing-box .price {
     font-size: 50px;
     font-weight: 700;
@@ -2678,7 +2675,6 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     font-size: 12px;
     color: #888;
     font-weight: 400;
-    padding-top: 8px;
 }
 .price-tenure h4, .price-tenure h5 {
     margin-top: 0px;
@@ -2686,7 +2682,6 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 }
 .Pricing-box .pricing-features {
     font-size: 13px;
-    height:338px;
     /*text-transform: uppercase;*/
 }
 
