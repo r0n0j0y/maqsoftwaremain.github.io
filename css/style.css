@@ -235,11 +235,11 @@ p {
 
 .gray-bg {
     background: #f7f7f7;
-    color: #323232;
+    color: Black;
 }
 
     .gray-bg h1, .gray-bg h2, .gray-bg h3, .gray-bg h4, .gray-bg h5, .gray-bg h6, .gray-bg .container-icon {
-        color: #323232;
+        color: Black;
     }
 
 
