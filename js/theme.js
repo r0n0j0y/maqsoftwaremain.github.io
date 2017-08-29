@@ -105,7 +105,7 @@ function scroll() {
     $('.scroll-top').click(function (e) {
         e.preventDefault();
         $('html, body').stop().animate({ scrollTop: 0 }, 800);
-        initParallax();        
+        initParallax();
         return false;
     });
 
@@ -257,14 +257,23 @@ function sliderAll() {
 
     // fullwidth Slider
     $('.fullwidth-slider').owlCarousel({
+        items: 1,
         singleItem: true,
         autoHeight: true,
+        nav: true,
+        loop: true,
+        rewind: true,
         navigation: true,  // Show next and prev buttons
         pagination: true,  // Show pagination buttons
         navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
         autoPlay: true,
+        autoplay: true,
+        autoplaySpeed: 800,
+        navSpeed: 800,
         paginationSpeed: 800,
-        slideSpeed: 800
+        slideSpeed: 800,
+        dots: true
     });
 
     // Image Slider
@@ -310,17 +319,100 @@ function sliderAll() {
     // Client Carousel
     $('.client-carousel').owlCarousel({
         autoPlay: 2500,
+        autoplay: 2500,
+        slideSpeed: 800,
+        navSpeed: 800,
+        autoplaySpeed: 800,
+        navSpeed: 800,
+        paginationSpeed: 800,
+        slideSpeed: 800,
         stopOnHover: true,
-        items: 5,
+        items: 1,
         loop: true,
+        autoWidth: false,
         rewindSpeed: 2500,
         itemsDesktop: [1170, 4],
         itemsDesktopSmall: [1024, 3],
         itemsTabletSmall: [768, 2],
         itemsMobile: [480, 1],
-        pagination: false,  // hide pagination buttons
-        navigation: false,  // hide next and prev buttons
-        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+        //pagination: false,  // hide pagination buttons
+        navigation: true,  // hide next and prev buttons
+        nav: true,  // hide next and prev buttons
+        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots: false,
+        center: true,
+        responsive: {
+            0: {
+                items: 1
+            }
+            ,
+            444: {
+                items: 2
+            }
+            ,
+            666: {
+                items: 3
+            }
+            ,
+            888: {
+                items: 4
+            }
+            ,
+            1110: {
+                items: 5
+            }
+        }
+    });
+
+    // Client Carousel
+    $('.ai-carousel').owlCarousel({
+        autoPlay: 2500,
+        autoplay: 2500,
+        autoplaySpeed: 800,
+        navSpeed: 800,
+        paginationSpeed: 800,
+        slideSpeed: 800,
+        navSpeed: 800,
+        stopOnHover: true,
+        items: 5,
+        loop: true,
+        autoWidth: false,
+        rewindSpeed: 2500,
+        itemsDesktop: [1170, 4],
+        itemsDesktopSmall: [1024, 3],
+        itemsTabletSmall: [768, 2],
+        itemsMobile: [480, 1],
+        //pagination: false,  // hide pagination buttons
+        navigation: true,  // hide next and prev buttons
+        nav: true,  // hide next and prev buttons
+        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots: false,
+        //center: true,
+        responsive: {
+            0: {
+                items: 1,
+                loop: true,
+                center: true
+            }
+           ,
+            444: {
+                items: 2
+            }
+           ,
+            768: {
+                items: 3
+            }
+           , 992: {
+               items: 4
+           }
+           ,
+            1200: {
+                items: 5,
+                loop: false
+            }
+        }
     });
 
     // Content Slider
@@ -353,15 +445,82 @@ function sliderAll() {
     // Item-4 Carousel
     $('.item4-carousel').owlCarousel({
         autoPlay: 2500,
+        autoplay: 2500,
+        slideSpeed: 800,
+        slidespeed: 800,
+        autoplaySpeed: 800,
+        navSpeed: 800,
+        paginationSpeed: 800,
         stopOnHover: true,
         items: 4,
+        rewind: true,
+        //loop: true,
         itemsDesktop: [1170, 3],
         itemsDesktopSmall: [1024, 2],
         itemsTabletSmall: [768, 1],
         itemsMobile: [480, 1],
         pagination: false,  // Hide pagination buttons
         navigation: true,  // Show next and prev buttons
-        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+        nav: true,  // Show next and prev buttons
+        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            }
+            ,
+            456: {
+                items: 2
+            }
+            ,
+            684: {
+                items: 3
+            }
+            , 912: {
+                items: 4
+            }
+        }
+    });
+    $('.power-bi-carousel').owlCarousel({
+        autoPlay: 2500,
+        autoplay: 2500,
+        slideSpeed: 800,
+        slidespeed: 800,
+        autoplaySpeed: 800,
+        navSpeed: 800,
+        paginationSpeed: 800,
+        stopOnHover: true,
+        items: 4,
+        rewind: true,
+        loop: true,
+        itemsDesktop: [1170, 3],
+        itemsDesktopSmall: [1024, 2],
+        itemsTabletSmall: [768, 1],
+        itemsMobile: [480, 1],
+        pagination: false,  // Hide pagination buttons
+        navigation: true,  // Show next and prev buttons
+        nav: true,  // Show next and prev buttons
+        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            }
+            ,
+            786: {
+                items: 2
+            }
+            ,
+            1042: {
+                items: 3
+            }
+            ,
+            1200: {
+                items: 4
+            }
+        }
     });
 
     // Item-3 Carousel
@@ -445,13 +604,13 @@ function sliderHero() {
 
     }
 
-    $(window).height(function () {
+    $(window).height(function() {
         heroResize();
         function heroResize() {
             var windowHeight = $(window).innerHeight();
             $('.slider-hero, .full-screen-intro').css('height', windowHeight);
         };
-        $(window).resize(function () {
+        $(window).resize(function() {
             heroResize();
         });
     });
@@ -515,7 +674,7 @@ function containerGridMasonry() {
 
     // ISOTOPE MASONRY ELEMENT  ||--------------
     var $container = $('.container-masonry');
-    $container.imagesLoaded(function () {
+    $container.imagesLoaded(function() {
         $container.isotope({
             itemSelector: '.nf-item',
             layoutMode: 'masonry',
@@ -534,7 +693,7 @@ function containerGridMasonry() {
 
     // ISOTOPE GRID ELEMENT  ||--------------
     var $container2 = $('.container-grid');
-    $container2.imagesLoaded(function () {
+    $container2.imagesLoaded(function() {
         $container2.isotope({
             itemSelector: '.nf-item',
             layoutMode: 'fitRows'
@@ -548,7 +707,7 @@ function containerGridMasonry() {
     });
 
     // change active class on categories
-    $('.categories-filter').each(function (i, buttonGroup) {
+    $('.categories-filter').each(function(i, buttonGroup) {
         var $buttonGroup = $(buttonGroup);
         $buttonGroup.on('click', '.categories', function () {
             $buttonGroup.find('.active').removeClass('active');
@@ -561,9 +720,9 @@ function containerGridMasonry() {
     // Masonry Element
     var container = $('.masonry');
     container.masonry({
-        // columnWidth: 0,
-        itemSelector: '.nf-item'
-    });
+            // columnWidth: 0,
+                itemSelector: '.nf-item'
+            });
 
 };
 
@@ -602,9 +761,9 @@ function scrollCallbackEle() {
 
 // Parallax Function element
 function initParallax() {
-    $('.parallax').each(function () {
+    $('.parallax').each(function() {
         var $el = $(this);
-        $(window).scroll(function () {
+        $(window).scroll(function() {
             parallax($el);
         });
         parallax($el);
@@ -615,7 +774,7 @@ function parallax($el) {
     var diff_s = $(window).scrollTop();
     var parallax_height = $('.parallax').height();
     var yPos_p = (diff_s * 0.5);
-    var yPos_m = -(diff_s * 0.5);
+    var yPos_m = - (diff_s * 0.5);
     var diff_h = diff_s / parallax_height;
 
     if ($('.parallax').hasClass('parallax-section1')) {
@@ -635,7 +794,7 @@ function parallax($el) {
         $el.css("background-position", 'left' + " " + yPos_p + "px");
     }
     if ($('.parallax').hasClass('parallax-background2')) {
-        $el.css("background-position", 'left' + " " + -yPos_p + "px");
+        $el.css("background-position", 'left' + " " + - yPos_p + "px");
 
     }
 };
@@ -662,6 +821,12 @@ function initStellar() {
 // SHORTCODE ELEMENTS  ||-----------
 // ---------------------------------------------------------------------------------------------------------------------------->
 
+function numberWithCommas(x) {
+    var parts = x.toString().split(".");
+    parts[0]= parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    return parts.join(".");
+}
+
 shortcodeElements();
 function shortcodeElements() {
 
@@ -676,7 +841,7 @@ function shortcodeElements() {
 
     });
     $('.search-overlay-menu, .search-overlay-menu .search-overlay-close').on('click keyup', function (eventSearch) {
-        if (eventSearch.target == this || eventSearch.target.className == 'search-overlay-close' || eventSearch.keyCode == 27) {
+        if(eventSearch.target == this || eventSearch.target.className == 'search-overlay-close' || eventSearch.keyCode == 27) {
             $(this).removeClass('open');
         }
     });
@@ -704,7 +869,7 @@ function shortcodeElements() {
     // Skills Progressbar Elements
     skillsProgressBar();
     function skillsProgressBar() {
-        $('.skillbar').each(function () {
+        $('.skillbar').each(function() {
             $(this).find('.skillbar-bar').animate({
                 width: $(this).attr('data-percent')
             }, 2000);
@@ -713,9 +878,11 @@ function shortcodeElements() {
 
     // Tooltip
     $(".tipped").tipper();
+};
 
-    //Counter
-    $('.counter').each(function () {
+//Counter
+function startCounter() {
+    $('.counter').each(function() {
         var $this = $(this),
             countTo = $this.attr('data-count');
         $({ countNum: $this.text() }).animate({
@@ -725,23 +892,22 @@ function shortcodeElements() {
             duration: 4000,
             easing: 'linear',
             step: function () {
-                $this.text(Math.floor(this.countNum));
+                $this.text(numberWithCommas(Math.floor(this.countNum)));
             },
             complete: function () {
-                $this.text(this.countNum);
+                $this.text(numberWithCommas(this.countNum));
                 //alert('finished');
             }
         });
     });
-
-};
+}
 
 
 // Accordion Function Elements
 accordion();
 function accordion() {
 
-    $('.accordion-title').click(function (e) {
+    $('.accordion-title').click(function(e) {
 
         $(this).next().slideToggle('easeOut');
         $(this).toggleClass('active');
@@ -759,12 +925,12 @@ jqueryUi();
 function jqueryUi() {
 
     // Tab Function
-    $(function () {
+    $(function() {
         $(".tabs").tabs();
     });
 
     // Price Filter Slider
-    $(function () {
+    $(function() {
         $("#range-slider").slider({
             range: true,
             min: 0,

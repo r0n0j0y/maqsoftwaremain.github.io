@@ -81,6 +81,8 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
 }])
 .controller('HomeController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
+        // resetting flag
+        iCounterFlag = 0;
         loadPlugins();
         loadNewsMainPage();
         setSliderNavigationButton();

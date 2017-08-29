@@ -3,7 +3,7 @@ var sLoadingClass = "Loading",
                             "What I Did Not Learn in B-School: Insights for New Managers"
                             , "What I Did Not Learn at IIT: Transition from Campus to Workplace"
                             , "What I Did Not Learn at IIT - Transitioning from Campus to Workplace"
-            ], iCount, iTotal = oItalicBookName.length;
+            ], iCount, iTotal = oItalicBookName.length, iCounterFlag = 0; // a is flag variable for counter animation on home page
 
 function loadNewsMainPage() {
     $.ajax({
@@ -77,4 +77,16 @@ function setSliderNavigationButton() {
     var iTop = (iHeight - iPrevHeight) / 2;
     iTop -= 8;
     $(".fullwidth-slider .owl-controls .owl-buttons .owl-prev, .fullwidth-slider .owl-controls .owl-buttons .owl-next").css({ 'top': iTop + 'px' });
+    $(".fullwidth-slider .owl-nav .owl-prev, .fullwidth-slider .owl-nav .owl-next").css({ 'top': iTop + 'px' });
 }
+
+$(window).scroll(function () {
+    if ("/" === location.pathname) {
+        var iTop = $('#counter').offset().top - window.innerHeight;
+        if (iCounterFlag == 0 && $(window).scrollTop() > iTop) {
+            // below function is in theme.js file, calling on focus
+            startCounter();
+            iCounterFlag = 1;
+        }
+    }
+});

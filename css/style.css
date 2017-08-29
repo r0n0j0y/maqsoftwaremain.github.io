@@ -701,6 +701,17 @@ form label.error {
     padding-left: 0;
 }
 
+.pr-15 {
+    padding-right: 20px;
+}
+.pl-15 {
+    padding-left: 20px;
+}
+.plr-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .pr-0 {
     padding-right: 0;
 }
@@ -1358,8 +1369,8 @@ form label.error {
 }
 
 .header-fixed .logo a {
-    width: 145px;
-    margin-top: 9px;
+    width: 115px;
+    margin-top: 23px;
     /*margin-bottom: 15px;*/
     transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
@@ -1430,7 +1441,7 @@ form label.error {
     }
 
     .header .logo a {
-        margin-top: 13px;
+        margin-top: 23px;
         margin-bottom: 16px;
         width: 96px;
         transition: all 0.3s ease 0s;
@@ -1451,9 +1462,9 @@ form label.error {
 }
 
     .logo a {
-        width: 145px;
+        width: 115px;
         display: block;
-        margin-top: 9px;
+        margin-top: 23px;
         /*margin-bottom: 28px;*/
         transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
         -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
@@ -3524,7 +3535,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         height: 325px !important;
     }
 
-    .fullwidth-slider .owl-buttons {
+    .fullwidth-slider .owl-buttons, .fullwidth-slider .owl-nav {
         display: none;
     }
 }
@@ -3549,7 +3560,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         height: 186px !important;
     }
 
-    .owl-buttons {
+    .owl-buttons, .owl-nav {
         display: none;
     }
 }
@@ -4452,15 +4463,52 @@ ul.project-detail-block, .project-detail-block ul {
 /* -------------------------------------*/
 /* Carousel-Theme (Slider Elements - Bullets, Pagination, etc..) ---------*/
 /* -------------------------------------*/
-.owl-buttons {
+.owl-buttons, .owl-nav {
     position: static;
 }
 
-.owl-carousel.white .owl-controls .owl-page span {
+.owl-carousel .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+    display: block;
+    width: 8px;
+    height: 8px;
+    margin: 0px 5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #323232;
+    border: 2px solid;
+    border-color: none;
+    transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span {
+    background: rgba(0,0,0,0);
+    border: 2px solid #323232;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+.owl-carousel.white .owl-controls .owl-page span
+,.owl-carousel .owl-dots .owl-dot span 
+{
     background: none repeat scroll 0 0 #fff;
 }
 
-.owl-carousel.white .owl-controls .owl-page.active span {
+.owl-carousel.white .owl-controls .owl-page.active span
+,.owl-carousel .owl-dots .owl-dot.active span 
+{
     background: rgba(0, 0, 0, 0);
     border: 2px solid #fff;
 }
@@ -4468,7 +4516,9 @@ ul.project-detail-block, .project-detail-block ul {
 .nf-carousel-theme {
 }
 
-    .nf-carousel-theme .owl-controls .owl-pagination {
+    .nf-carousel-theme .owl-controls .owl-pagination
+    /*,.nf-carousel-theme .owl-dots*/ 
+    {
         position: absolute;
         z-index: 2;
         left: 0;
@@ -4478,7 +4528,9 @@ ul.project-detail-block, .project-detail-block ul {
     }
 
     .nf-carousel-theme .owl-controls .owl-buttons .owl-prev,
-    .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+    .nf-carousel-theme .owl-controls .owl-buttons .owl-next, 
+    .nf-carousel-theme .owl-nav .owl-prev,
+    .nf-carousel-theme .owl-nav .owl-next {
         width: 31px;
         height: 31px;
         line-height: 31px;
@@ -4493,7 +4545,16 @@ ul.project-detail-block, .project-detail-block ul {
     .fullwidth-slider .owl-controls .owl-buttons .owl-prev,
     .fullwidth-slider .owl-controls .owl-buttons .owl-next,
     .nf-carousel-theme .owl-controls .owl-buttons .owl-prev,
-    .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+    .nf-carousel-theme .owl-controls .owl-buttons .owl-next,
+
+    .content-carousel .owl-nav .owl-prev,
+    .content-carousel .owl-nav .owl-next,
+    .image-slider .owl-nav .owl-prev,
+    .image-slider .owl-nav .owl-next,
+    .fullwidth-slider .owl-nav .owl-prev,
+    .fullwidth-slider .owl-nav .owl-next,
+    .nf-carousel-theme .owl-nav .owl-prev,
+    .nf-carousel-theme .owl-nav .owl-next {
         background: rgba(245,245,245,0.8);
         color: #252525;
         display: block;
@@ -4521,7 +4582,16 @@ ul.project-detail-block, .project-detail-block ul {
         .fullwidth-slider .owl-controls .owl-buttons .owl-prev,
         .fullwidth-slider .owl-controls .owl-buttons .owl-next,
         .nf-carousel-theme .owl-controls .owl-buttons .owl-prev,
-        .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+        .nf-carousel-theme .owl-controls .owl-buttons .owl-next,
+        
+        .content-carousel .owl-nav .owl-prev,
+        .content-carousel .owl-nav .owl-next,
+        .image-slider .owl-nav .owl-prev,
+        .image-slider .owl-nav .owl-next,
+        .fullwidth-slider .owl-nav .owl-prev,
+        .fullwidth-slider .owl-nav .owl-next,
+        .nf-carousel-theme .owl-nav .owl-prev,
+        .nf-carousel-theme .owl-nav .owl-next {
             top: 21%;
         }
     }   
@@ -4535,7 +4605,16 @@ ul.project-detail-block, .project-detail-block ul {
         .fullwidth-slider .owl-controls .owl-buttons .owl-prev,
         .fullwidth-slider .owl-controls .owl-buttons .owl-next,
         .nf-carousel-theme .owl-controls .owl-buttons .owl-prev,
-        .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+        .nf-carousel-theme .owl-controls .owl-buttons .owl-next,
+        
+        .content-carousel .owl-nav .owl-prev,
+        .content-carousel .owl-nav .owl-next,
+        .image-slider .owl-nav .owl-prev,
+        .image-slider .owl-nav .owl-next,
+        .fullwidth-slider .owl-nav .owl-prev,
+        .fullwidth-slider .owl-nav .owl-next,
+        .nf-carousel-theme .owl-nav .owl-prev,
+        .nf-carousel-theme .owl-nav .owl-next {
             top: 28%;
         }
     } 
@@ -4549,7 +4628,16 @@ ul.project-detail-block, .project-detail-block ul {
         .fullwidth-slider .owl-controls .owl-buttons .owl-prev,
         .fullwidth-slider .owl-controls .owl-buttons .owl-next,
         .nf-carousel-theme .owl-controls .owl-buttons .owl-prev,
-        .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+        .nf-carousel-theme .owl-controls .owl-buttons .owl-next,
+
+        .content-carousel .owl-nav .owl-prev,
+        .content-carousel .owl-nav .owl-next,
+        .image-slider .owl-nav .owl-prev,
+        .image-slider .owl-nav .owl-next,
+        .fullwidth-slider .owl-nav .owl-prev,
+        .fullwidth-slider .owl-nav .owl-next,
+        .nf-carousel-theme .owl-nav .owl-prev,
+        .nf-carousel-theme .owl-nav .owl-next  {
             top: 33%;
         }
     }   
@@ -4563,7 +4651,17 @@ ul.project-detail-block, .project-detail-block ul {
         .fullwidth-slider .owl-controls .owl-buttons .owl-prev,
         .fullwidth-slider .owl-controls .owl-buttons .owl-next,
         .nf-carousel-theme .owl-controls .owl-buttons .owl-prev,
-        .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+        .nf-carousel-theme .owl-controls .owl-buttons .owl-next,
+
+        .content-carousel .owl-nav .owl-prev,
+        .content-carousel .owl-nav .owl-next,
+        .image-slider .owl-nav .owl-prev,
+        .image-slider .owl-nav .owl-next,
+        .fullwidth-slider .owl-nav .owl-prev,
+        .fullwidth-slider .owl-nav .owl-next,
+        .nf-carousel-theme .owl-nav .owl-prev,
+        .nf-carousel-theme .owl-nav .owl-next
+         {
             top: 40%;
         }
     }   
@@ -4575,7 +4673,16 @@ ul.project-detail-block, .project-detail-block ul {
         .fullwidth-slider .owl-controls .owl-buttons .owl-prev:hover,
         .fullwidth-slider .owl-controls .owl-buttons .owl-next:hover,
         .nf-carousel-theme .owl-controls .owl-buttons .owl-prev:hover,
-        .nf-carousel-theme .owl-controls .owl-buttons .owl-next:hover {
+        .nf-carousel-theme .owl-controls .owl-buttons .owl-next:hover,
+        
+        .content-carousel .owl-nav .owl-prev:hover,
+        .content-carousel .owl-nav .owl-next:hover,
+        .image-slider .owl-nav .owl-prev:hover,
+        .image-slider .owl-nav .owl-next:hover,
+        .fullwidth-slider .owl-nav .owl-prev:hover,
+        .fullwidth-slider .owl-nav .owl-next:hover,
+        .nf-carousel-theme .owl-nav .owl-prev:hover,
+        .nf-carousel-theme .owl-nav .owl-next:hover {
             /*background: #fff;*/
             color: #323232;
         }
@@ -4583,17 +4690,24 @@ ul.project-detail-block, .project-detail-block ul {
     .content-carousel .owl-controls .owl-buttons .owl-next,
     .image-slider .owl-controls .owl-buttons .owl-next,
     .fullwidth-slider .owl-controls .owl-buttons .owl-next,
-    .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+    .nf-carousel-theme .owl-controls .owl-buttons .owl-next,
+    
+    .content-carousel .owl-nav .owl-next,
+    .image-slider .owl-nav .owl-next,
+    .fullwidth-slider .owl-nav .owl-next,
+    .nf-carousel-theme .owl-nav .owl-next {
         right: 0;
     }
 
-    .nf-carousel-theme .owl-controls .owl-buttons .owl-prev {
+    .nf-carousel-theme .owl-controls .owl-buttons .owl-prev,
+    .nf-carousel-theme .owl-nav .owl-prev {
         left: 0;
         margin-left: 0;
         opacity: 1;
     }
 
-    .nf-carousel-theme .owl-controls .owl-buttons .owl-next {
+    .nf-carousel-theme .owl-controls .owl-buttons .owl-next,
+    .nf-carousel-theme .owl-nav .owl-next {
         right: 0;
         margin-right: 0;
         opacity: 1;
@@ -4606,7 +4720,16 @@ ul.project-detail-block, .project-detail-block ul {
     .fullwidth-slider:hover .owl-controls .owl-buttons .owl-prev,
     .fullwidth-slider:hover .owl-controls .owl-buttons .owl-next,
     .nf-carousel-theme:hover .owl-controls .owl-buttons .owl-prev,
-    .nf-carousel-theme:hover .owl-controls .owl-buttons .owl-next {
+    .nf-carousel-theme:hover .owl-controls .owl-buttons .owl-next,
+    
+    .content-carousel:hover .owl-nav  .owl-prev,
+    .content-carousel:hover .owl-nav  .owl-next,
+    .image-slider:hover .owl-nav  .owl-prev,
+    .image-slider:hover .owl-nav  .owl-next,
+    .fullwidth-slider:hover .owl-nav  .owl-prev,
+    .fullwidth-slider:hover .owl-nav  .owl-next,
+    .nf-carousel-theme:hover .owl-nav  .owl-prev,
+    .nf-carousel-theme:hover .owl-nav  .owl-next {
         margin-right: 0;
         margin-left: 0;
         opacity: 1;
@@ -4619,7 +4742,12 @@ ul.project-detail-block, .project-detail-block ul {
 .content-carousel .owl-controls .owl-pagination,
 .image-slider .owl-controls .owl-pagination,
 .fullwidth-slider .owl-controls .owl-pagination,
-.item1-carousel .owl-controls .owl-pagination {
+.item1-carousel .owl-controls .owl-pagination,
+
+.content-carousel .owl-dots,
+.image-slider .owl-dots,
+.fullwidth-slider .owl-dots,
+.item1-carousel .owl-dots {
     position: absolute;
     bottom: 0;
     z-index: 2;
@@ -4634,7 +4762,14 @@ ul.project-detail-block, .project-detail-block ul {
 .image-slider .owl-controls .owl-buttons .owl-prev,
 .image-slider .owl-controls .owl-buttons .owl-next,
 .fullwidth-slider .owl-controls .owl-buttons .owl-prev,
-.fullwidth-slider .owl-controls .owl-buttons .owl-next {
+.fullwidth-slider .owl-controls .owl-buttons .owl-next,
+
+.content-carousel .owl-nav .owl-prev,
+.content-carousel .owl-nav .owl-next,
+.image-slider .owl-nav .owl-prev,
+.image-slider .owl-nav .owl-next,
+.fullwidth-slider .owl-nav .owl-prev,
+.fullwidth-slider .owl-nav .owl-next {
     width: 51px;
     height: 51px;
     line-height: 51px;
@@ -4644,7 +4779,11 @@ ul.project-detail-block, .project-detail-block ul {
 
 .content-carousel .owl-controls .owl-buttons .owl-prev,
 .image-slider .owl-controls .owl-buttons .owl-prev,
-.fullwidth-slider .owl-controls .owl-buttons .owl-prev {
+.fullwidth-slider .owl-controls .owl-buttons .owl-prev,
+
+.content-carousel .owl-nav .owl-prev,
+.image-slider .owl-nav .owl-prev,
+.fullwidth-slider .owl-nav .owl-prev {
     left: 0;
     margin-left: -51px;
     opacity: 0;
@@ -4652,7 +4791,11 @@ ul.project-detail-block, .project-detail-block ul {
 
 .content-carousel .owl-controls .owl-buttons .owl-next,
 .image-slider .owl-controls .owl-buttons .owl-next,
-.fullwidth-slider .owl-controls .owl-buttons .owl-next {
+.fullwidth-slider .owl-controls .owl-buttons .owl-next,
+
+.content-carousel .owl-nav .owl-next,
+.image-slider .owl-nav .owl-next,
+.fullwidth-slider .owl-nav .owl-next {
     right: 0;
     margin-right: -51px;
     opacity: 0;
@@ -4849,7 +4992,6 @@ ul.project-detail-block, .project-detail-block ul {
 
 /*Recognition Controls*/
 .RecognitionImage img {
-    
     max-width: 250px;
     max-height: 140px;
 }
@@ -4858,6 +5000,12 @@ ul.project-detail-block, .project-detail-block ul {
 }
 .RecognitionContent {
     
+}
+
+@media (max-width: 1199px) {
+    #recognitions .RecognitionImage img{
+        max-width: 100%;
+    }
 }
 
 .FloatLeft {
@@ -4981,7 +5129,7 @@ ul.project-detail-block, .project-detail-block ul {
 
 .product_view .modal-dialog {
     max-width: 800px;
-    width: 100%;
+    width: 95%;
 }
 
 .pre-cost {
@@ -5011,7 +5159,6 @@ ul.project-detail-block, .project-detail-block ul {
     text-align: left;
     vertical-align: middle;
 }
-
 
 /*Youtube video*/
 #video-player {
@@ -5085,7 +5232,11 @@ a:hover{
     .CircleBullets a {
         text-decoration: underline !important;
     }
-
+.HiddenBullets {
+    list-style-type: none;
+    padding-left:0px;
+    margin:0px;
+}
 .contact {
     margin: 0px !important;
 }
@@ -5253,3 +5404,19 @@ color: #dd4b39;
 .fa-instagram, .ion-social-github {
 color: black !important;
 }
+
+#client-logos .owl-carousel .owl-item, #tech-logos .owl-carousel .owl-item{
+    max-width: 222px !important;
+}
+
+.news-carousel .owl-item {
+    max-width: 228px;
+}
+
+
+  .map-marker-label{
+        position: absolute;
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+    }
