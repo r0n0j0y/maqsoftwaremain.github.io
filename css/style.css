@@ -5368,6 +5368,12 @@ ul.nav-tabs {
     .dot {
         display: none;
     }
+    .mobile-form{
+        display:normal;
+    }
+    .desktop-form{
+        display:none;
+    }
 }
 @media (max-width: 1091px) {
     
@@ -5455,3 +5461,5 @@ color: black !important;
     font-size: 16px;
     font-weight: bold;
     }
+
+
