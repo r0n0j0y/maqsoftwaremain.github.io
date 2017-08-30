@@ -3062,6 +3062,13 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
             text-align: center;
         }
 
+        @media (max-width:494px){
+
+            .inner-intro .container .title {
+                padding-top: auto;
+            }
+        }
+
 .full-intro .inner-intro .container .title h2 {
     margin-top: 65px;
 }
@@ -5359,7 +5366,9 @@ ul.nav-tabs {
 }
     .serviceTitle:hover{
     }
-
+.mobile-form{
+    display:none;
+}
 
 @media (max-width: 1199px) {
     /*.contact-box-left { 
