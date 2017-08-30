@@ -2649,7 +2649,35 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         .Pricing-box.highlight hr {
             border-color: #ddd;
         }
+.height-390{
+    height:390px;
+}
+@media (max-width:1199px){
+    .Pricing-box {
+        height:900px;
+    }
+    .height-390{
+        height:505px;
+    }
+}
+@media (max-width:991px){
+    .Pricing-box {
+        height:1025px;
+    }
+    .height-390{
+        height:750px;
+    }
 
+}
+@media (max-width:767px){
+    .Pricing-box {
+        height:auto;
+    }
+    .height-390{
+        height:auto;
+    }
+
+}
 .price-title h4, .price-title h5 {
     margin-top: 0px;
     margin-bottom: 0px;
