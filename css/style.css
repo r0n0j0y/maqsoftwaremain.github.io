@@ -3065,7 +3065,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         @media (max-width:494px){
 
             .inner-intro .container .title {
-                padding-top: auto;
+                padding-top: 0px;
             }
         }
 
