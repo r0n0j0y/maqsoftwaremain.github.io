@@ -2642,7 +2642,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 .Pricing-box {
     border: 1px solid #f1f1f1;
     padding:20px;
-    height:985px;
+    height:1035px;
 }
 
     .Pricing-box.highlight {
@@ -2653,6 +2653,11 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         .Pricing-box.highlight hr {
             border-color: #ddd;
         }
+
+    .Pricing-box img{
+        padding-bottom:10px;
+        padding-top:10px;
+    }
 .height-390{
     height:auto;
 }
