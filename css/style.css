@@ -1540,7 +1540,7 @@ form label.error {
     font-size: 12px;
     line-height: 1;
     font-weight: 600;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     outline: none;
     letter-spacing: 1px;
     transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
