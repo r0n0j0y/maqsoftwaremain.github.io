@@ -3,7 +3,7 @@
 @import url("./plugin/mediaelementplayer.css");
 @import url("./plugin/colorbox.css");
 @import url("./plugin/jquery.fs.tipper.css");
-@import url(https://fonts.googleapis.com/css?family=Segoe UI:400,100,200,300,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 
 /* 
 * BASIC STYLE
@@ -75,7 +75,7 @@ body {
     line-height: 24px;
     color: black;
     font-size: 13px;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -274,7 +274,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
     color: #323232;
     /*text-transform: uppercase;*/
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -287,7 +287,7 @@ h1 {
 }
 
     h1.h1, h2.h2 {
-        letter-spacing: -1px;
+        letter-spacing: 4px;
     }
 
 @media (max-width: 767px) {
@@ -298,7 +298,7 @@ h1 {
 
 h2 {
     font-size: 27px;
-    letter-spacing: -1px;
+    letter-spacing: 2px;
     line-height: 37px;
     margin-bottom: 20px;
     padding-top: 10px;
@@ -306,22 +306,26 @@ h2 {
 
 h3 {
     font-size: 21px;
-    letter-spacing: -1px;
+    letter-spacing: 1px;
     line-height: 32px;
 }
 
 h4 {
-    font-size: 13px;
-    letter-spacing: -1px;
+    font-size: 17px;
+    letter-spacing: 1px;
     line-height: 28px;
+   
 }
 
     h4.h4 {
         letter-spacing: 4px;
     }
+    h3.h4{
+        font-weight:600;
+    }
 
 h5 {
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 2px;
     line-height: 23px;
     font-weight: 600;
@@ -347,7 +351,7 @@ h1.large {
     font-size: 12px;
     line-height: normal;
     font-weight: 600;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
     text-align: center;
     /*text-transform: uppercase;*/
@@ -541,7 +545,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 button, input, textarea, select {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 12px;
 }
 
@@ -571,7 +575,7 @@ button, input, textarea, select {
 
 input, textarea, select {
     margin-bottom: 20px;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 12px;
 }
 
@@ -590,7 +594,7 @@ label {
     padding-right: 3px;
     margin-top: 6px;
     font-weight: 600;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Raleway', sans-serif;
     display: block;
 }
 
@@ -1543,7 +1547,7 @@ form label.error {
     -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
-    font-family: "Segoe UI",sans-serif;
+    font-family: "Raleway",sans-serif;
 }
 
 .nav-menu ul.nav-menu-inner li a :hover{
@@ -1906,7 +1910,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         font-weight: 700;
         text-align: center;
         line-height: 14px;
-        font-family: 'Segoe UI', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
 
     .cart:hover .cart-dropdown {
@@ -2709,7 +2713,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 }
 .Pricing-box .pricing-features {
     font-size: 13px;
-    /*text-transform: uppercase;*/
+    /*/*text-transform: uppercase;*/*/
 }
 
     .Pricing-box .pricing-features ul {
@@ -3799,11 +3803,11 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
             display: block;
             margin-left: 15px;
             margin-right: 15px;
-           /* text-transform: uppercase;*/
+            /*text-transform: uppercase;*/
             letter-spacing: 2px;
             font-size: 12px;
             font-weight: 600;
-            font-family: 'Segoe UI', sans-serif;
+            font-family: 'Raleway', sans-serif;
         }
 
             .container-filter li a.active {
@@ -4069,7 +4073,7 @@ ul.project-detail-block, .project-detail-block ul {
 
     .blog-post .post-tag {
         color: #999;
-       /*text-transform: uppercase;*/
+        /*text-transform: uppercase;*/
         font-size: 13px;
     }
 
