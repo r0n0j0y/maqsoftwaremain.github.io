@@ -2642,7 +2642,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 .Pricing-box {
     border: 1px solid #f1f1f1;
     padding:20px;
-    height:1035px;
+    height:1160px;
 }
 
     .Pricing-box.highlight {
@@ -2657,24 +2657,25 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     .Pricing-box img{
         padding-bottom:10px;
         padding-top:10px;
+        width:50%;
     }
-.height-390{
-    height:auto;
+.height-620{
+    height:620px;
 }
 @media (max-width:1199px){
     .Pricing-box {
-        height:900px;
+        height:1320px;
     }
-    .height-390{
-        height:505px;
+    .height-620{
+        height:690px;
     }
 }
 @media (max-width:991px){
     .Pricing-box {
-        height:1025px;
+        height:1625px;
     }
-    .height-390{
-        height:750px;
+    .height-620{
+        height:775px;
     }
 
 }
@@ -2682,7 +2683,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     .Pricing-box {
         height:auto;
     }
-    .height-390{
+    .height-620{
         height:auto;
     }
 
