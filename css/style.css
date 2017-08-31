@@ -2642,7 +2642,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 .Pricing-box {
     border: 1px solid #f1f1f1;
     padding:20px;
-    height:760px;
+    height:985px;
 }
 
     .Pricing-box.highlight {
@@ -2654,7 +2654,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
             border-color: #ddd;
         }
 .height-390{
-    height:390px;
+    height:auto;
 }
 @media (max-width:1199px){
     .Pricing-box {
