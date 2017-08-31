@@ -2664,18 +2664,18 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 }
 @media (max-width:1199px){
     .Pricing-box {
-        height:1320px;
+        height:1270px;
     }
     .height-620{
-        height:690px;
+        height:645px;
     }
 }
 @media (max-width:991px){
     .Pricing-box {
-        height:1625px;
+        height:1575px;
     }
     .height-620{
-        height:775px;
+        height:730px;
     }
 
 }
