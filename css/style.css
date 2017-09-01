@@ -5678,3 +5678,27 @@ td {
 .pBenefits{
     height:580px;
 }
+@media(max-width:1199px){
+    .partners{
+        height:365px;
+    }
+    .pBenefits{
+        height:670px;
+    }
+}
+@media(max-width:991px){
+    .partners{
+        height:450px;
+    }
+    .pBenefits{
+        height:960px;
+    }
+}
+@media(max-width:767px){
+    .partners{
+        height:auto;
+    }
+    .pBenefits{
+        height:auto;
+    }
+}
