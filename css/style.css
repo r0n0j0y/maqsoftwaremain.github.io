@@ -5554,11 +5554,11 @@ ul.nav-tabs {
 }
 
     .pager li:first-child {
-        float: left;
+       /* float: left;*/
     }
 
     .pager li:last-child {
-        float: right;
+        /*float: right;*/
     }
 
     .pager li {
