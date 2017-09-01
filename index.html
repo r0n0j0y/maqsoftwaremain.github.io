@@ -1,19 +1,19 @@
 ﻿<!DOCTYPE html>
-<html data-ng-app="MAQSoftwareApp" lang="en">
+<html>
 <head>
-    <base href="/">
+    <!--<base href="/">-->
     <meta charset="utf-8" />
-    <title>MAQ Consulting | </title>
-    <meta name="title" content="MAQ Consulting |" />
+    <title>MAQ Consulting | Data Management, Power BI, Artificial Intelligence</title>
+    <meta name="title" content="MAQ Consulting | Data Management, Power BI, Artificial Intelligence" />
     <meta name="theme-color" content="#c00000">
     <meta name="description" content="MAQ Consulting consults" />
     <meta name="keywords" content="maq consulting, consulting" />
     <meta name="ROBOTS" content="FOLLOW,INDEX" />
-    <meta name="og:title" property="og:title" content="MAQ Consulting |" />
+    <meta name="og:title" property="og:title" content="MAQ Consulting | Data Management, Power BI, Artificial Intelligence" />
     <meta name="og:description" property="og:description" content="MAQ Consulting consults" />
     <meta property="og:image" name="og:image" content="" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="MAQ Consulting |" />
+    <meta name="twitter:title" content="MAQ Consulting | Data Management, Power BI, Artificial Intelligence" />
     <meta name="twitter:description" content="MAQ Consulting consults" />
     <meta name="twitter:image" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -24,7 +24,7 @@
     <link rel="icon" type="image/png" href="img/favicon.ico">
     <link rel="apple-touch-icon" href="img/favicon.ico">
     <!-- CSS -->
-    <link href="css/style.css?v=20170828.6" rel="stylesheet" type="text/css" />
+    <link href="css/style.css?v=20170829" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.css?v=20170822" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.css?v=20170822" rel="stylesheet" type="text/css" />
     <link href="css/ionicons.css?v=20170822" rel="stylesheet" type="text/css" />
@@ -62,8 +62,7 @@
             <div class="container">
                 <!-- Logo -->
                 <div class="logo">
-                    <a href="/">
-
+                    <a data-url="header" class="hiretalent i-am-link">
                         <img class="logo-dark" src="img/maqconsulting.png" alt="MAQ Consulting" />
                     </a>
                 </div>
@@ -72,24 +71,24 @@
                 <div class="nav-mobile nav-bar-icon">
                     <span></span>
                 </div>
-                    <!-- End Mobile Navbar Icon -->
+                <!-- End Mobile Navbar Icon -->
                 <!-- Navbar Navigation -->
                 <div class="nav-menu singlepage-nav">
                     <ul class="nav-menu-inner">
                         <li>
-                            <a class="hiretalent" href="/hiretalent">Hire Talent</a>
+                            <a data-url="hiretalent" class="hiretalent i-am-link">Hire Talent</a>
                         </li>
                         <li>
-                            <a class="expertise" href="/expertise">Our Expertise</a>
+                            <a data-url="expertise" class="expertise i-am-link">Our Expertise</a>
                         </li>
                         <li>
-                            <a class="findwork" href="/findwork">Find Work</a>
+                            <a data-url="findwork" class="findwork i-am-link">Find Work</a>
                         </li>
                         <li>
-                            <a class="benefits" href="/benefits">Benefits</a>
+                            <a data-url="benefits" class="benefits i-am-link">Benefits</a>
                         </li>
                         <li>
-                            <a class="contact" href="/contact">Contact</a>
+                            <a data-url="contact" class="contact i-am-link">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -104,8 +103,8 @@
                 <div class="row title">
                     <h2 class="h2">Connecting World's Biggest Brands</h2>
                     <h3 class="h4">With Creative, Marketing, and Technical Communicators</h3>
-                    <a href="/hiretalent" class="btn btn-md btn-white-line">Hire Talent</a>
-                    <a href="/findwork" class="btn btn-md btn-white-line">Find Work</a>
+                    <a data-url="hiretalent" class="btn btn-md btn-white-line hiretalent i-am-link">Hire Talent</a>
+                    <a data-url="findwork" class="btn btn-md btn-white-line findwork i-am-link">Find Work</a>
                 </div>
             </div>
         </section>
@@ -126,7 +125,7 @@
                     <div class="col-md-4">
                         <h4>Contract Services</h4>
                         <p>
-                            Independent professionals play a valuable role in today’s economy. Whether it’s strategic planning, creative inspiration, or flawless execution; MAQ offers the precise consulting you need, when you need it, for short and long term contract staffing needs.
+                            Independent professionals play a valuable role in today’s economy. Whether it’s strategic planning, creative inspiration, or flawless execution; MAQ Consulting offers the precise consulting you need, when you need it, for short and long term contract staffing needs.
                         </p>
                         <h6 style="text-transform:none;">When to use Contract Services</h6>
                         <ul>
@@ -248,11 +247,10 @@
                     <p class="lead">Lorem Ipsum</p>
                 </div>
                 <div class="spacer-60"></div>
-                <div class="row">
-                    <!-- Accordian1 -->
+                <!--<div class="row">
+                    <!- Accordian1 ->
                     <div class="col-md-12  mt-30">
                         <div class="accordion">
-
                             <div class="row plr-20">
                                 <div class="col-md-12 mobile-form">
                                     <h4>ID</h4>
@@ -415,13 +413,39 @@
                         </div>
                     </div>
 
-                    <!-- Accordian2 -->
+                    <!- Accordian2 ->
                 </div>
                 <div id="Pagination" class="mt-30 ">
                     <p id="Previous" data-clicked="0" style="display:none" class="btn-link-a pull-left"><a><i class="ion ion-arrow-left-b"></i>PREVIOUS</a></p>
                     <p id="Next" data-clicked="1" class="btn-link-a pull-right"><a>NEXT<i class="ion ion-arrow-right-b"></i></a></p>
+                </div>-->
+                <div class="container">
+                    <div class="loadingIcon Loading">
+                    </div>
+                    <div id="jobListingContainer" class="row">
+                        <div class="col-lg-10 col-sm-9 col-xs-12">
+                            <input id="searchJobListing" type="text" value="Search by Job Order #, Date Posted, Title, Location" class="helpText"
+                                   title="Search by Job Order #, Date Posted, Title, Location" />
+                        </div>
+                        <div id="reset" class="col-lg-2 col-sm-2 col-xs-12 col-lg-offset-1 col-sm-offset-1">
+                            <a id="resetSearch" value='RESET' onclick="resetSearchBox();" class="btn btn-md btn-black-line">Reset</a>
+                        </div>
+                        <div id="jobListingsData"></div>
+                    </div>
+                    <div id="jobDescriptionContainer" class="row">
+
+                    </div>
+                    <div class="row">
+                        <div class="container">
+                            <div id="jobActionBtnContainer" class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>
+                                <div class='col-lg-12 col-xs-12'><a style="width:125px;" class="btn btn-md btn-black-line" href="mailto:msjobs@maqconsulting.com"><div class='' id='applyJobBtn'>Apply Now</div></a></div>
+                                <div class='col-lg-12 col-xs-12'>
+                                    <a style="width:125px;" value='SEND TO FRIEND' class="btn btn-md btn-black-line" id='sendToFriendBtn'>Share</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </section>
         <!-- End Accordian Section -->
         <hr />
@@ -465,7 +489,7 @@
                             </div>
                             <hr />
                             <div class="spacing-grid">
-                                <a href="www.Meritain.com" class="btn btn-md btn-black">Learn More</a>
+                                <a href="https://www.meritain.com" class="btn btn-md btn-black">Learn More</a>
                             </div>
 
                         </div>
@@ -501,16 +525,16 @@
                                 </br>
                                 Try <a href="https://www.bankrate.com/calculators/retirement/401-k-contribution-calculator.aspx#ixzz15knigVgj">this</a> calculator to see how increasing your contributions to an employer sponsored 401(k) plan can alter your income as well as your retirement savings.
                             </div>
-                            <hr />                            
+                            <hr />
                             <div class="pricing-features spacing-grid">
                                 <h5 class="">Vanguard</h5>
                                 <img src="img/Logos/Vanguard.png">
-                             </br>
+                                </br>
                                 Our diversified fund lineup can help you plan a retirement investment strategy. Choose one fund that automatically allocates your assets, review types of funds you can use to build a sensible portfolio, or select from all our funds.
                             </div>
                             <hr />
-                            <div class=" spacing-grid">
-                                <a href="www.vanguard.com" class="pricing-button btn btn-md btn-black">Learn More</a>
+                            <div class="spacing-grid">
+                                <a href="https://www.vanguard.com" class="pricing-button btn btn-md btn-black">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -578,9 +602,9 @@
                     <div class="col-md-5  col-sm-4 mb-30">
                         <h6>Follow Us On</h6>
                         <ul class="social">
-                            <li><a target="_blank" href="https://www.facebook.com/maqsoftware"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="https://www.linkedin.com/company/maq-software"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a target="_blank" href="https://twitter.com/MAQSoftware"><i class="fa fa-twitter"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/pages/MAQ-Consulting/67256737143?v=photos&ref=ts#!/pages/MAQ-Consulting/67256737143?v=wall"><i class="fa fa-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/company/825092?trk=null"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a target="_blank" href="https://twitter.com/maqconsulting"><i class="fa fa-twitter"></i></a></li>
                         </ul>
                     </div>
 
@@ -595,7 +619,7 @@
                             <li>
                                 <span>Email: </span>
                                 <a href="MSJobs@MAQSoftware.com">
-                                    <i class="fa fa-envelope-o left"></i><span class="__cf_email__" data-cfemail="MSJobs@MAQSoftware.com">MSJobs at MAQConsulting dot com</span>
+                                    <i class="fa fa-envelope-o left"></i><a href="mailto:MSJobs@MAQConsulting.com">MSJobs at MAQConsulting dot com</a>
                                 </a>
                             </li>
                             <li>Phone: <a href="tel:+1 425 526 5399"><i class="fa fa-phone left"></i>+1 425 526 5399</a></li>
@@ -607,7 +631,7 @@
             <section class="copyright ptb-15">
                 <div class="container">
                     <p>
-                        &copy; 2017 <a href="/#"><b>MAQ Consulting</b></a>. All Rights Reserved. <span class="link privacy"><a href="/privacystatement/#">Privacy Statement</a></span>
+                        &copy; 2017 <a data-url="header" class="hiretalent i-am-link"><b>MAQ Consulting</b></a>. All Rights Reserved.
                     </p>
                 </div>
             </section>
@@ -620,14 +644,16 @@
         <!-- End Scroll Top -->
     </div>
     <!-- Site Wraper End -->
-    <section id="body" class="hidden">
+    <!--<section id="body" class="hidden">
         <div data-ng-view="" autoscroll="true"></div>
-    </section>
+    </section>-->
+    <!-- Data Dump -->
+    <div class="hide" id="dumpData"></div>
     <!-- JS -->
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+    <!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-route.min.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-resource.min.js"></script>
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-animate.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-animate.min.js"></script>-->
     <!-- Load app main script -->
     <script src="js/plugin/tether.min.js?v=20170822" type="text/javascript"></script>
     <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
@@ -652,9 +678,10 @@
     <script src="js/navigation.js" type="text/javascript"></script>
     <script src="js/plugin/jquery.singlePageNav.js" type="text/javascript"></script>
     <script src="js/contact-form.js" type="text/javascript"></script>
-    <script src="js/common.js?v=20170828.1" type="text/javascript"></script>
-    <script src="js/app.js?v=20170828.3" type="text/javascript"></script>
+    <script src="js/common.js?v=20170829" type="text/javascript"></script>
+    <!--<script src="js/app.js?v=20170828.3" type="text/javascript"></script>-->
     <script src="https://maps.googleapis.com/maps/api/js?v=3&sensor=true&key=AIzaSyBHkJlVTrAkgcD9jJxo_CyHx0YZZtX65iY&callback=initMap"></script>
+    <!--<script src="https://maqconsulting.catsone.com/xml/index.php?siteID=5046&portalID=850&subdomain=maqconsulting&sort=posted&callback=JSON_CALLBACK"></script>-->
     <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>-->
     <!--
         <script src="js/theme.js?v=20170828.5" type="text/javascript"></script>
@@ -664,19 +691,18 @@
         <script src="js/home.js?v=20170828.3" type="text/javascript"></script>
         <script src="js/news.js?v=20170823.2" type="text/javascript"></script>
         <!--<script src="js/careers.js?v=20170822"type="text/javascript" ></script>-->
-    
     <!-- Google Analytics -->
     <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        //Google analytics code
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7928102-2']);
+        _gaq.push(['_trackPageview']);
 
-        ga('create', 'UA-7928102-1', 'auto');
-        ga('send', 'pageview');
-
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
     </script>
     <!-- End Google Analytics -->
 </body>
