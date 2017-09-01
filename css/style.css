@@ -2639,7 +2639,6 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 .Pricing-box {
     border: 1px solid #f1f1f1;
     padding: 20px;
-    height: 1110px;
 }
 
     .Pricing-box.highlight {
@@ -2657,47 +2656,9 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         width: 50%;
     }
 
-.height-620 {
-    height: 575px;
-}
 
-@media (max-width:1199px) {
-    .Pricing-box {
-        height: 1280px;
-    }
 
-    .height-620 {
-        height: 655px;
-    }
-}
 
-@media (max-width:991px) {
-    .Pricing-box {
-        height: 1600px;
-    }
-
-    .height-620 {
-        height: 750px;
-    }
-
-    .height-390 {
-        height: 750px;
-    }
-}
-
-@media (max-width:767px) {
-    .Pricing-box {
-        height: auto;
-    }
-
-    .height-620 {
-        height: auto;
-    }
-
-    .height-390 {
-        height: auto;
-    }
-}
 
 .price-title h4, .price-title h5 {
     margin-top: 0px;
