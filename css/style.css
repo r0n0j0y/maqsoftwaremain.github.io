@@ -5555,10 +5555,12 @@ ul.nav-tabs {
 
     .pager li:first-child {
        /* float: left;*/
+       padding-right:8px;
     }
 
     .pager li:last-child {
         /*float: right;*/
+        padding-left:8px;
     }
 
     .pager li {
