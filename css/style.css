@@ -5674,25 +5674,25 @@ td {
 }
 
 .partners{
-    height:325px;
+    height:390px;
 }
 .pBenefits{
     height:590px;
 }
 @media(max-width:1199px){
     .partners{
-        height:365px;
+        height:455px;
     }
     .pBenefits{
-        height:670px;
+        height:725px;
     }
 }
 @media(max-width:991px){
     .partners{
-        height:450px;
+        height:580px;
     }
     .pBenefits{
-        height:960px;
+        height:1045px;
     }
 }
 @media(max-width:767px){
