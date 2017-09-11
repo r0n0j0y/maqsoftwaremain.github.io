@@ -2654,6 +2654,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         padding-bottom: 10px;
         padding-top: 10px;
         width: 50%;
+        max-height:25%;
     }
 
 
