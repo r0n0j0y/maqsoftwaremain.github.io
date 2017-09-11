@@ -5675,14 +5675,14 @@ td {
 }
 
 .partners{
-    height:390px;
+    height:410px;
 }
 .pBenefits{
     height:590px;
 }
 @media(max-width:1199px){
     .partners{
-        height:455px;
+        height:450px;
     }
     .pBenefits{
         height:725px;
@@ -5690,7 +5690,7 @@ td {
 }
 @media(max-width:991px){
     .partners{
-        height:580px;
+        height:605px;
     }
     .pBenefits{
         height:1045px;
