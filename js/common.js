@@ -61,7 +61,7 @@ function isCareersPage() {
 
 
 function updateTitle(viewName) {
-    var sTitle = "MAQ Consulting | Data Management, Power BI, Artificial Intelligence";
+    var sTitle = "MAQ Consulting | Hire Talent";
     if (typeof viewName !== "undefined") {
         switch (viewName.toLowerCase()) {
             case "hiretalent":
@@ -108,9 +108,9 @@ function navigate(sLoc) {
 }
 
 $(window).scroll(function () {
-    scroll();
+    handleScroll();
 });
-function scroll() {
+function handleScroll() {
     var iTopPosition;
     $(".nav-menu-inner a").removeClass("active");
     updateTitle();
@@ -530,7 +530,7 @@ function getJobListings(dataParams, successCallback) {
                 $(".hidden").html($(".hidden #jobListingsContent"));
             } else if ("jobTitle" === linkType) {
                 var htmlNode = $(".hidden #stepJobDetails").html();
-                htmlNode = htmlNode.replace("<table", "<div").replace("</table>", "</div>").replace("<tbody", "<div").replace("</tbody>", "</div>").replace("<tr", "<div").replace("</tr>", "</div>").replace("<td", "<div").replace("</td>", "</div>").replace("<ul", "<ol").replace("</ul>", "</ol>").replace(("MSJobs@maqconsulting.com"), "<a class='mailLink' href='mailto:MSJobs@MAQConsulting.com'>MSJobs@MAQConsulting.com</a>").replace(("MSJobs@MAQConsulting.com"), "<a class='mailLink' href='mailto:MSJobs@MAQConsulting.com'>MSJobs@MAQConsulting.com</a>").replace("MSJobs@maqsoftware.com", "<a class='mailLink' href='mailto:MSJobs@maqsoftware.com'>MSJobs@maqsoftware.com</a>");
+                htmlNode = htmlNode.replace("<table", "<div").replace("</table>", "</div>").replace("<tbody", "<div").replace("</tbody>", "</div>").replace("<tr", "<div").replace("</tr>", "</div>").replace("<td", "<div").replace("</td>", "</div>").replace("<ul", "<ol").replace("</ul>", "</ol>").replace(("MSJobs@maqconsulting.com"), "<a class='mailLink' href='mailto:MSJobs@MAQConsulting.com'>MSJobs@MAQConsulting.com</a>").replace(("MSJobs@MAQConsulting.com"), "<a class='mailLink' href='mailto:MSJobs@MAQConsulting.com'>MSJobs@MAQConsulting.com</a>").replace("MSJobs@maqsoftware.com", "<a class='mailLink' href='mailto:MSJobs@maqsoftware.com'>MSJobs@maqsoftware.com</a>").replace(("msjobs@maqconsulting.com"), "<a class='mailLink' href='mailto:MSJobs@MAQConsulting.com'>MSJobs@MAQConsulting.com</a>");
                 $(".hidden").html(htmlNode);
             } else {
                 $(".hidden").html($(".hidden #jobListingsContent"));
@@ -549,7 +549,7 @@ function successFunction(data) {
     $(".hidden").remove();
     $("#dumpData").html(data);
     $("#jobListingsData a.jobTitle, #jobListingsData a.jobTitleHot").each(function () {
-        $(this).replaceWith("<span class='" + $(this).attr("class") + "' href='" + $(this).attr('href') + "'>" + $(this).text() + "</span>");
+        $(this).replaceWith("<span class='" + $(this).attr("class").replace("jobTitleHot", "jobTitle") + "' href='" + $(this).attr('href') + "'>" + $(this).text() + "</span>");
     });
     $("#jobListingContainer, #jobDescriptionContainer, #jobActionBtnContainer").hide();
     $(".loadingIcon").hide();
@@ -557,7 +557,7 @@ function successFunction(data) {
         $("#jobListingContainer").show();
         $("#jobListingsData").html(data);
         $("#jobListingsData a.jobTitle, #jobListingsData a.jobTitleHot").each(function () {
-            $(this).replaceWith("<span class='" + $(this).attr("class") + "' href='" + $(this).attr('href') + "'>" + $(this).text() + "</span>");
+            $(this).replaceWith("<span class='" + $(this).attr("class").replace("jobTitleHot", "jobTitle") + "' href='" +$(this).attr('href') + "'>" +$(this).text() + "</span>");
         });
     } else if ($("#dumpData #jobDetails").length) {
         $("#jobDescriptionContainer").after($("#jobActionBtnContainer"));

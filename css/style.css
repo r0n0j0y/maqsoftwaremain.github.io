@@ -4368,8 +4368,6 @@ ul.project-detail-block, .project-detail-block ul {
 
 
 /* Fullscreen Slider Next Prev Arrow*/
-
-
 .fullscreen-carousel .flex-direction-nav a {
     position: absolute;
     top: 50%;
@@ -5580,6 +5578,9 @@ ul.nav-tabs {
         padding-top: 9px;
         height: auto;
     }
+    #jobListingsData {
+        margin-top: 15px;
+    }
 }
 
 .dateDiv {
@@ -5700,5 +5701,79 @@ td {
     }
     .pBenefits{
         height:auto;
+    }
+}
+
+
+@media (max-width:620px) {
+    #jobListingContainer #jobListings tbody > tr:first-child > th {
+        display: none;
+    }
+
+    #jobListingContainer #jobListings tr, #jobListings th, #jobListings td {
+        display: block;
+        height: auto;
+    }
+
+    #jobListingContainer #jobListings td {
+        border-top: none;
+    }
+
+    #jobListingContainer #jobListings tr td:first-child {
+        border-top: 1px solid #f1f1f1;
+        font-weight: bold;
+    }
+
+    #jobListingContainer #jobListings tr:first-child td:first-child {
+        border-top: 0;
+    }
+
+    #jobListingContainer #jobListingsData #jobListings .magnify-preview > td {
+        border: 0;
+    }
+
+    #jobListingContainer #jobListings {
+        width: 100%;
+    }
+
+    #jobListings > tbody > tr:last-child > td:last-child {
+        border-bottom: 1px solid #f1f1f1;
+    }
+
+    #jobListings > tbody > tr > td {
+        border-right: 1px solid #f1f1f1;
+        border-left: 1px solid #f1f1f1;
+        padding: 1px 10px;
+    }
+}
+
+@media (max-width:488px) {
+    #jobListingContainer #jobListingsData .pager li > a,
+    #jobListingContainer #jobListingsData .pager li > span {
+        padding: 5px 5px;
+    }
+
+    #jobListingContainer #jobListingsData .pagerDisable,
+    #jobListingContainer #jobListingsData .pager > li:last-child,
+    #jobListingContainer #jobListingsData .pager > li:first-child {
+        padding: 5px 5px;
+    }
+    #page-top .sectionHeaderContainer, .sectionHeaderContainer .sectionHeader {
+        height: 60px;
+    }
+}
+
+@media (max-width:368px) {
+    #findJobsRow #jobListingContainer #jobListingsData .pager li > a,
+    #findJobsRow #jobListingContainer #jobListingsData .pager li > span {
+        padding: 3px 1px;
+        font-size: 8px;
+    }
+
+    #findJobsRow #jobListingContainer #jobListingsData .pagerDisable,
+    #findJobsRow #jobListingContainer #jobListingsData .pager > li:last-child,
+    #findJobsRow #jobListingContainer #jobListingsData .pager > li:first-child {
+        padding: 4px 6px;
+        font-size: 8px;
     }
 }
