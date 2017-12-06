@@ -13,6 +13,10 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
         templateUrl: '/views/datamanagement.html',
         controller: "DataManagementController"
     })
+    .when('/expertise/case-study-1', {
+        templateUrl: '/views/case-study-1.html',
+        controller: "CaseStudyController"
+    })
     .when('/expertise/artificialintelligence', {
         templateUrl: '/views/artificialintelligence.html',
         controller: "ArtificialIntelligenceController"
@@ -119,6 +123,20 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
         //        console.log('GA hitCallback sent!');
         //    }
         //});
+    });
+}]).controller('CaseStudyController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
+    $scope.$on('$viewContentLoaded', function () {
+        loadPlugins();
+        updateTitle("expertise");
+    });
+    $scope.$on('$routeChangeSuccess', function () {
+        console.log('Route Change: ' + $location.url());
+        $window.ga('set', 'page', $location.url());
+        $window.ga('send', 'pageview', {
+            'hitCallback': function () {
+                console.log('GA hitCallback sent!');
+            }
+        });
     });
 }]).controller('ArtificialIntelligenceController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
