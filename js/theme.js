@@ -442,46 +442,6 @@ function sliderAll() {
         navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
     });
 
-    // Item-4 Carousel
-    $('.item4-carousel').owlCarousel({
-        autoPlay: 2500,
-        autoplay: 2500,
-        slideSpeed: 800,
-        slidespeed: 800,
-        autoplaySpeed: 800,
-        navSpeed: 800,
-        paginationSpeed: 800,
-        stopOnHover: true,
-        items: 4,
-        rewind: true,
-        //loop: true,
-        itemsDesktop: [1170, 3],
-        itemsDesktopSmall: [1024, 2],
-        itemsTabletSmall: [768, 1],
-        itemsMobile: [480, 1],
-        pagination: false,  // Hide pagination buttons
-        navigation: true,  // Show next and prev buttons
-        nav: true,  // Show next and prev buttons
-        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        dots: false,
-        responsive: {
-            0: {
-                items: 1
-            }
-            ,
-            456: {
-                items: 2
-            }
-            ,
-            684: {
-                items: 3
-            }
-            , 912: {
-                items: 4
-            }
-        }
-    });
     $('.power-bi-carousel').owlCarousel({
         autoPlay: 2500,
         autoplay: 2500,
@@ -551,8 +511,6 @@ function sliderAll() {
     });
 
 };
-
-
 
 // ---------------------------------------------------------------------------------------------------------------------------->
 // SLIDER-HERO FUNCTIONS   ||-----------

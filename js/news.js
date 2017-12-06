@@ -2,7 +2,7 @@
 
 "use strict";
 var oNewsPager = {
-    template: '<div><div class="post-meta"><span>@date</span></div><div class="post-header"><h2>@title</h2></div><div class="post-media"><img alt="News" src="@newsimagesrc"></div><div class="post-entry">@content</div></div>',
+    template: '<div><div class="post-meta"><span>@date</span></div><div class="post-header"><h2>@title</h2></div><div class="post-media"><img alt="News" title="@tooltip" src="@newsimagesrc"></div><div class="post-entry">@content</div></div>',
     pageIndex: 0,
     pagesize: 6
 }, id, highlightid, sClickedHighlightTitle, iClickedHighlightID,
@@ -75,7 +75,7 @@ function renderNews() {
                     img.parentNode.removeChild(img);
                 }
                 sContent = $("#bloggerContent").html();
-                oNewsContainer.append(oNewsPager.template.replace("@title", sTitle).replace("@date", oDate).replace("@content", sContent).replace("@newsimagesrc", src));
+                oNewsContainer.append(oNewsPager.template.replace("@title", sTitle).replace("@date", oDate).replace("@content", sContent).replace("@newsimagesrc", src).replace("@tooltip", getFirstNWordsWithEllipses(sTitle, 4)));
             }
         }
         oNewsContainer.find("a").attr("target", "_blank");
@@ -158,6 +158,7 @@ function renderNewsHighlight() {
 
             $("#newshighlighttitle" + iNumber).html(title);
             $("#newshighlightimg" + iNumber).attr('src', src);
+            $("#newshighlightimg" + iNumber).attr('title',getFirstNWordsWithEllipses(title,4));
         }
     }
 }
@@ -180,9 +181,52 @@ function loadNewsGrid() {
                 iTop = $("#LoadPageNews").children('div').eq(id - 1).offset().top - 65;
                 $(sScrollElement).animate({ scrollTop: iTop }, 500);
             }
+            initHighlightCarousal();
         },
         complete: function () {
             oNewsContainer.removeClass(sLoadingClass);
+        }
+    });
+}
+
+function initHighlightCarousal() {
+    $('.item4-carousel').owlCarousel({
+        autoPlay: 2500,
+        autoplay: 2500,
+        slideSpeed: 800,
+        slidespeed: 800,
+        autoplaySpeed: 800,
+        navSpeed: 800,
+        paginationSpeed: 800,
+        stopOnHover: true,
+        items: 4,
+        rewind: true,
+        loop: true,
+        itemsDesktop: [1170, 3],
+        itemsDesktopSmall: [1024, 2],
+        itemsTabletSmall: [768, 1],
+        itemsMobile: [480, 1],
+        pagination: false,  // Hide pagination buttons
+        navigation: true,  // Show next and prev buttons
+        nav: true,  // Show next and prev buttons
+        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        dots: false
+        ,responsive: {
+            0: {
+                items: 1
+            }
+            ,
+            570: {
+                items: 2
+            }
+            ,
+            855: {
+                items: 3
+            }
+            , 1140: {
+                items: 4
+            }
         }
     });
 }

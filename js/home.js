@@ -79,14 +79,3 @@ function setSliderNavigationButton() {
     $(".fullwidth-slider .owl-controls .owl-buttons .owl-prev, .fullwidth-slider .owl-controls .owl-buttons .owl-next").css({ 'top': iTop + 'px' });
     $(".fullwidth-slider .owl-nav .owl-prev, .fullwidth-slider .owl-nav .owl-next").css({ 'top': iTop + 'px' });
 }
-
-$(window).scroll(function () {
-    if ("/" === location.pathname) {
-        var iTop = $('#counter').offset().top - window.innerHeight;
-        if (iCounterFlag == 0 && $(window).scrollTop() > iTop) {
-            // below function is in theme.js file, calling on focus
-            startCounter();
-            iCounterFlag = 1;
-        }
-    }
-});
