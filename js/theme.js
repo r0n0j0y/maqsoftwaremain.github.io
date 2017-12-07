@@ -864,7 +864,6 @@ function startCounter() {
 // Accordion Function Elements
 accordion();
 function accordion() {
-
     $('.accordion-title').click(function(e) {
 
         $(this).next().slideToggle('easeOut');
@@ -879,7 +878,7 @@ function accordion() {
 };
 
 // Jquery UI Elements
-jqueryUi();
+//jqueryUi();
 function jqueryUi() {
 
     // Tab Function

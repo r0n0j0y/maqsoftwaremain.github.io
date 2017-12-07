@@ -37,14 +37,6 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
         templateUrl: '/views/collaborationcontent.html',
         controller: "CollaborationContentController"
     })
-    .when('/case-studies', {
-        templateUrl: '/views/return-themes.html',
-        controller: "CaseStudyController"
-    })
-    .when('/case-studies/return-themes', {
-        templateUrl: '/views/return-themes.html',
-        controller: "CaseStudyController"
-    })
     .when('/engagement', {
         templateUrl: '/views/about.html',
         controller: "AboutController"
@@ -128,7 +120,6 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
         //    }
         //});
     });
-
 }]).controller('ArtificialIntelligenceController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
     $scope.$on('$viewContentLoaded', function () {
         loadPlugins();
@@ -193,20 +184,6 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
         loadPlugins();
         setTabNavLinkBehavior();
         updateTitle("expertise");
-    });
-    $scope.$on('$routeChangeSuccess', function () {
-        console.log('Route Change: ' + $location.url());
-        $window.ga('set', 'page', $location.url());
-        $window.ga('send', 'pageview', {
-            'hitCallback': function () {
-                console.log('GA hitCallback sent!');
-            }
-        });
-    });
-}]).controller('CaseStudyController', ["$scope", "$location", "$window", function ($scope, $location, $window) {
-    $scope.$on('$viewContentLoaded', function () {
-        loadPlugins();
-        updateTitle("case-study");
     });
     $scope.$on('$routeChangeSuccess', function () {
         console.log('Route Change: ' + $location.url());

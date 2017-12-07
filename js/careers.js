@@ -40,6 +40,9 @@ function loadIndiaCareers(sNewsData) {
     } catch (exception) {
         oJobPostSection.html(sNoJobMessage).removeClass("Loading").removeClass("LoadingHeight");
     }
+    // unbind already binded click event
+    $('.accordion .accordion-section .accordion-title').unbind('click');
+    
     accordion();
 }
 function renderTitle(oData) {
