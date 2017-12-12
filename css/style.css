@@ -5461,9 +5461,8 @@ ul.nav-tabs {
     width:80%;
     margin:auto;
     display:block;
-    box-shadow: 2px 2px;
 }
-.caseImage >a >img{
+.caseImage >a{
     box-shadow: 2px 2px lightgray;
 }
 .figureTitle{
