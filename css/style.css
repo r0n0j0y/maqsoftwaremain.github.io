@@ -5446,3 +5446,6 @@ ul.nav-tabs {
 .twitter-share-button[style] { 
     vertical-align: text-bottom !important; 
 }
+.facebook-share-button[style] { 
+    vertical-align: text-top !important; 
+}
