@@ -5452,3 +5452,6 @@ ul.nav-tabs {
 .linkedin-share-button[style] {
     vertical-align: text-bottom !important; 
 }
+.linkedin-share-button >span,.linkedin-share-button >span>span  {
+    vertical-align: text-bottom !important; 
+}
