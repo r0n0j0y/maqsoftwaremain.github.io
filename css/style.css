@@ -5443,13 +5443,15 @@ ul.nav-tabs {
     }
 
 
-.twitter-share-button[style] { 
+.twitter-share-button { 
     vertical-align: bottom !important; 
+    margin-bottom:2px;
 }
-.fb-share-button[style] { 
+.fb-share-button { 
     vertical-align: bottom !important; 
+    margin-bottom:2px;
 }
-.linkedin-share-button[style] {
+.linkedin-share-button {
     vertical-align: bottom !important; 
 }
 .linkedin-share-button >span,.linkedin-share-button >span>span  {
