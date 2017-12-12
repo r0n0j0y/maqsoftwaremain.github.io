@@ -5462,3 +5462,7 @@ ul.nav-tabs {
     margin:auto;
     display:block;
 }
+.figureTitle{
+    text-align:right; 
+    margin-right:10%;
+}
