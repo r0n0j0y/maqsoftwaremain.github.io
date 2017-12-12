@@ -5460,4 +5460,5 @@ ul.nav-tabs {
 .caseImage{
     width:80%;
     margin:auto;
+    display:block;
 }
