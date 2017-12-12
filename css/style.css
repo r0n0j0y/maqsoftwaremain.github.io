@@ -5444,13 +5444,13 @@ ul.nav-tabs {
 
 
 .twitter-share-button[style] { 
-    vertical-align: text-top !important; 
+    vertical-align: bottom !important; 
 }
-.facebook-share-button[style] { 
-    vertical-align: text-top !important; 
+.fb-share-button[style] { 
+    vertical-align: bottom !important; 
 }
 .linkedin-share-button[style] {
-    vertical-align: text-bottom !important; 
+    vertical-align: bottom !important; 
 }
 .linkedin-share-button >span,.linkedin-share-button >span>span  {
     vertical-align: bottom !important; 
