@@ -5457,3 +5457,7 @@ ul.nav-tabs {
 .linkedin-share-button >span,.linkedin-share-button >span>span  {
     vertical-align: bottom !important; 
 }
+.caseImage{
+    width:80%;
+    margin:auto;
+}
