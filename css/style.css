@@ -5441,3 +5441,8 @@ ul.nav-tabs {
     #nav-menu .sub-dropdown {
         display: none;
     }
+
+
+.twitter-share-button[style] { 
+    vertical-align: text-bottom !important; 
+}
