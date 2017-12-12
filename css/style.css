@@ -5472,6 +5472,7 @@ ul.nav-tabs {
 .caseImage{
     width:80%;
     margin:auto;
+    margin-top:25px;
     display:block;
     box-shadow: 1px 1px 1px lightgray,-1px -1px 1px lightgray;
 }
