@@ -5461,6 +5461,7 @@ ul.nav-tabs {
     width:80%;
     margin:auto;
     display:block;
+    box-shadow: 2px 2px light-grey;
 }
 .figureTitle{
     text-align:right; 
