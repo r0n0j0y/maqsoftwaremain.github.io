@@ -748,7 +748,7 @@ form label.error {
 }
 
 .pt-5 {
-    padding-top: 5px;
+    padding-top: 5px !important;
 }
 
 .pb-5 {
