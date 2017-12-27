@@ -729,6 +729,7 @@ form label.error {
 .pb-0 {
     padding-bottom: 0px !important;
 }
+
 .ptb {
     padding-top: 110px;
     padding-bottom: 110px;
@@ -3859,7 +3860,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     }
 
     .item-mask .item-caption {
-        position: absolute;
+        margin:auto;
         bottom: -60px;
         left: 0px;
         padding-left: 30px;
@@ -5488,8 +5489,8 @@ ul.nav-tabs {
 }
 
 .figureTitle{
-    text-align:right; 
-    margin-right:10%;
+    text-align:center; 
+    margin-top:10px;
 }
 
 .vTop{
