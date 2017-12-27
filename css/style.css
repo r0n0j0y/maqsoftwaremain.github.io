@@ -5481,7 +5481,8 @@ ul.nav-tabs {
     vertical-align: bottom !important; 
 }
 .caseImage{
-    width:80%;
+    max-width:80%;
+    width: fit-content;
     margin:auto;
     margin-top:25px;
     display:block;
