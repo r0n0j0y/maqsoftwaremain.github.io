@@ -5497,6 +5497,6 @@ ul.nav-tabs {
 .vTop{
     vertical-align:top;
 }
-.item-mask-detail>.item-mask{
+.item-mask>.item-caption{
     position:absolute;
 }
