@@ -5498,5 +5498,5 @@ ul.nav-tabs {
     vertical-align:top;
 }
 .item-mask>.item-caption{
-    position:absolute;
+    padding-top:20%;
 }
