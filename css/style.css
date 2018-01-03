@@ -5004,8 +5004,10 @@ ul.project-detail-block, .project-detail-block ul {
 
 /*Recognition Controls*/
 .RecognitionImage img {
-    max-width: 250px;
-    max-height: 140px;
+    max-width: 210px;
+    max-height: 120px;
+    display:block;
+    margin: 0 auto;
 }
 
 .RecognitionImage {
