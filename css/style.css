@@ -274,7 +274,7 @@ p.color, .color, a.color, h1.color, h2.color, h3.color, h4.color, h5.color, h6.c
 h1, h2, h3, h4, h5, h6 {
     color: #323232;
     /*text-transform: uppercase;*/
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -2744,7 +2744,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     .client-logo img {
         height: auto;
         max-height: 100%;
-        width: auto;
+        width: auto !important;
         /*margin-right: 15px;
         margin-left: 15px;*/
     }
