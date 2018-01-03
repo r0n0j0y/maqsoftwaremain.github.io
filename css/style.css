@@ -274,13 +274,14 @@ p.color, .color, a.color, h1.color, h2.color, h3.color, h4.color, h5.color, h6.c
 h1, h2, h3, h4, h5, h6 {
     color: #323232;
     /*text-transform: uppercase;*/
-    font-family: 'Arial', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
 h1 {
+    font-family: 'Arial', sans-serif;
     font-size: 43px;
     letter-spacing: 2px;
     line-height: 40px;
