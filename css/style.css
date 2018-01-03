@@ -281,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-family: 'Arial', sans-serif;
+    
     font-size: 43px;
     letter-spacing: 2px;
     line-height: 40px;
@@ -290,7 +290,9 @@ h1 {
     h1.h1, h2.h2 {
         letter-spacing: 4px;
     }
-
+h1, h2{
+    font-family: 'Arial', sans-serif;
+}
 @media (max-width: 767px) {
     h1.h1, h2.h2 {
         letter-spacing: 0px;
