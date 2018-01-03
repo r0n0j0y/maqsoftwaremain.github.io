@@ -2200,7 +2200,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 
 .inner-intro {
     position: relative;
-    padding: 200px 0;
+    padding-top: 64px;
 }
 
     .inner-intro h1 {
@@ -3025,7 +3025,8 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 
 .inner-intro {
     background-color: #f7f7f7;
-    height: 530px;
+    height: 40vh;
+    min-height: 200px;
     display: block;
     position: relative;
 }
@@ -3041,8 +3042,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     }
 
         .inner-intro .container .title {
-            padding-bottom: 65px;
-            padding-top: 65px;
+            
             display: table-cell;
             vertical-align: middle;
             text-align: center;
