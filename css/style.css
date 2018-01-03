@@ -4361,7 +4361,8 @@ ul.project-detail-block, .project-detail-block ul {
 }
 
     .fullwidth-slider .item {
-        height: 650px;
+        height: 60vh;
+        min-height:200px;
         position: relative;
         width: 100%;
     }
