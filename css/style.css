@@ -4246,7 +4246,7 @@ ul.project-detail-block, .project-detail-block ul {
     display: block;
     position: relative;
     overflow: hidden;
-    border: 2px black;
+    border: 1px solid grey;
 }
 
 .shop-item-info {
