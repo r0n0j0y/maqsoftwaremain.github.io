@@ -4368,6 +4368,9 @@ ul.project-detail-block, .project-detail-block ul {
         position: relative;
         width: 100%;
     }
+    .fullwidth-slider .item .expertise {
+        height: 50vh;
+    }
 
 
 /* Fullscreen Slider Next Prev Arrow*/
