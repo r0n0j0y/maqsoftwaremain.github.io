@@ -5537,3 +5537,12 @@ ul.nav-tabs {
 .item-mask>.item-caption{
     padding-top:20%;
 }
+.owl-dots {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    bottom: 15px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
