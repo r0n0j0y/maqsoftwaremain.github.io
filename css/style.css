@@ -5547,12 +5547,12 @@ ul.nav-tabs {
     text-align: center;
     width: 100%;
 }
+.firstItem{
+    margin-left: 0px;
+}
 .item1-carousel .item{
     margin-left: 20px;
 }
 .item1-carousel .owl-dots{
     bottom:0px;
-}
-.firstItem{
-    margin-left: 0px;
 }
