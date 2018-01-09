@@ -4558,11 +4558,11 @@ ul.project-detail-block, .project-detail-block ul {
         -o-transform: scale(1.5);
     }
 
-    .owl-carousel.white .owl-controls .owl-page span,.white .owl-carousel .owl-controls .owl-page span{
+    .owl-carousel.white .owl-controls .owl-page span, .owl-carousel .owl-controls .owl-page span{
         background: none repeat scroll 0 0 #fff;
     }
 
-    .owl-carousel.white .owl-controls .owl-page.active span,.white  .owl-carousel .owl-controls .owl-page.active span {
+    .owl-carousel.white .owl-controls .owl-page.active span,  .owl-carousel .owl-controls .owl-page.active span {
         background: rgba(0, 0, 0, 0);
         border: 2px solid #fff;
     }
