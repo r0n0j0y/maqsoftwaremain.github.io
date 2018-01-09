@@ -4558,14 +4558,15 @@ ul.project-detail-block, .project-detail-block ul {
         -o-transform: scale(1.5);
     }
 
-    .owl-carousel.white .owl-controls .owl-page span, .owl-carousel .owl-dots .owl-dot span {
+    .owl-carousel.white .owl-controls .owl-page span, .owl-carousel.white .owl-dots .owl-dot span {
         background: none repeat scroll 0 0 #fff;
     }
 
-    .owl-carousel.white .owl-controls .owl-page.active span, .owl-carousel .owl-dots .owl-dot.active span {
+    .owl-carousel.white .owl-controls .owl-page.active span, .owl-carousel.white .owl-dots .owl-dot.active span {
         background: rgba(0, 0, 0, 0);
         border: 2px solid #fff;
     }
+
 
 /*.nf-carousel-theme {
 }*/
