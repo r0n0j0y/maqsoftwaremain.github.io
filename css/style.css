@@ -5563,5 +5563,5 @@ ul.nav-tabs {
     min-width:900vw !important;
 }
 .owl-item{
-    min-width:350px;
+    min-width:350px !important;
 }
