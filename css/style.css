@@ -5553,3 +5553,6 @@ ul.nav-tabs {
 .firstItem{
     margin-left: 0px;
 }
+.owl-height{
+    height:auto !important;
+}
