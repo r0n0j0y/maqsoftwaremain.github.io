@@ -5559,3 +5559,6 @@ ul.nav-tabs {
 .owl-height{
     height:auto !important;
 }
+.owl-stage{
+    min-width:900vw !important;
+}
