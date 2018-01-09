@@ -5562,3 +5562,6 @@ ul.nav-tabs {
 .owl-stage{
     min-width:900vw !important;
 }
+.owl-item{
+    min-width:350px;
+}
