@@ -5548,10 +5548,10 @@ ul.nav-tabs {
     width: 100%;
 }
 .firstItem{
-    margin-left: 0px !important;
+    
 }
 .item1-carousel .item{
-    margin-left: 20px;
+    margin-right: 20px;
 }
 .item1-carousel .owl-dots{
     bottom:0px;
