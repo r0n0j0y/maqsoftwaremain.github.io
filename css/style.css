@@ -5548,7 +5548,7 @@ ul.nav-tabs {
     width: 100%;
 }
 .firstItem{
-    margin-left: 0px;
+    margin-left: 0px !important;
 }
 .item1-carousel .item{
     margin-left: 20px;
