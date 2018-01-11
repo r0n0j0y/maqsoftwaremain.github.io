@@ -4391,13 +4391,13 @@ ul.project-detail-block, .project-detail-block ul {
 }
 
     .fullwidth-slider .item {
-        height: 60vh;
+        height: 55vh;
         min-height:200px;
         position: relative;
         width: 100%;
     }
-    .fullwidth-slider .item .expertise {
-        height: 50vh;
+    .fullwidth-slider.expertise .item  {
+        height: 45vh;
     }
 
 
