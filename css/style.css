@@ -5562,3 +5562,10 @@ ul.nav-tabs {
 .owl-stage{
     min-width:3000px !important;
 }
+.CircleBullets{
+    list-style-type: disc;
+    padding-left: 35px;
+    color:black;
+    margin:0px;
+    font-size: 14px;
+}
