@@ -3583,7 +3583,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     }
 
     .fullwidth-slider .item {
-        height: 335px !important;
+        height: 425px !important;
     }
 
     .fullwidth-slider .owl-buttons, .fullwidth-slider .owl-nav {
@@ -3601,7 +3601,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 @media (max-width: 320px) {
 
     .fullwidth-slider .item {
-        height: 335px !important;
+        height: 425px !important;
     }
 }
 
