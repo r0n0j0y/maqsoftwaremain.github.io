@@ -3055,7 +3055,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 
 .inner-intro {
     background-color: #f7f7f7;
-    height: 40vh;
+    height: 45vh;
     min-height: 250px;
     display: block;
     position: relative;
@@ -3583,7 +3583,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     }
 
     .fullwidth-slider .item {
-        height: 325px !important;
+        height: 335px !important;
     }
 
     .fullwidth-slider .owl-buttons, .fullwidth-slider .owl-nav {
@@ -3601,14 +3601,14 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 @media (max-width: 320px) {
 
     .fullwidth-slider .item {
-        height: 275px !important;
+        height: 335px !important;
     }
 }
 
 @media (orientation:landscape) and (max-width: 515px) {
 
     .fullwidth-slider .item {
-        height: 186px !important;
+        height: 335px !important;
     }
 
     .owl-buttons, .owl-nav {
@@ -3618,7 +3618,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 
 @media (orientation:landscape) and (max-width: 480px) {
     .fullwidth-slider .item {
-        height: 186px !important;
+        height: 335px !important;
     }
 }
 /* ----------------------------------------------------------------------*/
