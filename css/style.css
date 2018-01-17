@@ -4423,6 +4423,7 @@ ul.project-detail-block, .project-detail-block ul {
     }
     .fullwidth-slider.expertise .item  {
         height: 38vh;
+        min-height:375px;
     }
 
 
