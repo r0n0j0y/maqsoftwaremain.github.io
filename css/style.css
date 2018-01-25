@@ -4283,7 +4283,7 @@ ul.project-detail-block, .project-detail-block ul {
     display: block;
     position: relative;
     overflow: hidden;
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
 }
 
 .shop-item-info {
