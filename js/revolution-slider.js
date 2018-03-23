@@ -9,7 +9,7 @@ $(function () {
         // Slider Video
         $('.intro-Rev_Video').revolution({
             sliderType: "hero",
-            delay: 90000000000000000,
+            delay: 9000,
             startwidth: 1170,
             startheight: 500,
             fullScreen: "on",
@@ -21,7 +21,7 @@ $(function () {
         // Slider Dark Light
         var revslider_two = $('.intro-RevSlider');
         revslider_two.revolution({
-            delay: 150000000000000000,
+            delay: 15000,
             startwidth: 1170,
             startheight: 500,
             hideThumbs: 10,
