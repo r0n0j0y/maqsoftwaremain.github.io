@@ -5601,7 +5601,7 @@ ul.nav-tabs {
     padding-top:64px !important;
 }
 .ultrabold{
-    color:black; 
+    color:black !important; 
     font-weight: 900; 
     line-height:35px;
 }
