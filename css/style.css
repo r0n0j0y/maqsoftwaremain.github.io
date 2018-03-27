@@ -5631,3 +5631,6 @@ ul.nav-tabs {
 #client-logos .owl-prev{
     display:none !important;
 }
+.twitter-timeline{
+    height:100px;
+}
