@@ -112,6 +112,9 @@ a {
         -webkit-transition: all 0.25s ease 0s;
         -o-transition: all 0.25s ease 0s;
     }
+    a.silent:hover{
+        color: Black !important;
+    }
 
 .video {
     display: block;
