@@ -5605,3 +5605,9 @@ ul.nav-tabs {
     font-weight: 900; 
     line-height:35px;
 }
+#client-logos .owl-next{
+    display:none !important;
+}
+#client-logos .owl-prev{
+    display:none !important;
+}
