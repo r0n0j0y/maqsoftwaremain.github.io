@@ -5081,8 +5081,16 @@ ul.project-detail-block, .project-detail-block ul {
 
 .RecognitionImage {
     padding-bottom: 15px;
-    min-height:12vh;
+    min-height:13vh;
+    white-space: nowrap;
 }
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
 
 /*.RecognitionContent {
 }*/
