@@ -4275,6 +4275,7 @@ ul.project-detail-block, .project-detail-block ul {
         display: -webkit-flex;
         height: 100%;
         width: 100%;
+        
     }
 
         .shop-item .item-mask .item-mask-detail .item-mask-detail-ele {
@@ -4287,6 +4288,13 @@ ul.project-detail-block, .project-detail-block ul {
     position: relative;
     overflow: hidden;
     /*border: 1px solid grey;*/
+    max-height: 20vh;
+}
+.item-img img{
+    max-height:40vw;
+    max-width:40vw;
+    margin-right:auto;
+    margin-left:auto
 }
 
 .shop-item-info {
