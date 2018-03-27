@@ -5075,13 +5075,13 @@ ul.project-detail-block, .project-detail-block ul {
 .RecognitionImage img {
     max-width: 210px;
     max-height: 120px;
-    display:block;
     margin: 0 auto;
+    vertical-align: middle;
 }
 
 .RecognitionImage {
     padding-bottom: 15px;
-    min-height:13vh;
+    min-height:14vh;
     white-space: nowrap;
 }
 .helper {
