@@ -5631,5 +5631,5 @@ ul.nav-tabs {
     display:none !important;
 }
 .twitter-timeline{
-    height:100px;
+    height:100px !important;
 }
